@@ -1,0 +1,467 @@
+{
+  "common": {
+    "cancel": "取消",
+    "close": "关闭",
+    "copied": "已复制",
+    "copy": "复制",
+    "create": "创建",
+    "delete": "删除",
+    "discard": "舍弃",
+    "done": "完成",
+    "language": "语言",
+    "loading": "正在加载…",
+    "more": "更多操作",
+    "ok": "确定",
+    "refresh": "刷新",
+    "retry": "重试",
+    "saved": "已保存",
+    "typeToConfirm": "输入 {text} 以确认"
+  },
+  "login": {
+    "pageTitle": "登录 · {app}",
+    "title": "登录",
+    "subtitle": "使用 {app} 管理您的存储",
+    "password": "密码",
+    "showPassword": "显示密码",
+    "hidePassword": "隐藏密码",
+    "submit": "登录",
+    "note": "您的存储密钥始终保留在服务器上。"
+  },
+  "setup": {
+    "title": "无法连接到您的存储",
+    "noBuckets": "此密钥看不到任何存储桶。",
+    "hint": "请检查环境变量并重启服务器。"
+  },
+  "nav": {
+    "label": "主导航",
+    "menu": "打开导航",
+    "new": "新建",
+    "buckets": "存储桶",
+    "refreshBuckets": "刷新存储桶",
+    "files": "文件",
+    "usage": "用量",
+    "settings": "设置",
+    "allBuckets": "所有存储桶",
+    "bucketsShort": "存储桶",
+    "keys": "应用密钥",
+    "keysShort": "密钥",
+    "appearance": "外观",
+    "signOut": "退出登录"
+  },
+  "appearance": {
+    "title": "外观",
+    "theme": "主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统",
+    "color": "颜色",
+    "customColor": "自定义颜色",
+    "pickColor": "选择颜色",
+    "seeds": {
+      "teal": "青色",
+      "blue": "蓝色",
+      "indigo": "靛蓝",
+      "green": "绿色",
+      "amber": "琥珀色",
+      "rose": "玫瑰色",
+      "purple": "紫色",
+      "gray": "灰色"
+    },
+    "style": "风格",
+    "styleHint": "所选颜色对界面的着色程度。",
+    "tonal": "均衡",
+    "vibrant": "鲜艳",
+    "fidelity": "保真",
+    "contrast": "对比度",
+    "standard": "标准",
+    "medium": "中",
+    "high": "高",
+    "density": "密度",
+    "default": "默认",
+    "compact": "紧凑",
+    "deviceNote": "这些设置仅保存在此设备上。"
+  },
+  "files": {
+    "title": "文件",
+    "path": "文件夹路径",
+    "view": "视图",
+    "listView": "列表视图",
+    "gridView": "网格视图",
+    "searchBucket": "在 {bucket} 中搜索",
+    "searchFolder": "在此文件夹中搜索",
+    "clearSearch": "清除搜索",
+    "resultsFor": "“{query}”的搜索结果",
+    "matches": {
+      "other": "{count} 个匹配项"
+    },
+    "limited": "有限制",
+    "searchLimited": "搜索在找到 500 个结果或扫描 50,000 个文件后停止。打开子文件夹可缩小范围。",
+    "folderCount": {
+      "other": "{count} 个文件夹"
+    },
+    "fileCount": {
+      "other": "{count} 个文件"
+    },
+    "folders": "文件夹",
+    "files": "文件",
+    "name": "名称",
+    "size": "大小",
+    "modified": "修改时间",
+    "ascending": "升序",
+    "descending": "降序",
+    "selectAll": "全选",
+    "selectNone": "全不选",
+    "selectItem": "选择 {name}",
+    "selected": {
+      "other": "已选择 {count} 项"
+    },
+    "clearSelection": "清除选择",
+    "upload": "上传",
+    "uploadFiles": "上传文件",
+    "uploadFolder": "上传文件夹",
+    "newFolder": "新建文件夹",
+    "open": "打开",
+    "preview": "预览",
+    "copyUrl": "复制公开 URL",
+    "copyUrls": "复制 URL",
+    "copyPath": "复制路径",
+    "shareLink": "分享链接…",
+    "download": "下载",
+    "downloadN": {
+      "other": "下载 {count} 项"
+    },
+    "rename": "重命名",
+    "moveOrCopy": "移动或复制",
+    "details": "详细信息和版本",
+    "deleteN": {
+      "other": "删除 {count} 项"
+    },
+    "deleteOne": "要删除“{name}”吗？",
+    "deleteMany": {
+      "other": "要删除 {count} 项吗？"
+    },
+    "deleteFoldersNote": "文件夹及其中的所有内容都会被删除。",
+    "deleteNote": "所有版本都会被移除，以真正释放空间。此操作无法撤消。",
+    "onlyHide": "仅隐藏（保留之前的版本）",
+    "deleted": {
+      "other": "已删除 {count} 个对象版本"
+    },
+    "errorsOccurred": {
+      "other": "{count} 个错误：{first}"
+    },
+    "foldersSkipped": "已跳过文件夹。请选择要下载的文件。",
+    "noPublicUrls": "没有公开 URL：此存储桶为私有，且未配置 CDN。",
+    "urlCopied": "已复制 URL",
+    "urlsCopied": {
+      "other": "已复制 {count} 个 URL"
+    },
+    "pathCopied": "已复制路径",
+    "emptyTitle": "此文件夹为空",
+    "emptyText": "将文件拖放到此处，或使用“上传”。",
+    "noMatches": "没有与“{query}”匹配的内容",
+    "noMatchesHint": "搜索范围为当前文件夹下的文件名。",
+    "loadMore": "加载更多",
+    "dropToUpload": "松开即可上传"
+  },
+  "uploads": {
+    "title": "上传",
+    "uploading": {
+      "other": "正在上传 {count} 项"
+    },
+    "failed": {
+      "other": "{count} 项上传失败"
+    },
+    "complete": {
+      "other": "{count} 项上传完成"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/秒",
+    "queued": "正在等待…",
+    "canceled": "已取消",
+    "cancelAll": "全部取消",
+    "retry": "重试",
+    "expand": "展开",
+    "collapse": "收起"
+  },
+  "preview": {
+    "position": "第 {n} 个，共 {total} 个",
+    "openNewTab": "在新标签页中打开",
+    "previous": "上一个文件",
+    "next": "下一个文件",
+    "noPreview": "此文件类型不支持预览",
+    "noPreviewHint": "请下载文件或查看其详细信息。",
+    "truncated": "（仅显示前 256 KB）"
+  },
+  "newFolder": {
+    "name": "文件夹名称",
+    "placeholder": "images 或 nested/path",
+    "hint": "存储中没有真正的文件夹：此操作会创建一个空的“{name}/”标记。"
+  },
+  "rename": {
+    "fileTitle": "重命名文件",
+    "folderTitle": "重命名文件夹",
+    "fileNote": "文件会先复制为新名称，然后删除旧文件及其版本历史记录。",
+    "folderNote": "其中的所有内容会先复制到新路径，然后删除旧对象及其版本历史记录。",
+    "newName": "新名称",
+    "done": "已重命名为 {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "other": "移动 {count} 项"
+    },
+    "copyTitle": {
+      "other": "复制 {count} 项"
+    },
+    "mode": "移动或复制",
+    "move": "移动",
+    "copy": "复制",
+    "destination": "目标文件夹",
+    "root": "（存储桶根目录）",
+    "noSubfolders": "此处没有子文件夹。在上方输入新路径即可创建。",
+    "moveNote": "移动会删除原始对象及其版本历史记录。",
+    "moveHere": "移到此处",
+    "copyHere": "复制到此处",
+    "moved": {
+      "other": "已移动 {count} 个对象"
+    },
+    "copied": {
+      "other": "已复制 {count} 个对象"
+    },
+    "overwriteTitle": {
+      "other": "要覆盖 {count} 个现有文件吗？"
+    },
+    "overwriteText": "目标位置已存在这些文件。它们的当前内容将成为旧版本。",
+    "andMore": {
+      "other": "…以及另外 {count} 项"
+    },
+    "overwrite": "覆盖"
+  },
+  "share": {
+    "title": "分享文件",
+    "publicUrl": "公开 URL",
+    "publicNote": "通过您的 CDN 或公开存储桶提供。只要文件存在，链接就一直有效。",
+    "privateNote": "此存储桶为私有，且未配置 CDN URL，因此没有永久链接。请改为创建签名链接。",
+    "signedLink": "签名链接",
+    "signedNote": "在链接过期前，任何拥有链接的人都可以下载此文件。",
+    "expiresIn": "有效期",
+    "hour": "1 小时",
+    "day": "24 小时",
+    "week": "7 天",
+    "generate": "创建链接",
+    "expires": "{date} 过期"
+  },
+  "info": {
+    "title": "详细信息",
+    "path": "路径",
+    "type": "内容类型",
+    "bytes": {
+      "other": "{count} 字节"
+    },
+    "copyKey": "复制对象键",
+    "versions": "版本",
+    "oldBytes": "旧版本占用 {size}",
+    "noVersions": "此端点不支持版本历史记录。",
+    "current": "当前",
+    "hidden": "已隐藏",
+    "deleteMarker": "删除标记",
+    "downloadVersion": "下载此版本",
+    "restore": "恢复",
+    "restoreTitle": "要恢复此版本吗？",
+    "restoreText": "此版本将作为新版本复制并覆盖当前文件。",
+    "restored": "已恢复版本",
+    "deleteVersion": "删除版本",
+    "deleteVersionTitle": "要永久删除此版本吗？",
+    "versionDeleted": "已删除版本"
+  },
+  "types": {
+    "image": "图片",
+    "video": "视频",
+    "audio": "音频",
+    "document": "文档",
+    "archive": "压缩文件",
+    "code": "代码和数据",
+    "font": "字体",
+    "other": "其他"
+  },
+  "stats": {
+    "title": "用量",
+    "wholeBucket": "整个存储桶",
+    "rescan": "重新扫描",
+    "scanning": "正在扫描所有对象…",
+    "scanned": {
+      "other": "已扫描 {count} 个版本"
+    },
+    "scanSlow": "大型存储桶可能需要几分钟。",
+    "scannedAt": "扫描于 {when}",
+    "cached": "已缓存",
+    "costNote": "重新扫描会列出所有对象版本（每 1,000 个版本约产生一次 class C 调用）。",
+    "truncated": "扫描在 2,000,000 个版本处停止。这些数据不完整。",
+    "totalBilled": "计费总量",
+    "currentPlusOld": "当前文件 + 旧版本",
+    "hiddenFiles": {
+      "other": "包括 {count} 个隐藏文件"
+    },
+    "stored": "当前文件",
+    "oldVersions": "旧版本",
+    "versionsBilled": {
+      "other": "{count} 个版本，按存储量计费"
+    },
+    "notAvailable": "不可用",
+    "averageFile": "平均文件大小",
+    "topLevel": {
+      "other": "{count} 个顶层条目"
+    },
+    "breakdown": "空间占用分布",
+    "oldWarning": "旧版本和隐藏文件占用了 {size}。",
+    "addRule": "仅保留最新版本",
+    "byFolder": "按文件夹",
+    "byFolderSub": "当前文件，顶层",
+    "byFolderSubPrefix": "当前文件，此文件夹的顶层",
+    "more": {
+      "other": "+ 另外 {count} 项"
+    },
+    "byType": "按文件类型",
+    "byTypeSub": "按扩展名分组",
+    "largest": "最大的文件",
+    "recent": "最近上传",
+    "noFiles": "没有文件。",
+    "rootFiles": "（此文件夹中的文件）"
+  },
+  "buckets": {
+    "title": "存储桶",
+    "count": {
+      "other": "{count} 个存储桶"
+    },
+    "new": "新建存储桶",
+    "public": "公开",
+    "private": "私有",
+    "noCdn": "无 CDN URL",
+    "emptyTitle": "还没有存储桶",
+    "emptyText": "创建一个存储桶即可开始上传文件。",
+    "s3Only": "存储桶设置和密钥需要 B2 原生 API。设置了 S3 端点覆盖时，这些功能会被关闭。",
+    "globalNames": "存储桶名称在整个服务商范围内唯一。",
+    "name": "存储桶名称",
+    "nameRules": "6–50 个字符：字母、数字和短划线。",
+    "visibility": "可见性",
+    "created": "已创建存储桶 {name}"
+  },
+  "settings": {
+    "title": "存储桶设置",
+    "needsNative": "存储桶设置使用 B2 原生 API。移除 S3_ENDPOINT 覆盖即可启用。",
+    "visibility": "可见性",
+    "visibilityText": "公开存储桶会向任何拥有 URL 的人提供文件。私有存储桶需要签名链接。",
+    "publicBucket": "公开存储桶",
+    "publicOn": "任何拥有 URL 的人都可以下载文件。",
+    "publicOff": "只能通过签名链接访问文件。",
+    "makePublicTitle": "要将此存储桶设为公开吗？",
+    "makePublicText": "任何知道 URL 的人都可以下载存储桶中的每个文件。",
+    "makePublic": "设为公开",
+    "makePrivateTitle": "要将此存储桶设为私有吗？",
+    "makePrivateText": "在您改回之前，公开 URL 和您的 CDN 将无法使用。",
+    "makePrivate": "设为私有",
+    "cdnBase": "CDN 基础 URL（来自 CDN_URLS）",
+    "friendlyUrl": "友好 URL",
+    "cdnHint": "设置 CDN_URLS={bucket}=https://your-cdn 即可改为复制 CDN 链接。",
+    "deleteTitle": "删除存储桶",
+    "deleteText": "只能删除空的存储桶。请先删除所有文件（及版本）。",
+    "deleteConfirm": "要删除存储桶 {bucket} 吗？",
+    "cannotUndo": "此操作无法撤消。",
+    "deleted": "已删除存储桶"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "文件会从浏览器直接上传到存储，因此存储桶必须允许此应用的地址。",
+    "allowed": "已允许从 {origin} 上传。",
+    "notAllowed": "尚未允许从 {origin} 上传。",
+    "allow": "允许从此处上传",
+    "editJson": "编辑 JSON",
+    "closeEditor": "关闭编辑器",
+    "mustBeArray": "规则必须是 JSON 数组。",
+    "save": "保存规则",
+    "none": "没有 CORS 规则。",
+    "remove": "移除规则"
+  },
+  "lifecycle": {
+    "title": "生命周期规则",
+    "text": "在指定天数后隐藏文件，并在指定天数后删除隐藏的版本或旧版本。留空表示永不执行。",
+    "keepLatest": "仅保留最新版本",
+    "none": "没有规则：所有文件的所有版本都会永久保留。",
+    "prefix": "文件名前缀",
+    "allFiles": "（所有文件）",
+    "hideAfter": "隐藏时间",
+    "deleteAfter": "隐藏后删除时间",
+    "days": "天",
+    "never": "永不",
+    "remove": "移除规则",
+    "add": "添加规则",
+    "needsNumber": "每条规则至少需要填写一个数字。",
+    "save": "保存规则"
+  },
+  "multipart": {
+    "title": "未完成的大文件上传",
+    "text": "中断上传的分片会占用（计费的）空间，直到被取消为止。",
+    "none": "没有未完成的上传。",
+    "cancel": "取消上传",
+    "cancelAll": "全部取消",
+    "canceled": {
+      "other": "已取消 {count} 项上传"
+    },
+    "failed": {
+      "other": "{count} 项无法取消"
+    }
+  },
+  "keys": {
+    "title": "应用密钥",
+    "subtitle": "供应用和脚本使用的密钥。密钥值仅在创建后显示一次。",
+    "new": "新建密钥",
+    "thisApp": "此应用正在使用",
+    "allCapabilities": "所有权限",
+    "allBuckets": "所有存储桶",
+    "expires": "{date} 过期",
+    "never": "永不过期",
+    "emptyTitle": "没有密钥",
+    "delete": "删除密钥",
+    "deleteTitle": "要删除密钥“{name}”吗？",
+    "deleteText": "所有使用此密钥的服务都会立即停止工作。",
+    "deleted": "已删除密钥",
+    "name": "密钥名称",
+    "nameRules": "字母、数字和短划线。",
+    "bucket": "存储桶",
+    "prefix": "文件名前缀",
+    "prefixNeedsBucket": "请先选择存储桶",
+    "days": "有效期（天）",
+    "capabilities": "权限",
+    "presetRead": "只读",
+    "presetReadWrite": "读写",
+    "presetWrite": "只写",
+    "presetAll": "全部",
+    "create": "创建密钥",
+    "createdTitle": "已创建密钥",
+    "createdNote": "请立即复制密钥值。它不会再次显示。"
+  },
+  "errors": {
+    "network": "无法连接到服务器。请检查您的网络连接。",
+    "sessionExpired": "您的会话已过期。",
+    "requestFailed": "请求失败（{status}）",
+    "wrongPassword": "密码错误",
+    "tooManyAttempts": "尝试次数过多。请在 {seconds} 秒后重试。",
+    "invalidBucketName": "存储桶名称无效",
+    "bucketNameRules": "存储桶名称为 6–50 个字符，只能包含字母、数字和短划线，且不能以“b2-”开头。",
+    "keyNameRules": "密钥名称只能包含字母、数字和短划线。",
+    "pickCapability": "请至少选择一项权限。",
+    "ownKey": "此应用正在使用该密钥运行，因此无法在此处删除。",
+    "nativeApiRequired": "此操作需要 B2 原生 API（不能设置 S3_ENDPOINT 覆盖）。",
+    "jobNotFound": "操作已丢失（服务器可能已重启）。",
+    "folderIntoItself": "无法将文件夹移入其自身。",
+    "deleteRoot": "拒绝删除空对象键或存储桶根目录。",
+    "invalidSize": "文件大小无效",
+    "uploadFailed": "上传失败（{status}）",
+    "uploadCors": "网络或 CORS 错误。请在存储桶的 CORS 设置中允许上传。",
+    "etagMissing": "存储未公开 ETag 标头。请在存储桶的 CORS 设置中允许上传。",
+    "config": {
+      "password": "未设置 DASHBOARD_PASSWORD。",
+      "secret": "SESSION_SECRET 必须至少包含 32 个字符。",
+      "b2": "未设置 B2_KEY_ID 和 B2_APP_KEY。"
+    }
+  }
+}

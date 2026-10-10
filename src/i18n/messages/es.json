@@ -1,0 +1,523 @@
+{
+  "common": {
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "copied": "Copiado",
+    "copy": "Copiar",
+    "create": "Crear",
+    "delete": "Eliminar",
+    "discard": "Descartar",
+    "done": "Hecho",
+    "language": "Idioma",
+    "loading": "Cargando…",
+    "more": "Más acciones",
+    "ok": "Aceptar",
+    "refresh": "Actualizar",
+    "retry": "Reintentar",
+    "saved": "Guardado",
+    "typeToConfirm": "Escribe {text} para confirmar"
+  },
+  "login": {
+    "pageTitle": "Iniciar sesión · {app}",
+    "title": "Iniciar sesión",
+    "subtitle": "para gestionar tu almacenamiento con {app}",
+    "password": "Contraseña",
+    "showPassword": "Mostrar contraseña",
+    "hidePassword": "Ocultar contraseña",
+    "submit": "Iniciar sesión",
+    "note": "Tus claves de almacenamiento nunca salen del servidor."
+  },
+  "setup": {
+    "title": "No se puede acceder a tu almacenamiento",
+    "noBuckets": "Esta clave no puede ver ningún bucket.",
+    "hint": "Revisa las variables de entorno y reinicia el servidor."
+  },
+  "nav": {
+    "label": "Navegación principal",
+    "menu": "Abrir navegación",
+    "new": "Nuevo",
+    "buckets": "Buckets",
+    "refreshBuckets": "Actualizar buckets",
+    "files": "Archivos",
+    "usage": "Uso",
+    "settings": "Configuración",
+    "allBuckets": "Todos los buckets",
+    "bucketsShort": "Buckets",
+    "keys": "Claves de aplicación",
+    "keysShort": "Claves",
+    "appearance": "Aspecto",
+    "signOut": "Cerrar sesión"
+  },
+  "appearance": {
+    "title": "Aspecto",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "color": "Color",
+    "customColor": "Color personalizado",
+    "pickColor": "Elegir un color",
+    "seeds": {
+      "teal": "Verde azulado",
+      "blue": "Azul",
+      "indigo": "Índigo",
+      "green": "Verde",
+      "amber": "Ámbar",
+      "rose": "Rosa",
+      "purple": "Morado",
+      "gray": "Gris"
+    },
+    "style": "Estilo",
+    "styleHint": "Intensidad con la que el color elegido tiñe la interfaz.",
+    "tonal": "Tonal",
+    "vibrant": "Vivo",
+    "fidelity": "Fiel",
+    "contrast": "Contraste",
+    "standard": "Estándar",
+    "medium": "Medio",
+    "high": "Alto",
+    "density": "Densidad",
+    "default": "Predeterminada",
+    "compact": "Compacta",
+    "deviceNote": "Esta configuración solo se guarda en este dispositivo."
+  },
+  "files": {
+    "title": "Archivos",
+    "path": "Ruta de la carpeta",
+    "view": "Vista",
+    "listView": "Vista de lista",
+    "gridView": "Vista de cuadrícula",
+    "searchBucket": "Buscar en {bucket}",
+    "searchFolder": "Buscar en esta carpeta",
+    "clearSearch": "Borrar búsqueda",
+    "resultsFor": "Resultados de «{query}»",
+    "matches": {
+      "one": "{count} coincidencia",
+      "many": "{count} coincidencias",
+      "other": "{count} coincidencias"
+    },
+    "limited": "limitado",
+    "searchLimited": "La búsqueda se detiene tras 500 resultados o 50.000 archivos analizados. Abre una subcarpeta para acotarla.",
+    "folderCount": {
+      "one": "{count} carpeta",
+      "many": "{count} carpetas",
+      "other": "{count} carpetas"
+    },
+    "fileCount": {
+      "one": "{count} archivo",
+      "many": "{count} archivos",
+      "other": "{count} archivos"
+    },
+    "folders": "Carpetas",
+    "files": "Archivos",
+    "name": "Nombre",
+    "size": "Tamaño",
+    "modified": "Modificado",
+    "ascending": "Ascendente",
+    "descending": "Descendente",
+    "selectAll": "Seleccionar todo",
+    "selectNone": "No seleccionar nada",
+    "selectItem": "Seleccionar {name}",
+    "selected": {
+      "one": "{count} seleccionado",
+      "many": "{count} seleccionados",
+      "other": "{count} seleccionados"
+    },
+    "clearSelection": "Borrar selección",
+    "upload": "Subir",
+    "uploadFiles": "Subir archivos",
+    "uploadFolder": "Subir carpeta",
+    "newFolder": "Nueva carpeta",
+    "open": "Abrir",
+    "preview": "Vista previa",
+    "copyUrl": "Copiar URL pública",
+    "copyUrls": "Copiar URLs",
+    "copyPath": "Copiar ruta",
+    "shareLink": "Compartir enlace…",
+    "download": "Descargar",
+    "downloadN": {
+      "one": "Descargar {count} elemento",
+      "many": "Descargar {count} elementos",
+      "other": "Descargar {count} elementos"
+    },
+    "rename": "Cambiar nombre",
+    "moveOrCopy": "Mover o copiar",
+    "details": "Detalles y versiones",
+    "deleteN": {
+      "one": "Eliminar {count} elemento",
+      "many": "Eliminar {count} elementos",
+      "other": "Eliminar {count} elementos"
+    },
+    "deleteOne": "¿Eliminar «{name}»?",
+    "deleteMany": {
+      "one": "¿Eliminar {count} elemento?",
+      "many": "¿Eliminar {count} elementos?",
+      "other": "¿Eliminar {count} elementos?"
+    },
+    "deleteFoldersNote": "Las carpetas se eliminan con todo su contenido.",
+    "deleteNote": "Se eliminan todas las versiones para liberar realmente el espacio. Esta acción no se puede deshacer.",
+    "onlyHide": "Solo ocultar (conservar versiones anteriores)",
+    "deleted": {
+      "one": "Se eliminó {count} versión de objeto",
+      "many": "Se eliminaron {count} versiones de objetos",
+      "other": "Se eliminaron {count} versiones de objetos"
+    },
+    "errorsOccurred": {
+      "one": "{count} error: {first}",
+      "many": "{count} errores: {first}",
+      "other": "{count} errores: {first}"
+    },
+    "foldersSkipped": "Las carpetas se omiten. Selecciona archivos para descargarlos.",
+    "noPublicUrls": "No hay URLs públicas: este bucket es privado y no tiene CDN configurada.",
+    "urlCopied": "URL copiada",
+    "urlsCopied": {
+      "one": "Se copió {count} URL",
+      "many": "Se copiaron {count} URLs",
+      "other": "Se copiaron {count} URLs"
+    },
+    "pathCopied": "Ruta copiada",
+    "emptyTitle": "Esta carpeta está vacía",
+    "emptyText": "Suelta archivos aquí o usa Subir.",
+    "noMatches": "Nada coincide con «{query}»",
+    "noMatchesHint": "La búsqueda revisa los nombres de archivo dentro de la carpeta actual.",
+    "loadMore": "Cargar más",
+    "dropToUpload": "Suelta para subir"
+  },
+  "uploads": {
+    "title": "Subidas",
+    "uploading": {
+      "one": "Subiendo {count} elemento",
+      "many": "Subiendo {count} elementos",
+      "other": "Subiendo {count} elementos"
+    },
+    "failed": {
+      "one": "{count} subida fallida",
+      "many": "{count} subidas fallidas",
+      "other": "{count} subidas fallidas"
+    },
+    "complete": {
+      "one": "{count} subida completada",
+      "many": "{count} subidas completadas",
+      "other": "{count} subidas completadas"
+    },
+    "progress": "{loaded} de {total}",
+    "speed": "{speed}/s",
+    "queued": "En espera…",
+    "canceled": "Cancelada",
+    "cancelAll": "Cancelar todo",
+    "retry": "Reintentar",
+    "expand": "Expandir",
+    "collapse": "Contraer"
+  },
+  "preview": {
+    "position": "{n} de {total}",
+    "openNewTab": "Abrir en una pestaña nueva",
+    "previous": "Archivo anterior",
+    "next": "Archivo siguiente",
+    "noPreview": "No hay vista previa para este tipo de archivo",
+    "noPreviewHint": "Descárgalo o abre sus detalles.",
+    "truncated": "(se muestran los primeros 256 KB)"
+  },
+  "newFolder": {
+    "name": "Nombre de la carpeta",
+    "placeholder": "imagenes o ruta/anidada",
+    "hint": "El almacenamiento no tiene carpetas reales: esto crea un marcador vacío «{name}/»."
+  },
+  "rename": {
+    "fileTitle": "Cambiar nombre del archivo",
+    "folderTitle": "Cambiar nombre de la carpeta",
+    "fileNote": "El archivo se copia con el nuevo nombre y después se elimina el antiguo junto con su historial de versiones.",
+    "folderNote": "Todo su contenido se copia a la nueva ruta y después se eliminan los objetos antiguos junto con su historial de versiones.",
+    "newName": "Nuevo nombre",
+    "done": "Nombre cambiado a {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "Mover {count} elemento",
+      "many": "Mover {count} elementos",
+      "other": "Mover {count} elementos"
+    },
+    "copyTitle": {
+      "one": "Copiar {count} elemento",
+      "many": "Copiar {count} elementos",
+      "other": "Copiar {count} elementos"
+    },
+    "mode": "Mover o copiar",
+    "move": "Mover",
+    "copy": "Copiar",
+    "destination": "Carpeta de destino",
+    "root": "(raíz del bucket)",
+    "noSubfolders": "No hay subcarpetas aquí. Escribe una ruta nueva arriba para crearla.",
+    "moveNote": "Al mover se eliminan los originales junto con su historial de versiones.",
+    "moveHere": "Mover aquí",
+    "copyHere": "Copiar aquí",
+    "moved": {
+      "one": "Se movió {count} objeto",
+      "many": "Se movieron {count} objetos",
+      "other": "Se movieron {count} objetos"
+    },
+    "copied": {
+      "one": "Se copió {count} objeto",
+      "many": "Se copiaron {count} objetos",
+      "other": "Se copiaron {count} objetos"
+    },
+    "overwriteTitle": {
+      "one": "¿Sobrescribir {count} archivo existente?",
+      "many": "¿Sobrescribir {count} archivos existentes?",
+      "other": "¿Sobrescribir {count} archivos existentes?"
+    },
+    "overwriteText": "Ya existen en el destino. Su contenido actual pasará a ser una versión antigua.",
+    "andMore": {
+      "one": "…y {count} más",
+      "many": "…y {count} más",
+      "other": "…y {count} más"
+    },
+    "overwrite": "Sobrescribir"
+  },
+  "share": {
+    "title": "Compartir archivo",
+    "publicUrl": "URL pública",
+    "publicNote": "Se sirve a través de tu CDN o bucket público. Funciona mientras exista el archivo.",
+    "privateNote": "Este bucket es privado y no tiene URL de CDN configurada, así que no hay enlace permanente. Crea un enlace firmado.",
+    "signedLink": "Enlace firmado",
+    "signedNote": "Cualquiera con el enlace puede descargar el archivo hasta que caduque.",
+    "expiresIn": "Caduca en",
+    "hour": "1 hora",
+    "day": "24 horas",
+    "week": "7 días",
+    "generate": "Crear enlace",
+    "expires": "Caduca el {date}"
+  },
+  "info": {
+    "title": "Detalles",
+    "path": "Ruta",
+    "type": "Tipo de contenido",
+    "bytes": {
+      "one": "{count} byte",
+      "many": "{count} bytes",
+      "other": "{count} bytes"
+    },
+    "copyKey": "Copiar clave",
+    "versions": "Versiones",
+    "oldBytes": "{size} en versiones antiguas",
+    "noVersions": "El historial de versiones no está disponible para este endpoint.",
+    "current": "Actual",
+    "hidden": "Oculta",
+    "deleteMarker": "marcador de eliminación",
+    "downloadVersion": "Descargar esta versión",
+    "restore": "Restaurar",
+    "restoreTitle": "¿Restaurar esta versión?",
+    "restoreText": "Se copia sobre el archivo actual como una nueva versión.",
+    "restored": "Versión restaurada",
+    "deleteVersion": "Eliminar versión",
+    "deleteVersionTitle": "¿Eliminar esta versión de forma permanente?",
+    "versionDeleted": "Versión eliminada"
+  },
+  "types": {
+    "image": "Imágenes",
+    "video": "Vídeo",
+    "audio": "Audio",
+    "document": "Documentos",
+    "archive": "Archivos comprimidos",
+    "code": "Código y datos",
+    "font": "Fuentes",
+    "other": "Otros"
+  },
+  "stats": {
+    "title": "Uso",
+    "wholeBucket": "Todo el bucket",
+    "rescan": "Volver a analizar",
+    "scanning": "Analizando todos los objetos…",
+    "scanned": {
+      "one": "{count} versión analizada",
+      "many": "{count} versiones analizadas",
+      "other": "{count} versiones analizadas"
+    },
+    "scanSlow": "Los buckets grandes pueden tardar unos minutos.",
+    "scannedAt": "Analizado {when}",
+    "cached": "en caché",
+    "costNote": "Un nuevo análisis lista todas las versiones de objetos (aproximadamente una llamada de class C por cada 1000 versiones).",
+    "truncated": "El análisis se detuvo en 2.000.000 de versiones. Estas cifras son parciales.",
+    "totalBilled": "Total facturado",
+    "currentPlusOld": "Archivos actuales + versiones antiguas",
+    "hiddenFiles": {
+      "one": "incluye {count} archivo oculto",
+      "many": "incluye {count} archivos ocultos",
+      "other": "incluye {count} archivos ocultos"
+    },
+    "stored": "Archivos actuales",
+    "oldVersions": "Versiones antiguas",
+    "versionsBilled": {
+      "one": "{count} versión, facturada como almacenamiento",
+      "many": "{count} versiones, facturadas como almacenamiento",
+      "other": "{count} versiones, facturadas como almacenamiento"
+    },
+    "notAvailable": "No disponible",
+    "averageFile": "Archivo medio",
+    "topLevel": {
+      "one": "{count} entrada de primer nivel",
+      "many": "{count} entradas de primer nivel",
+      "other": "{count} entradas de primer nivel"
+    },
+    "breakdown": "En qué se usa el espacio",
+    "oldWarning": "{size} lo ocupan versiones antiguas y archivos ocultos.",
+    "addRule": "Conservar solo la última versión",
+    "byFolder": "Por carpeta",
+    "byFolderSub": "Archivos actuales, primer nivel",
+    "byFolderSubPrefix": "Archivos actuales, primer nivel de esta carpeta",
+    "more": {
+      "one": "+ {count} más",
+      "many": "+ {count} más",
+      "other": "+ {count} más"
+    },
+    "byType": "Por tipo de archivo",
+    "byTypeSub": "Agrupados por extensión",
+    "largest": "Archivos más grandes",
+    "recent": "Subidos recientemente",
+    "noFiles": "No hay archivos.",
+    "rootFiles": "(archivos de esta carpeta)"
+  },
+  "buckets": {
+    "title": "Buckets",
+    "count": {
+      "one": "{count} bucket",
+      "many": "{count} buckets",
+      "other": "{count} buckets"
+    },
+    "new": "Nuevo bucket",
+    "public": "Público",
+    "private": "Privado",
+    "noCdn": "Sin URL de CDN",
+    "emptyTitle": "Aún no hay buckets",
+    "emptyText": "Crea uno para empezar a subir archivos.",
+    "s3Only": "La configuración de buckets y las claves necesitan la API nativa de B2. Están desactivadas mientras haya un endpoint de S3 personalizado.",
+    "globalNames": "Los nombres de bucket son únicos en todo el proveedor.",
+    "name": "Nombre del bucket",
+    "nameRules": "De 6 a 50 caracteres: letras, números y guiones.",
+    "visibility": "Visibilidad",
+    "created": "Bucket {name} creado"
+  },
+  "settings": {
+    "title": "Configuración del bucket",
+    "needsNative": "La configuración del bucket usa la API nativa de B2. Quita S3_ENDPOINT para activarla.",
+    "visibility": "Visibilidad",
+    "visibilityText": "Los buckets públicos sirven archivos a cualquiera que tenga la URL. Los privados necesitan enlaces firmados.",
+    "publicBucket": "Bucket público",
+    "publicOn": "Cualquiera con la URL puede descargar los archivos.",
+    "publicOff": "Solo se puede acceder a los archivos con enlaces firmados.",
+    "makePublicTitle": "¿Hacer público este bucket?",
+    "makePublicText": "Cualquiera que conozca la URL de un archivo del bucket podrá descargarlo.",
+    "makePublic": "Hacer público",
+    "makePrivateTitle": "¿Hacer privado este bucket?",
+    "makePrivateText": "Las URLs públicas y tu CDN dejarán de funcionar hasta que vuelvas a cambiarlo.",
+    "makePrivate": "Hacer privado",
+    "cdnBase": "URL base de la CDN (de CDN_URLS)",
+    "friendlyUrl": "URL descriptiva",
+    "cdnHint": "Define CDN_URLS={bucket}=https://tu-cdn para copiar enlaces de la CDN.",
+    "deleteTitle": "Eliminar bucket",
+    "deleteText": "Solo se pueden eliminar buckets vacíos. Elimina antes todos los archivos (y versiones).",
+    "deleteConfirm": "¿Eliminar el bucket {bucket}?",
+    "cannotUndo": "Esta acción no se puede deshacer.",
+    "deleted": "Bucket eliminado"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Las subidas van directamente del navegador al almacenamiento, así que el bucket debe permitir la dirección de esta aplicación.",
+    "allowed": "Se permiten subidas desde {origin}.",
+    "notAllowed": "Aún no se permiten subidas desde {origin}.",
+    "allow": "Permitir subidas desde aquí",
+    "editJson": "Editar JSON",
+    "closeEditor": "Cerrar editor",
+    "mustBeArray": "Las reglas deben ser un array JSON.",
+    "save": "Guardar reglas",
+    "none": "No hay reglas de CORS.",
+    "remove": "Quitar regla"
+  },
+  "lifecycle": {
+    "title": "Reglas de ciclo de vida",
+    "text": "Oculta archivos tras unos días y elimina versiones ocultas o antiguas tras unos días. Deja un campo vacío para no hacerlo nunca.",
+    "keepLatest": "Conservar solo la última versión",
+    "none": "Sin reglas: se conservan para siempre todas las versiones de todos los archivos.",
+    "prefix": "Prefijo del nombre de archivo",
+    "allFiles": "(todos los archivos)",
+    "hideAfter": "Ocultar tras",
+    "deleteAfter": "Eliminar ocultos tras",
+    "days": "días",
+    "never": "nunca",
+    "remove": "Quitar regla",
+    "add": "Añadir regla",
+    "needsNumber": "Cada regla necesita al menos un número.",
+    "save": "Guardar reglas"
+  },
+  "multipart": {
+    "title": "Subidas grandes sin terminar",
+    "text": "Las partes de subidas interrumpidas ocupan espacio (facturado) hasta que se cancelan.",
+    "none": "No hay nada sin terminar.",
+    "cancel": "Cancelar subida",
+    "cancelAll": "Cancelar todo",
+    "canceled": {
+      "one": "Se canceló {count} subida",
+      "many": "Se cancelaron {count} subidas",
+      "other": "Se cancelaron {count} subidas"
+    },
+    "failed": {
+      "one": "No se pudo cancelar {count}",
+      "many": "No se pudieron cancelar {count}",
+      "other": "No se pudieron cancelar {count}"
+    }
+  },
+  "keys": {
+    "title": "Claves de aplicación",
+    "subtitle": "Claves para aplicaciones y scripts. El secreto solo se muestra una vez, justo después de crearla.",
+    "new": "Nueva clave",
+    "thisApp": "La usa esta aplicación",
+    "allCapabilities": "Todos los permisos",
+    "allBuckets": "Todos los buckets",
+    "expires": "Caduca el {date}",
+    "never": "No caduca",
+    "emptyTitle": "No hay claves",
+    "delete": "Eliminar clave",
+    "deleteTitle": "¿Eliminar la clave «{name}»?",
+    "deleteText": "Todo lo que use esta clave dejará de funcionar de inmediato.",
+    "deleted": "Clave eliminada",
+    "name": "Nombre de la clave",
+    "nameRules": "Letras, números y guiones.",
+    "bucket": "Bucket",
+    "prefix": "Prefijo del nombre de archivo",
+    "prefixNeedsBucket": "Elige antes un bucket",
+    "days": "Válida durante (días)",
+    "capabilities": "Permisos",
+    "presetRead": "Solo lectura",
+    "presetReadWrite": "Lectura y escritura",
+    "presetWrite": "Solo escritura",
+    "presetAll": "Todo",
+    "create": "Crear clave",
+    "createdTitle": "Clave creada",
+    "createdNote": "Copia el secreto ahora. No se volverá a mostrar."
+  },
+  "errors": {
+    "network": "No se puede conectar con el servidor. Comprueba tu conexión.",
+    "sessionExpired": "Tu sesión ha caducado.",
+    "requestFailed": "Error en la solicitud ({status})",
+    "wrongPassword": "Contraseña incorrecta",
+    "tooManyAttempts": "Demasiados intentos. Vuelve a intentarlo en {seconds} s.",
+    "invalidBucketName": "Nombre de bucket no válido",
+    "bucketNameRules": "Los nombres de bucket tienen de 6 a 50 caracteres: letras, números y guiones, y no pueden empezar por «b2-».",
+    "keyNameRules": "Los nombres de clave solo pueden tener letras, números y guiones.",
+    "pickCapability": "Elige al menos un permiso.",
+    "ownKey": "Esta aplicación funciona con esa clave, así que no se puede eliminar aquí.",
+    "nativeApiRequired": "Esto necesita la API nativa de B2 (sin S3_ENDPOINT).",
+    "jobNotFound": "Se perdió la operación (puede que el servidor se haya reiniciado).",
+    "folderIntoItself": "Una carpeta no se puede mover dentro de sí misma.",
+    "deleteRoot": "No se eliminará una clave vacía ni la raíz del bucket.",
+    "invalidSize": "Tamaño de archivo no válido",
+    "uploadFailed": "Error al subir ({status})",
+    "uploadCors": "Error de red o de CORS. Permite las subidas en la configuración de CORS del bucket.",
+    "etagMissing": "El almacenamiento no expuso el encabezado ETag. Permite las subidas en la configuración de CORS del bucket.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD no está definida.",
+      "secret": "SESSION_SECRET debe tener al menos 32 caracteres.",
+      "b2": "B2_KEY_ID y B2_APP_KEY no están definidas."
+    }
+  }
+}

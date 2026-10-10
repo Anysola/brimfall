@@ -1,0 +1,467 @@
+{
+  "common": {
+    "cancel": "取消",
+    "close": "關閉",
+    "copied": "已複製",
+    "copy": "複製",
+    "create": "建立",
+    "delete": "刪除",
+    "discard": "捨棄",
+    "done": "完成",
+    "language": "語言",
+    "loading": "載入中…",
+    "more": "更多動作",
+    "ok": "確定",
+    "refresh": "重新整理",
+    "retry": "重試",
+    "saved": "已儲存",
+    "typeToConfirm": "輸入 {text} 以確認"
+  },
+  "login": {
+    "pageTitle": "登入 · {app}",
+    "title": "登入",
+    "subtitle": "使用 {app} 管理你的儲存空間",
+    "password": "密碼",
+    "showPassword": "顯示密碼",
+    "hidePassword": "隱藏密碼",
+    "submit": "登入",
+    "note": "你的儲存空間金鑰絕不會離開伺服器。"
+  },
+  "setup": {
+    "title": "無法連線至你的儲存空間",
+    "noBuckets": "這組金鑰看不到任何儲存貯體。",
+    "hint": "請檢查環境變數，然後重新啟動伺服器。"
+  },
+  "nav": {
+    "label": "主要導覽",
+    "menu": "開啟導覽",
+    "new": "新增",
+    "buckets": "儲存貯體",
+    "refreshBuckets": "重新整理儲存貯體",
+    "files": "檔案",
+    "usage": "用量",
+    "settings": "設定",
+    "allBuckets": "所有儲存貯體",
+    "bucketsShort": "儲存貯體",
+    "keys": "應用程式金鑰",
+    "keysShort": "金鑰",
+    "appearance": "外觀",
+    "signOut": "登出"
+  },
+  "appearance": {
+    "title": "外觀",
+    "theme": "主題",
+    "light": "淺色",
+    "dark": "深色",
+    "system": "跟隨系統",
+    "color": "色彩",
+    "customColor": "自訂色彩",
+    "pickColor": "選擇色彩",
+    "seeds": {
+      "teal": "藍綠色",
+      "blue": "藍色",
+      "indigo": "靛藍",
+      "green": "綠色",
+      "amber": "琥珀色",
+      "rose": "玫瑰色",
+      "purple": "紫色",
+      "gray": "灰色"
+    },
+    "style": "風格",
+    "styleHint": "所選色彩為介面上色的程度。",
+    "tonal": "平衡",
+    "vibrant": "鮮豔",
+    "fidelity": "忠實",
+    "contrast": "對比",
+    "standard": "標準",
+    "medium": "中",
+    "high": "高",
+    "density": "密度",
+    "default": "預設",
+    "compact": "緊湊",
+    "deviceNote": "這些設定只會儲存在此裝置上。"
+  },
+  "files": {
+    "title": "檔案",
+    "path": "資料夾路徑",
+    "view": "檢視",
+    "listView": "清單檢視",
+    "gridView": "格狀檢視",
+    "searchBucket": "在 {bucket} 中搜尋",
+    "searchFolder": "在這個資料夾中搜尋",
+    "clearSearch": "清除搜尋",
+    "resultsFor": "「{query}」的搜尋結果",
+    "matches": {
+      "other": "{count} 個相符項目"
+    },
+    "limited": "有限制",
+    "searchLimited": "搜尋會在找到 500 個結果或掃描 50,000 個檔案後停止。開啟子資料夾即可縮小範圍。",
+    "folderCount": {
+      "other": "{count} 個資料夾"
+    },
+    "fileCount": {
+      "other": "{count} 個檔案"
+    },
+    "folders": "資料夾",
+    "files": "檔案",
+    "name": "名稱",
+    "size": "大小",
+    "modified": "修改時間",
+    "ascending": "遞增",
+    "descending": "遞減",
+    "selectAll": "全選",
+    "selectNone": "全部取消選取",
+    "selectItem": "選取 {name}",
+    "selected": {
+      "other": "已選取 {count} 個項目"
+    },
+    "clearSelection": "清除選取",
+    "upload": "上傳",
+    "uploadFiles": "上傳檔案",
+    "uploadFolder": "上傳資料夾",
+    "newFolder": "新增資料夾",
+    "open": "開啟",
+    "preview": "預覽",
+    "copyUrl": "複製公開 URL",
+    "copyUrls": "複製 URL",
+    "copyPath": "複製路徑",
+    "shareLink": "分享連結…",
+    "download": "下載",
+    "downloadN": {
+      "other": "下載 {count} 個項目"
+    },
+    "rename": "重新命名",
+    "moveOrCopy": "移動或複製",
+    "details": "詳細資料與版本",
+    "deleteN": {
+      "other": "刪除 {count} 個項目"
+    },
+    "deleteOne": "要刪除「{name}」嗎？",
+    "deleteMany": {
+      "other": "要刪除 {count} 個項目嗎？"
+    },
+    "deleteFoldersNote": "資料夾會連同其中的所有內容一併刪除。",
+    "deleteNote": "所有版本都會移除，才能真正釋出空間。這項操作無法復原。",
+    "onlyHide": "僅隱藏（保留先前的版本）",
+    "deleted": {
+      "other": "已刪除 {count} 個物件版本"
+    },
+    "errorsOccurred": {
+      "other": "{count} 個錯誤：{first}"
+    },
+    "foldersSkipped": "已略過資料夾。請選取要下載的檔案。",
+    "noPublicUrls": "沒有公開 URL：這個儲存貯體為私人，且未設定 CDN。",
+    "urlCopied": "已複製 URL",
+    "urlsCopied": {
+      "other": "已複製 {count} 個 URL"
+    },
+    "pathCopied": "已複製路徑",
+    "emptyTitle": "這個資料夾是空的",
+    "emptyText": "將檔案拖放到這裡，或使用「上傳」。",
+    "noMatches": "找不到符合「{query}」的內容",
+    "noMatchesHint": "搜尋範圍為目前資料夾下的檔案名稱。",
+    "loadMore": "載入更多",
+    "dropToUpload": "放開即可上傳"
+  },
+  "uploads": {
+    "title": "上傳",
+    "uploading": {
+      "other": "正在上傳 {count} 個項目"
+    },
+    "failed": {
+      "other": "{count} 個項目上傳失敗"
+    },
+    "complete": {
+      "other": "{count} 個項目上傳完成"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/秒",
+    "queued": "等待中…",
+    "canceled": "已取消",
+    "cancelAll": "全部取消",
+    "retry": "重試",
+    "expand": "展開",
+    "collapse": "收合"
+  },
+  "preview": {
+    "position": "第 {n} 個，共 {total} 個",
+    "openNewTab": "在新分頁中開啟",
+    "previous": "上一個檔案",
+    "next": "下一個檔案",
+    "noPreview": "這種檔案類型無法預覽",
+    "noPreviewHint": "請下載檔案或查看詳細資料。",
+    "truncated": "（僅顯示前 256 KB）"
+  },
+  "newFolder": {
+    "name": "資料夾名稱",
+    "placeholder": "images 或 nested/path",
+    "hint": "儲存空間中沒有真正的資料夾：這項操作會建立一個空的「{name}/」標記。"
+  },
+  "rename": {
+    "fileTitle": "重新命名檔案",
+    "folderTitle": "重新命名資料夾",
+    "fileNote": "檔案會先複製為新名稱，再連同版本記錄刪除舊檔案。",
+    "folderNote": "其中的所有內容會先複製到新路徑，再連同版本記錄刪除舊物件。",
+    "newName": "新名稱",
+    "done": "已重新命名為 {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "other": "移動 {count} 個項目"
+    },
+    "copyTitle": {
+      "other": "複製 {count} 個項目"
+    },
+    "mode": "移動或複製",
+    "move": "移動",
+    "copy": "複製",
+    "destination": "目的地資料夾",
+    "root": "（儲存貯體根目錄）",
+    "noSubfolders": "這裡沒有子資料夾。在上方輸入新路徑即可建立。",
+    "moveNote": "移動會連同版本記錄刪除原始物件。",
+    "moveHere": "移到這裡",
+    "copyHere": "複製到這裡",
+    "moved": {
+      "other": "已移動 {count} 個物件"
+    },
+    "copied": {
+      "other": "已複製 {count} 個物件"
+    },
+    "overwriteTitle": {
+      "other": "要覆寫 {count} 個現有檔案嗎？"
+    },
+    "overwriteText": "目的地已有這些檔案。它們目前的內容會成為舊版本。",
+    "andMore": {
+      "other": "…以及其他 {count} 個"
+    },
+    "overwrite": "覆寫"
+  },
+  "share": {
+    "title": "分享檔案",
+    "publicUrl": "公開 URL",
+    "publicNote": "透過你的 CDN 或公開儲存貯體提供。只要檔案存在就能使用。",
+    "privateNote": "這個儲存貯體為私人，且未設定 CDN URL，因此沒有永久連結。請改為建立已簽署的連結。",
+    "signedLink": "已簽署的連結",
+    "signedNote": "在連結到期前，任何取得連結的人都能下載這個檔案。",
+    "expiresIn": "有效期限",
+    "hour": "1 小時",
+    "day": "24 小時",
+    "week": "7 天",
+    "generate": "建立連結",
+    "expires": "{date}到期"
+  },
+  "info": {
+    "title": "詳細資料",
+    "path": "路徑",
+    "type": "內容類型",
+    "bytes": {
+      "other": "{count} 位元組"
+    },
+    "copyKey": "複製物件鍵",
+    "versions": "版本",
+    "oldBytes": "舊版本占用 {size}",
+    "noVersions": "這個端點不支援版本記錄。",
+    "current": "目前版本",
+    "hidden": "已隱藏",
+    "deleteMarker": "刪除標記",
+    "downloadVersion": "下載這個版本",
+    "restore": "還原",
+    "restoreTitle": "要還原這個版本嗎？",
+    "restoreText": "這個版本會以新版本的形式複製並覆蓋目前的檔案。",
+    "restored": "已還原版本",
+    "deleteVersion": "刪除版本",
+    "deleteVersionTitle": "要永久刪除這個版本嗎？",
+    "versionDeleted": "已刪除版本"
+  },
+  "types": {
+    "image": "圖片",
+    "video": "影片",
+    "audio": "音訊",
+    "document": "文件",
+    "archive": "壓縮檔",
+    "code": "程式碼與資料",
+    "font": "字型",
+    "other": "其他"
+  },
+  "stats": {
+    "title": "用量",
+    "wholeBucket": "整個儲存貯體",
+    "rescan": "重新掃描",
+    "scanning": "正在掃描所有物件…",
+    "scanned": {
+      "other": "已掃描 {count} 個版本"
+    },
+    "scanSlow": "大型儲存貯體可能需要幾分鐘。",
+    "scannedAt": "掃描時間：{when}",
+    "cached": "已快取",
+    "costNote": "重新掃描會列出所有物件版本（每 1,000 個版本約產生一次 class C 呼叫）。",
+    "truncated": "掃描已在 2,000,000 個版本處停止。這些數字並不完整。",
+    "totalBilled": "計費總量",
+    "currentPlusOld": "目前檔案 + 舊版本",
+    "hiddenFiles": {
+      "other": "包含 {count} 個隱藏檔案"
+    },
+    "stored": "目前檔案",
+    "oldVersions": "舊版本",
+    "versionsBilled": {
+      "other": "{count} 個版本，以儲存空間計費"
+    },
+    "notAvailable": "無法使用",
+    "averageFile": "平均檔案大小",
+    "topLevel": {
+      "other": "{count} 個頂層項目"
+    },
+    "breakdown": "空間使用分布",
+    "oldWarning": "舊版本和隱藏檔案占用了 {size}。",
+    "addRule": "僅保留最新版本",
+    "byFolder": "依資料夾",
+    "byFolderSub": "目前檔案，頂層",
+    "byFolderSubPrefix": "目前檔案，這個資料夾的頂層",
+    "more": {
+      "other": "+ 其他 {count} 個"
+    },
+    "byType": "依檔案類型",
+    "byTypeSub": "依副檔名分組",
+    "largest": "最大的檔案",
+    "recent": "最近上傳",
+    "noFiles": "沒有檔案。",
+    "rootFiles": "（這個資料夾中的檔案）"
+  },
+  "buckets": {
+    "title": "儲存貯體",
+    "count": {
+      "other": "{count} 個儲存貯體"
+    },
+    "new": "新增儲存貯體",
+    "public": "公開",
+    "private": "私人",
+    "noCdn": "沒有 CDN URL",
+    "emptyTitle": "還沒有儲存貯體",
+    "emptyText": "建立一個儲存貯體即可開始上傳檔案。",
+    "s3Only": "儲存貯體設定和金鑰需要 B2 原生 API。設定 S3 端點覆寫時，這些功能會停用。",
+    "globalNames": "儲存貯體名稱在整個服務供應商中不可重複。",
+    "name": "儲存貯體名稱",
+    "nameRules": "6–50 個字元：英文字母、數字和連字號。",
+    "visibility": "瀏覽權限",
+    "created": "已建立儲存貯體 {name}"
+  },
+  "settings": {
+    "title": "儲存貯體設定",
+    "needsNative": "儲存貯體設定使用 B2 原生 API。移除 S3_ENDPOINT 覆寫即可啟用。",
+    "visibility": "瀏覽權限",
+    "visibilityText": "公開儲存貯體會將檔案提供給任何擁有 URL 的人。私人儲存貯體則需要已簽署的連結。",
+    "publicBucket": "公開儲存貯體",
+    "publicOn": "任何擁有 URL 的人都能下載檔案。",
+    "publicOff": "只能透過已簽署的連結存取檔案。",
+    "makePublicTitle": "要將這個儲存貯體設為公開嗎？",
+    "makePublicText": "任何知道 URL 的人都能下載儲存貯體中的每個檔案。",
+    "makePublic": "設為公開",
+    "makePrivateTitle": "要將這個儲存貯體設為私人嗎？",
+    "makePrivateText": "在你切換回來之前，公開 URL 和你的 CDN 將無法運作。",
+    "makePrivate": "設為私人",
+    "cdnBase": "CDN 基礎 URL（來自 CDN_URLS）",
+    "friendlyUrl": "易記 URL",
+    "cdnHint": "設定 CDN_URLS={bucket}=https://your-cdn 即可改為複製 CDN 連結。",
+    "deleteTitle": "刪除儲存貯體",
+    "deleteText": "只能刪除空的儲存貯體。請先刪除所有檔案（及版本）。",
+    "deleteConfirm": "要刪除儲存貯體 {bucket} 嗎？",
+    "cannotUndo": "這項操作無法復原。",
+    "deleted": "已刪除儲存貯體"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "檔案會從瀏覽器直接上傳到儲存空間，因此儲存貯體必須允許這個應用程式的位址。",
+    "allowed": "已允許從 {origin} 上傳。",
+    "notAllowed": "尚未允許從 {origin} 上傳。",
+    "allow": "允許從這裡上傳",
+    "editJson": "編輯 JSON",
+    "closeEditor": "關閉編輯器",
+    "mustBeArray": "規則必須是 JSON 陣列。",
+    "save": "儲存規則",
+    "none": "沒有 CORS 規則。",
+    "remove": "移除規則"
+  },
+  "lifecycle": {
+    "title": "生命週期規則",
+    "text": "在指定天數後隱藏檔案，並在指定天數後刪除隱藏的版本或舊版本。欄位留空代表永不執行。",
+    "keepLatest": "僅保留最新版本",
+    "none": "沒有規則：所有檔案的所有版本都會永久保留。",
+    "prefix": "檔案名稱前置字元",
+    "allFiles": "（所有檔案）",
+    "hideAfter": "隱藏時間",
+    "deleteAfter": "隱藏後刪除時間",
+    "days": "天",
+    "never": "永不",
+    "remove": "移除規則",
+    "add": "新增規則",
+    "needsNumber": "每條規則至少需要填寫一個數字。",
+    "save": "儲存規則"
+  },
+  "multipart": {
+    "title": "未完成的大型檔案上傳",
+    "text": "中斷的上傳作業所留下的部分會占用（計費的）空間，直到取消為止。",
+    "none": "沒有未完成的上傳。",
+    "cancel": "取消上傳",
+    "cancelAll": "全部取消",
+    "canceled": {
+      "other": "已取消 {count} 個上傳作業"
+    },
+    "failed": {
+      "other": "{count} 個無法取消"
+    }
+  },
+  "keys": {
+    "title": "應用程式金鑰",
+    "subtitle": "供應用程式和指令碼使用的金鑰。密鑰只會在建立後立即顯示一次。",
+    "new": "新增金鑰",
+    "thisApp": "這個應用程式正在使用",
+    "allCapabilities": "所有權限",
+    "allBuckets": "所有儲存貯體",
+    "expires": "{date}到期",
+    "never": "永不到期",
+    "emptyTitle": "沒有金鑰",
+    "delete": "刪除金鑰",
+    "deleteTitle": "要刪除金鑰「{name}」嗎？",
+    "deleteText": "所有使用這組金鑰的服務都會立即停止運作。",
+    "deleted": "已刪除金鑰",
+    "name": "金鑰名稱",
+    "nameRules": "英文字母、數字和連字號。",
+    "bucket": "儲存貯體",
+    "prefix": "檔案名稱前置字元",
+    "prefixNeedsBucket": "請先選擇儲存貯體",
+    "days": "有效期限（天）",
+    "capabilities": "權限",
+    "presetRead": "唯讀",
+    "presetReadWrite": "讀取和寫入",
+    "presetWrite": "唯寫",
+    "presetAll": "全部",
+    "create": "建立金鑰",
+    "createdTitle": "已建立金鑰",
+    "createdNote": "請立即複製密鑰，之後將不會再次顯示。"
+  },
+  "errors": {
+    "network": "無法連線至伺服器。請檢查你的網路連線。",
+    "sessionExpired": "你的工作階段已過期。",
+    "requestFailed": "要求失敗（{status}）",
+    "wrongPassword": "密碼錯誤",
+    "tooManyAttempts": "嘗試次數過多。請在 {seconds} 秒後再試一次。",
+    "invalidBucketName": "儲存貯體名稱無效",
+    "bucketNameRules": "儲存貯體名稱須為 6–50 個字元，只能包含英文字母、數字和連字號，且不能以「b2-」開頭。",
+    "keyNameRules": "金鑰名稱只能包含英文字母、數字和連字號。",
+    "pickCapability": "請至少選擇一項權限。",
+    "ownKey": "這個應用程式正以該金鑰執行，因此無法在這裡刪除。",
+    "nativeApiRequired": "這項操作需要 B2 原生 API（不可設定 S3_ENDPOINT 覆寫）。",
+    "jobNotFound": "作業已遺失（伺服器可能已重新啟動）。",
+    "folderIntoItself": "無法將資料夾移入其本身。",
+    "deleteRoot": "拒絕刪除空白物件鍵或儲存貯體根目錄。",
+    "invalidSize": "檔案大小無效",
+    "uploadFailed": "上傳失敗（{status}）",
+    "uploadCors": "網路或 CORS 錯誤。請在儲存貯體的 CORS 設定中允許上傳。",
+    "etagMissing": "儲存空間未公開 ETag 標頭。請在儲存貯體的 CORS 設定中允許上傳。",
+    "config": {
+      "password": "尚未設定 DASHBOARD_PASSWORD。",
+      "secret": "SESSION_SECRET 至少須包含 32 個字元。",
+      "b2": "尚未設定 B2_KEY_ID 和 B2_APP_KEY。"
+    }
+  }
+}

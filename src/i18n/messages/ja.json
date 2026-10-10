@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "copied": "コピーしました",
+    "copy": "コピー",
+    "create": "作成",
+    "delete": "削除",
+    "discard": "破棄",
+    "done": "完了",
+    "language": "言語",
+    "loading": "読み込んでいます…",
+    "more": "その他の操作",
+    "ok": "OK",
+    "refresh": "更新",
+    "retry": "再試行",
+    "saved": "保存しました",
+    "typeToConfirm": "確認のため {text} と入力してください"
+  },
+  "login": {
+    "pageTitle": "ログイン · {app}",
+    "title": "ログイン",
+    "subtitle": "{app} でストレージを管理",
+    "password": "パスワード",
+    "showPassword": "パスワードを表示",
+    "hidePassword": "パスワードを隠す",
+    "submit": "ログイン",
+    "note": "ストレージのキーがサーバーの外に出ることはありません。"
+  },
+  "setup": {
+    "title": "ストレージに接続できません",
+    "noBuckets": "このキーではバケットを 1 つも参照できません。",
+    "hint": "環境変数を確認して、サーバーを再起動してください。"
+  },
+  "nav": {
+    "label": "メインナビゲーション",
+    "menu": "ナビゲーションを開く",
+    "new": "新規",
+    "buckets": "バケット",
+    "refreshBuckets": "バケットを更新",
+    "files": "ファイル",
+    "usage": "使用量",
+    "settings": "設定",
+    "allBuckets": "すべてのバケット",
+    "bucketsShort": "バケット",
+    "keys": "アプリケーションキー",
+    "keysShort": "キー",
+    "appearance": "外観",
+    "signOut": "ログアウト"
+  },
+  "appearance": {
+    "title": "外観",
+    "theme": "テーマ",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム",
+    "color": "色",
+    "customColor": "カスタムカラー",
+    "pickColor": "色を選択",
+    "seeds": {
+      "teal": "ティール",
+      "blue": "ブルー",
+      "indigo": "インディゴ",
+      "green": "グリーン",
+      "amber": "アンバー",
+      "rose": "ローズ",
+      "purple": "パープル",
+      "gray": "グレー"
+    },
+    "style": "スタイル",
+    "styleHint": "選んだ色がインターフェースをどの程度染めるかを設定します。",
+    "tonal": "バランス",
+    "vibrant": "鮮やか",
+    "fidelity": "忠実",
+    "contrast": "コントラスト",
+    "standard": "標準",
+    "medium": "中",
+    "high": "高",
+    "density": "表示密度",
+    "default": "デフォルト",
+    "compact": "コンパクト",
+    "deviceNote": "これらの設定はこのデバイスにのみ保存されます。"
+  },
+  "files": {
+    "title": "ファイル",
+    "path": "フォルダのパス",
+    "view": "表示",
+    "listView": "リスト表示",
+    "gridView": "グリッド表示",
+    "searchBucket": "{bucket} 内を検索",
+    "searchFolder": "このフォルダ内を検索",
+    "clearSearch": "検索をクリア",
+    "resultsFor": "「{query}」の検索結果",
+    "matches": {
+      "one": "{count} 件一致",
+      "other": "{count} 件一致"
+    },
+    "limited": "制限あり",
+    "searchLimited": "検索は 500 件の結果または 50,000 ファイルのスキャンで停止します。サブフォルダを開いて範囲を絞り込んでください。",
+    "folderCount": {
+      "one": "{count} 個のフォルダ",
+      "other": "{count} 個のフォルダ"
+    },
+    "fileCount": {
+      "one": "{count} 個のファイル",
+      "other": "{count} 個のファイル"
+    },
+    "folders": "フォルダ",
+    "files": "ファイル",
+    "name": "名前",
+    "size": "サイズ",
+    "modified": "更新日時",
+    "ascending": "昇順",
+    "descending": "降順",
+    "selectAll": "すべて選択",
+    "selectNone": "選択を解除",
+    "selectItem": "{name} を選択",
+    "selected": {
+      "one": "{count} 件を選択中",
+      "other": "{count} 件を選択中"
+    },
+    "clearSelection": "選択をクリア",
+    "upload": "アップロード",
+    "uploadFiles": "ファイルをアップロード",
+    "uploadFolder": "フォルダをアップロード",
+    "newFolder": "新しいフォルダ",
+    "open": "開く",
+    "preview": "プレビュー",
+    "copyUrl": "公開 URL をコピー",
+    "copyUrls": "URL をコピー",
+    "copyPath": "パスをコピー",
+    "shareLink": "リンクを共有…",
+    "download": "ダウンロード",
+    "downloadN": {
+      "one": "{count} 件をダウンロード",
+      "other": "{count} 件をダウンロード"
+    },
+    "rename": "名前を変更",
+    "moveOrCopy": "移動またはコピー",
+    "details": "詳細とバージョン",
+    "deleteN": {
+      "one": "{count} 件を削除",
+      "other": "{count} 件を削除"
+    },
+    "deleteOne": "「{name}」を削除しますか？",
+    "deleteMany": {
+      "one": "{count} 件を削除しますか？",
+      "other": "{count} 件を削除しますか？"
+    },
+    "deleteFoldersNote": "フォルダは中身ごとすべて削除されます。",
+    "deleteNote": "容量を確実に解放するため、すべてのバージョンが削除されます。この操作は元に戻せません。",
+    "onlyHide": "非表示にするだけ（以前のバージョンを残す）",
+    "deleted": {
+      "one": "{count} 件のオブジェクトバージョンを削除しました",
+      "other": "{count} 件のオブジェクトバージョンを削除しました"
+    },
+    "errorsOccurred": {
+      "one": "{count} 件のエラー: {first}",
+      "other": "{count} 件のエラー: {first}"
+    },
+    "foldersSkipped": "フォルダはスキップされます。ダウンロードするファイルを選択してください。",
+    "noPublicUrls": "公開 URL がありません: このバケットは非公開で、CDN も設定されていません。",
+    "urlCopied": "URL をコピーしました",
+    "urlsCopied": {
+      "one": "{count} 件の URL をコピーしました",
+      "other": "{count} 件の URL をコピーしました"
+    },
+    "pathCopied": "パスをコピーしました",
+    "emptyTitle": "このフォルダは空です",
+    "emptyText": "ここにファイルをドロップするか、アップロードを使用してください。",
+    "noMatches": "「{query}」に一致する項目はありません",
+    "noMatchesHint": "現在のフォルダ内のファイル名を検索します。",
+    "loadMore": "さらに読み込む",
+    "dropToUpload": "ドロップしてアップロード"
+  },
+  "uploads": {
+    "title": "アップロード",
+    "uploading": {
+      "one": "{count} 件をアップロード中",
+      "other": "{count} 件をアップロード中"
+    },
+    "failed": {
+      "one": "{count} 件のアップロードに失敗しました",
+      "other": "{count} 件のアップロードに失敗しました"
+    },
+    "complete": {
+      "one": "{count} 件のアップロードが完了しました",
+      "other": "{count} 件のアップロードが完了しました"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/秒",
+    "queued": "待機中…",
+    "canceled": "キャンセルしました",
+    "cancelAll": "すべてキャンセル",
+    "retry": "再試行",
+    "expand": "展開",
+    "collapse": "折りたたむ"
+  },
+  "preview": {
+    "position": "{n} / {total}",
+    "openNewTab": "新しいタブで開く",
+    "previous": "前のファイル",
+    "next": "次のファイル",
+    "noPreview": "このファイル形式はプレビューできません",
+    "noPreviewHint": "ダウンロードするか、詳細を開いてください。",
+    "truncated": "（最初の 256 KB を表示しています）"
+  },
+  "newFolder": {
+    "name": "フォルダ名",
+    "placeholder": "images または nested/path",
+    "hint": "ストレージには実際のフォルダはありません。空の「{name}/」マーカーが作成されます。"
+  },
+  "rename": {
+    "fileTitle": "ファイル名を変更",
+    "folderTitle": "フォルダ名を変更",
+    "fileNote": "ファイルを新しい名前でコピーした後、古いファイルをバージョン履歴ごと削除します。",
+    "folderNote": "中身をすべて新しいパスにコピーした後、古いオブジェクトをバージョン履歴ごと削除します。",
+    "newName": "新しい名前",
+    "done": "{name} に名前を変更しました"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "{count} 件を移動",
+      "other": "{count} 件を移動"
+    },
+    "copyTitle": {
+      "one": "{count} 件をコピー",
+      "other": "{count} 件をコピー"
+    },
+    "mode": "移動またはコピー",
+    "move": "移動",
+    "copy": "コピー",
+    "destination": "移動先フォルダ",
+    "root": "（バケットのルート）",
+    "noSubfolders": "サブフォルダはありません。新しく作成するには、上にパスを入力してください。",
+    "moveNote": "移動すると、元のファイルはバージョン履歴ごと削除されます。",
+    "moveHere": "ここに移動",
+    "copyHere": "ここにコピー",
+    "moved": {
+      "one": "{count} 件のオブジェクトを移動しました",
+      "other": "{count} 件のオブジェクトを移動しました"
+    },
+    "copied": {
+      "one": "{count} 件のオブジェクトをコピーしました",
+      "other": "{count} 件のオブジェクトをコピーしました"
+    },
+    "overwriteTitle": {
+      "one": "既存のファイル {count} 件を上書きしますか？",
+      "other": "既存のファイル {count} 件を上書きしますか？"
+    },
+    "overwriteText": "これらは移動先にすでに存在します。現在の内容は古いバージョンになります。",
+    "andMore": {
+      "one": "…他 {count} 件",
+      "other": "…他 {count} 件"
+    },
+    "overwrite": "上書き"
+  },
+  "share": {
+    "title": "ファイルを共有",
+    "publicUrl": "公開 URL",
+    "publicNote": "CDN または公開バケット経由で配信されます。ファイルが存在する限り有効です。",
+    "privateNote": "このバケットは非公開で CDN URL も設定されていないため、恒久的なリンクはありません。代わりに署名付きリンクを作成してください。",
+    "signedLink": "署名付きリンク",
+    "signedNote": "リンクを知っている人は誰でも、有効期限までファイルをダウンロードできます。",
+    "expiresIn": "有効期間",
+    "hour": "1 時間",
+    "day": "24 時間",
+    "week": "7 日間",
+    "generate": "リンクを作成",
+    "expires": "有効期限: {date}"
+  },
+  "info": {
+    "title": "詳細",
+    "path": "パス",
+    "type": "コンテンツタイプ",
+    "bytes": {
+      "one": "{count} バイト",
+      "other": "{count} バイト"
+    },
+    "copyKey": "キーをコピー",
+    "versions": "バージョン",
+    "oldBytes": "古いバージョン: {size}",
+    "noVersions": "このエンドポイントではバージョン履歴を利用できません。",
+    "current": "現在",
+    "hidden": "非表示",
+    "deleteMarker": "削除マーカー",
+    "downloadVersion": "このバージョンをダウンロード",
+    "restore": "復元",
+    "restoreTitle": "このバージョンを復元しますか？",
+    "restoreText": "現在のファイルの上に新しいバージョンとしてコピーされます。",
+    "restored": "バージョンを復元しました",
+    "deleteVersion": "バージョンを削除",
+    "deleteVersionTitle": "このバージョンを完全に削除しますか？",
+    "versionDeleted": "バージョンを削除しました"
+  },
+  "types": {
+    "image": "画像",
+    "video": "動画",
+    "audio": "音声",
+    "document": "ドキュメント",
+    "archive": "アーカイブ",
+    "code": "コードとデータ",
+    "font": "フォント",
+    "other": "その他"
+  },
+  "stats": {
+    "title": "使用量",
+    "wholeBucket": "バケット全体",
+    "rescan": "再スキャン",
+    "scanning": "すべてのオブジェクトをスキャンしています…",
+    "scanned": {
+      "one": "{count} 件のバージョンをスキャン済み",
+      "other": "{count} 件のバージョンをスキャン済み"
+    },
+    "scanSlow": "大きなバケットでは数分かかることがあります。",
+    "scannedAt": "スキャン日時: {when}",
+    "cached": "キャッシュ",
+    "costNote": "再スキャンではすべてのオブジェクトバージョンを一覧取得します（1,000 バージョンごとに class C の呼び出し約 1 回）。",
+    "truncated": "スキャンは 2,000,000 バージョンで停止しました。この数値は一部のみです。",
+    "totalBilled": "請求対象の合計",
+    "currentPlusOld": "現在のファイル + 古いバージョン",
+    "hiddenFiles": {
+      "one": "非表示ファイル {count} 件を含む",
+      "other": "非表示ファイル {count} 件を含む"
+    },
+    "stored": "現在のファイル",
+    "oldVersions": "古いバージョン",
+    "versionsBilled": {
+      "one": "{count} 件のバージョン（ストレージとして請求）",
+      "other": "{count} 件のバージョン（ストレージとして請求）"
+    },
+    "notAvailable": "利用できません",
+    "averageFile": "平均ファイルサイズ",
+    "topLevel": {
+      "one": "最上位の項目 {count} 件",
+      "other": "最上位の項目 {count} 件"
+    },
+    "breakdown": "容量の内訳",
+    "oldWarning": "{size} が古いバージョンと非表示ファイルで使用されています。",
+    "addRule": "最新バージョンのみ保持",
+    "byFolder": "フォルダ別",
+    "byFolderSub": "現在のファイル、最上位",
+    "byFolderSubPrefix": "現在のファイル、このフォルダの最上位",
+    "more": {
+      "one": "+ 他 {count} 件",
+      "other": "+ 他 {count} 件"
+    },
+    "byType": "ファイル形式別",
+    "byTypeSub": "拡張子でグループ化",
+    "largest": "サイズの大きいファイル",
+    "recent": "最近アップロードしたファイル",
+    "noFiles": "ファイルはありません。",
+    "rootFiles": "（このフォルダ内のファイル）"
+  },
+  "buckets": {
+    "title": "バケット",
+    "count": {
+      "one": "{count} 個のバケット",
+      "other": "{count} 個のバケット"
+    },
+    "new": "新しいバケット",
+    "public": "公開",
+    "private": "非公開",
+    "noCdn": "CDN URL なし",
+    "emptyTitle": "バケットはまだありません",
+    "emptyText": "バケットを作成してファイルのアップロードを始めましょう。",
+    "s3Only": "バケットの設定とキーには B2 ネイティブ API が必要です。S3 エンドポイントのオーバーライドが設定されている間は無効になります。",
+    "globalNames": "バケット名はプロバイダ全体で一意です。",
+    "name": "バケット名",
+    "nameRules": "6～50 文字の英字、数字、ハイフン。",
+    "visibility": "公開設定",
+    "created": "バケット {name} を作成しました"
+  },
+  "settings": {
+    "title": "バケットの設定",
+    "needsNative": "バケットの設定には B2 ネイティブ API を使用します。有効にするには S3_ENDPOINT のオーバーライドを削除してください。",
+    "visibility": "公開設定",
+    "visibilityText": "公開バケットは URL を知っている人なら誰にでもファイルを配信します。非公開バケットでは署名付きリンクが必要です。",
+    "publicBucket": "公開バケット",
+    "publicOn": "URL を知っている人は誰でもファイルをダウンロードできます。",
+    "publicOff": "ファイルには署名付きリンクからのみアクセスできます。",
+    "makePublicTitle": "このバケットを公開しますか？",
+    "makePublicText": "バケット内のすべてのファイルが、URL を知っている人なら誰でもダウンロードできるようになります。",
+    "makePublic": "公開する",
+    "makePrivateTitle": "このバケットを非公開にしますか？",
+    "makePrivateText": "元に戻すまで、公開 URL と CDN は機能しなくなります。",
+    "makePrivate": "非公開にする",
+    "cdnBase": "CDN ベース URL（CDN_URLS から）",
+    "friendlyUrl": "わかりやすい URL",
+    "cdnHint": "代わりに CDN リンクをコピーするには、CDN_URLS={bucket}=https://your-cdn を設定してください。",
+    "deleteTitle": "バケットを削除",
+    "deleteText": "削除できるのは空のバケットだけです。先にすべてのファイル（とバージョン）を削除してください。",
+    "deleteConfirm": "バケット {bucket} を削除しますか？",
+    "cannotUndo": "この操作は元に戻せません。",
+    "deleted": "バケットを削除しました"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "アップロードはブラウザからストレージへ直接送信されるため、バケットでこのアプリのアドレスを許可する必要があります。",
+    "allowed": "{origin} からのアップロードは許可されています。",
+    "notAllowed": "{origin} からのアップロードはまだ許可されていません。",
+    "allow": "ここからのアップロードを許可",
+    "editJson": "JSON を編集",
+    "closeEditor": "エディタを閉じる",
+    "mustBeArray": "ルールは JSON 配列である必要があります。",
+    "save": "ルールを保存",
+    "none": "CORS ルールはありません。",
+    "remove": "ルールを削除"
+  },
+  "lifecycle": {
+    "title": "ライフサイクルルール",
+    "text": "指定した日数が経過したファイルを非表示にし、非表示または古いバージョンを指定した日数後に削除します。無期限にするにはフィールドを空欄にしてください。",
+    "keepLatest": "最新バージョンのみ保持",
+    "none": "ルールはありません: すべてのファイルのすべてのバージョンが無期限に保持されます。",
+    "prefix": "ファイル名のプレフィックス",
+    "allFiles": "（すべてのファイル）",
+    "hideAfter": "非表示までの日数",
+    "deleteAfter": "非表示後に削除するまでの日数",
+    "days": "日",
+    "never": "なし",
+    "remove": "ルールを削除",
+    "add": "ルールを追加",
+    "needsNumber": "各ルールには少なくとも 1 つの数値が必要です。",
+    "save": "ルールを保存"
+  },
+  "multipart": {
+    "title": "未完了の大容量アップロード",
+    "text": "中断されたアップロードのパーツは、キャンセルされるまで（課金対象の）容量を使用します。",
+    "none": "未完了のアップロードはありません。",
+    "cancel": "アップロードをキャンセル",
+    "cancelAll": "すべてキャンセル",
+    "canceled": {
+      "one": "{count} 件のアップロードをキャンセルしました",
+      "other": "{count} 件のアップロードをキャンセルしました"
+    },
+    "failed": {
+      "one": "{count} 件をキャンセルできませんでした",
+      "other": "{count} 件をキャンセルできませんでした"
+    }
+  },
+  "keys": {
+    "title": "アプリケーションキー",
+    "subtitle": "アプリやスクリプト用のキーです。シークレットは作成直後に一度だけ表示されます。",
+    "new": "新しいキー",
+    "thisApp": "このアプリで使用中",
+    "allCapabilities": "すべての権限",
+    "allBuckets": "すべてのバケット",
+    "expires": "有効期限: {date}",
+    "never": "無期限",
+    "emptyTitle": "キーはありません",
+    "delete": "キーを削除",
+    "deleteTitle": "キー「{name}」を削除しますか？",
+    "deleteText": "このキーを使用しているものはすべて、すぐに動作しなくなります。",
+    "deleted": "キーを削除しました",
+    "name": "キー名",
+    "nameRules": "英字、数字、ハイフン。",
+    "bucket": "バケット",
+    "prefix": "ファイル名のプレフィックス",
+    "prefixNeedsBucket": "先にバケットを選択してください",
+    "days": "有効期間（日）",
+    "capabilities": "権限",
+    "presetRead": "読み取り専用",
+    "presetReadWrite": "読み取りと書き込み",
+    "presetWrite": "書き込み専用",
+    "presetAll": "すべて",
+    "create": "キーを作成",
+    "createdTitle": "キーを作成しました",
+    "createdNote": "今すぐシークレットをコピーしてください。二度と表示されません。"
+  },
+  "errors": {
+    "network": "サーバーに接続できません。接続状況を確認してください。",
+    "sessionExpired": "セッションの有効期限が切れました。",
+    "requestFailed": "リクエストに失敗しました（{status}）",
+    "wrongPassword": "パスワードが正しくありません",
+    "tooManyAttempts": "試行回数が多すぎます。{seconds} 秒後にもう一度お試しください。",
+    "invalidBucketName": "無効なバケット名です",
+    "bucketNameRules": "バケット名は 6～50 文字の英字、数字、ハイフンで、「b2-」で始めることはできません。",
+    "keyNameRules": "キー名には英字、数字、ハイフンのみ使用できます。",
+    "pickCapability": "権限を 1 つ以上選択してください。",
+    "ownKey": "このアプリはそのキーで動作しているため、ここでは削除できません。",
+    "nativeApiRequired": "B2 ネイティブ API が必要です（S3_ENDPOINT のオーバーライドなし）。",
+    "jobNotFound": "処理が失われました（サーバーが再起動した可能性があります）。",
+    "folderIntoItself": "フォルダをそれ自体の中に移動することはできません。",
+    "deleteRoot": "空のキーまたはバケットのルートは削除できません。",
+    "invalidSize": "無効なファイルサイズです",
+    "uploadFailed": "アップロードに失敗しました（{status}）",
+    "uploadCors": "ネットワークまたは CORS のエラーです。バケットの CORS 設定でアップロードを許可してください。",
+    "etagMissing": "ストレージが ETag ヘッダーを公開していません。バケットの CORS 設定でアップロードを許可してください。",
+    "config": {
+      "password": "DASHBOARD_PASSWORD が設定されていません。",
+      "secret": "SESSION_SECRET は 32 文字以上にする必要があります。",
+      "b2": "B2_KEY_ID と B2_APP_KEY が設定されていません。"
+    }
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "copied": "Copied",
+    "copy": "Copy",
+    "create": "Create",
+    "delete": "Delete",
+    "discard": "Discard",
+    "done": "Done",
+    "language": "Language",
+    "loading": "Loading…",
+    "more": "More actions",
+    "ok": "OK",
+    "refresh": "Refresh",
+    "retry": "Retry",
+    "saved": "Saved",
+    "typeToConfirm": "Type {text} to confirm"
+  },
+  "login": {
+    "pageTitle": "Sign in · {app}",
+    "title": "Sign in",
+    "subtitle": "to manage your storage with {app}",
+    "password": "Password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "submit": "Sign in",
+    "note": "Your storage keys never leave the server."
+  },
+  "setup": {
+    "title": "Can’t reach your storage",
+    "noBuckets": "This key can’t see any buckets.",
+    "hint": "Check your environment variables and restart the server."
+  },
+  "nav": {
+    "label": "Main navigation",
+    "menu": "Open navigation",
+    "new": "New",
+    "buckets": "Buckets",
+    "refreshBuckets": "Refresh buckets",
+    "files": "Files",
+    "usage": "Usage",
+    "settings": "Settings",
+    "allBuckets": "All buckets",
+    "bucketsShort": "Buckets",
+    "keys": "Application keys",
+    "keysShort": "Keys",
+    "appearance": "Appearance",
+    "signOut": "Sign out"
+  },
+  "appearance": {
+    "title": "Appearance",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "color": "Color",
+    "customColor": "Custom color",
+    "pickColor": "Pick a color",
+    "seeds": {
+      "teal": "Teal",
+      "blue": "Blue",
+      "indigo": "Indigo",
+      "green": "Green",
+      "amber": "Amber",
+      "rose": "Rose",
+      "purple": "Purple",
+      "gray": "Gray"
+    },
+    "style": "Style",
+    "styleHint": "How strongly the chosen color tints the interface.",
+    "tonal": "Tonal",
+    "vibrant": "Vibrant",
+    "fidelity": "Faithful",
+    "contrast": "Contrast",
+    "standard": "Standard",
+    "medium": "Medium",
+    "high": "High",
+    "density": "Density",
+    "default": "Default",
+    "compact": "Compact",
+    "deviceNote": "These settings are saved on this device only."
+  },
+  "files": {
+    "title": "Files",
+    "path": "Folder path",
+    "view": "View",
+    "listView": "List view",
+    "gridView": "Grid view",
+    "searchBucket": "Search in {bucket}",
+    "searchFolder": "Search in this folder",
+    "clearSearch": "Clear search",
+    "resultsFor": "Results for “{query}”",
+    "matches": {
+      "one": "{count} match",
+      "other": "{count} matches"
+    },
+    "limited": "limited",
+    "searchLimited": "Search stops after 500 results or 50,000 scanned files. Narrow it down by opening a subfolder.",
+    "folderCount": {
+      "one": "{count} folder",
+      "other": "{count} folders"
+    },
+    "fileCount": {
+      "one": "{count} file",
+      "other": "{count} files"
+    },
+    "folders": "Folders",
+    "files": "Files",
+    "name": "Name",
+    "size": "Size",
+    "modified": "Modified",
+    "ascending": "Ascending",
+    "descending": "Descending",
+    "selectAll": "Select all",
+    "selectNone": "Select none",
+    "selectItem": "Select {name}",
+    "selected": {
+      "one": "{count} selected",
+      "other": "{count} selected"
+    },
+    "clearSelection": "Clear selection",
+    "upload": "Upload",
+    "uploadFiles": "Upload files",
+    "uploadFolder": "Upload folder",
+    "newFolder": "New folder",
+    "open": "Open",
+    "preview": "Preview",
+    "copyUrl": "Copy public URL",
+    "copyUrls": "Copy URLs",
+    "copyPath": "Copy path",
+    "shareLink": "Share link…",
+    "download": "Download",
+    "downloadN": {
+      "one": "Download {count} item",
+      "other": "Download {count} items"
+    },
+    "rename": "Rename",
+    "moveOrCopy": "Move or copy",
+    "details": "Details & versions",
+    "deleteN": {
+      "one": "Delete {count} item",
+      "other": "Delete {count} items"
+    },
+    "deleteOne": "Delete “{name}”?",
+    "deleteMany": {
+      "one": "Delete {count} item?",
+      "other": "Delete {count} items?"
+    },
+    "deleteFoldersNote": "Folders are deleted with everything inside them.",
+    "deleteNote": "Every version is removed so the space is really freed. This can’t be undone.",
+    "onlyHide": "Only hide (keep previous versions)",
+    "deleted": {
+      "one": "Deleted {count} object version",
+      "other": "Deleted {count} object versions"
+    },
+    "errorsOccurred": {
+      "one": "{count} error: {first}",
+      "other": "{count} errors: {first}"
+    },
+    "foldersSkipped": "Folders are skipped. Select files to download.",
+    "noPublicUrls": "No public URLs: this bucket is private and has no CDN configured.",
+    "urlCopied": "URL copied",
+    "urlsCopied": {
+      "one": "Copied {count} URL",
+      "other": "Copied {count} URLs"
+    },
+    "pathCopied": "Path copied",
+    "emptyTitle": "This folder is empty",
+    "emptyText": "Drop files here, or use Upload.",
+    "noMatches": "Nothing matches “{query}”",
+    "noMatchesHint": "Search looks at file names under the current folder.",
+    "loadMore": "Load more",
+    "dropToUpload": "Drop to upload"
+  },
+  "uploads": {
+    "title": "Uploads",
+    "uploading": {
+      "one": "Uploading {count} item",
+      "other": "Uploading {count} items"
+    },
+    "failed": {
+      "one": "{count} upload failed",
+      "other": "{count} uploads failed"
+    },
+    "complete": {
+      "one": "{count} upload complete",
+      "other": "{count} uploads complete"
+    },
+    "progress": "{loaded} of {total}",
+    "speed": "{speed}/s",
+    "queued": "Waiting…",
+    "canceled": "Canceled",
+    "cancelAll": "Cancel all",
+    "retry": "Retry",
+    "expand": "Expand",
+    "collapse": "Collapse"
+  },
+  "preview": {
+    "position": "{n} of {total}",
+    "openNewTab": "Open in new tab",
+    "previous": "Previous file",
+    "next": "Next file",
+    "noPreview": "No preview for this file type",
+    "noPreviewHint": "Download it or open its details.",
+    "truncated": "(showing the first 256 KB)"
+  },
+  "newFolder": {
+    "name": "Folder name",
+    "placeholder": "images or nested/path",
+    "hint": "Storage has no real folders: this creates an empty “{name}/” marker."
+  },
+  "rename": {
+    "fileTitle": "Rename file",
+    "folderTitle": "Rename folder",
+    "fileNote": "The file is copied to the new name, then the old one is removed with its version history.",
+    "folderNote": "Everything inside is copied to the new path, then the old objects are removed with their version history.",
+    "newName": "New name",
+    "done": "Renamed to {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "Move {count} item",
+      "other": "Move {count} items"
+    },
+    "copyTitle": {
+      "one": "Copy {count} item",
+      "other": "Copy {count} items"
+    },
+    "mode": "Move or copy",
+    "move": "Move",
+    "copy": "Copy",
+    "destination": "Destination folder",
+    "root": "(bucket root)",
+    "noSubfolders": "No subfolders here. Type a new path above to create it.",
+    "moveNote": "Moving removes the originals with their version history.",
+    "moveHere": "Move here",
+    "copyHere": "Copy here",
+    "moved": {
+      "one": "Moved {count} object",
+      "other": "Moved {count} objects"
+    },
+    "copied": {
+      "one": "Copied {count} object",
+      "other": "Copied {count} objects"
+    },
+    "overwriteTitle": {
+      "one": "Overwrite {count} existing file?",
+      "other": "Overwrite {count} existing files?"
+    },
+    "overwriteText": "These already exist at the destination. Their current content becomes an old version.",
+    "andMore": {
+      "one": "…and {count} more",
+      "other": "…and {count} more"
+    },
+    "overwrite": "Overwrite"
+  },
+  "share": {
+    "title": "Share file",
+    "publicUrl": "Public URL",
+    "publicNote": "Served through your CDN or public bucket. Works for as long as the file exists.",
+    "privateNote": "This bucket is private and has no CDN URL configured, so there’s no permanent link. Create a signed link instead.",
+    "signedLink": "Signed link",
+    "signedNote": "Anyone with the link can download the file until it expires.",
+    "expiresIn": "Expires in",
+    "hour": "1 hour",
+    "day": "24 hours",
+    "week": "7 days",
+    "generate": "Create link",
+    "expires": "Expires {date}"
+  },
+  "info": {
+    "title": "Details",
+    "path": "Path",
+    "type": "Content type",
+    "bytes": {
+      "one": "{count} byte",
+      "other": "{count} bytes"
+    },
+    "copyKey": "Copy key",
+    "versions": "Versions",
+    "oldBytes": "{size} in old versions",
+    "noVersions": "Version history isn’t available for this endpoint.",
+    "current": "Current",
+    "hidden": "Hidden",
+    "deleteMarker": "delete marker",
+    "downloadVersion": "Download this version",
+    "restore": "Restore",
+    "restoreTitle": "Restore this version?",
+    "restoreText": "It’s copied over the current file as a new version.",
+    "restored": "Version restored",
+    "deleteVersion": "Delete version",
+    "deleteVersionTitle": "Delete this version permanently?",
+    "versionDeleted": "Version deleted"
+  },
+  "types": {
+    "image": "Images",
+    "video": "Video",
+    "audio": "Audio",
+    "document": "Documents",
+    "archive": "Archives",
+    "code": "Code & data",
+    "font": "Fonts",
+    "other": "Other"
+  },
+  "stats": {
+    "title": "Usage",
+    "wholeBucket": "Whole bucket",
+    "rescan": "Rescan",
+    "scanning": "Scanning every object…",
+    "scanned": {
+      "one": "{count} version scanned",
+      "other": "{count} versions scanned"
+    },
+    "scanSlow": "Large buckets can take a few minutes.",
+    "scannedAt": "Scanned {when}",
+    "cached": "cached",
+    "costNote": "A rescan lists every object version (about one class C call per 1,000 versions).",
+    "truncated": "The scan stopped at 2,000,000 versions. These numbers are partial.",
+    "totalBilled": "Total billed",
+    "currentPlusOld": "Current files + old versions",
+    "hiddenFiles": {
+      "one": "includes {count} hidden file",
+      "other": "includes {count} hidden files"
+    },
+    "stored": "Current files",
+    "oldVersions": "Old versions",
+    "versionsBilled": {
+      "one": "{count} version, billed as storage",
+      "other": "{count} versions, billed as storage"
+    },
+    "notAvailable": "Not available",
+    "averageFile": "Average file",
+    "topLevel": {
+      "one": "{count} top-level entry",
+      "other": "{count} top-level entries"
+    },
+    "breakdown": "Where the space goes",
+    "oldWarning": "{size} is held by old versions and hidden files.",
+    "addRule": "Keep only the last version",
+    "byFolder": "By folder",
+    "byFolderSub": "Current files, top level",
+    "byFolderSubPrefix": "Current files, top level of this folder",
+    "more": {
+      "one": "+ {count} more",
+      "other": "+ {count} more"
+    },
+    "byType": "By file type",
+    "byTypeSub": "Grouped by extension",
+    "largest": "Largest files",
+    "recent": "Recently uploaded",
+    "noFiles": "No files.",
+    "rootFiles": "(files in this folder)"
+  },
+  "buckets": {
+    "title": "Buckets",
+    "count": {
+      "one": "{count} bucket",
+      "other": "{count} buckets"
+    },
+    "new": "New bucket",
+    "public": "Public",
+    "private": "Private",
+    "noCdn": "No CDN URL",
+    "emptyTitle": "No buckets yet",
+    "emptyText": "Create one to start uploading files.",
+    "s3Only": "Bucket settings and keys need the B2 native API. They’re turned off while an S3 endpoint override is set.",
+    "globalNames": "Bucket names are unique across the whole provider.",
+    "name": "Bucket name",
+    "nameRules": "6–50 characters: letters, digits and dashes.",
+    "visibility": "Visibility",
+    "created": "Bucket {name} created"
+  },
+  "settings": {
+    "title": "Bucket settings",
+    "needsNative": "Bucket settings use the B2 native API. Remove the S3_ENDPOINT override to turn them on.",
+    "visibility": "Visibility",
+    "visibilityText": "Public buckets serve files to anyone who has the URL. Private ones need signed links.",
+    "publicBucket": "Public bucket",
+    "publicOn": "Files can be downloaded by anyone with the URL.",
+    "publicOff": "Files are only reachable through signed links.",
+    "makePublicTitle": "Make this bucket public?",
+    "makePublicText": "Every file in the bucket becomes downloadable by anyone who knows its URL.",
+    "makePublic": "Make public",
+    "makePrivateTitle": "Make this bucket private?",
+    "makePrivateText": "Public URLs and your CDN stop working until you switch back.",
+    "makePrivate": "Make private",
+    "cdnBase": "CDN base URL (from CDN_URLS)",
+    "friendlyUrl": "Friendly URL",
+    "cdnHint": "Set CDN_URLS={bucket}=https://your-cdn to copy CDN links instead.",
+    "deleteTitle": "Delete bucket",
+    "deleteText": "Only empty buckets can be deleted. Delete every file (and version) first.",
+    "deleteConfirm": "Delete bucket {bucket}?",
+    "cannotUndo": "This can’t be undone.",
+    "deleted": "Bucket deleted"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Uploads go straight from your browser to storage, so the bucket must allow this app’s address.",
+    "allowed": "Uploads are allowed from {origin}.",
+    "notAllowed": "Uploads from {origin} aren’t allowed yet.",
+    "allow": "Allow uploads from here",
+    "editJson": "Edit JSON",
+    "closeEditor": "Close editor",
+    "mustBeArray": "Rules must be a JSON array.",
+    "save": "Save rules",
+    "none": "No CORS rules.",
+    "remove": "Remove rule"
+  },
+  "lifecycle": {
+    "title": "Lifecycle rules",
+    "text": "Hide files after a number of days, and delete hidden or old versions after a number of days. Leave a field empty for never.",
+    "keepLatest": "Keep only the last version",
+    "none": "No rules: every version of every file is kept forever.",
+    "prefix": "File name prefix",
+    "allFiles": "(all files)",
+    "hideAfter": "Hide after",
+    "deleteAfter": "Delete hidden after",
+    "days": "days",
+    "never": "never",
+    "remove": "Remove rule",
+    "add": "Add rule",
+    "needsNumber": "Each rule needs at least one number.",
+    "save": "Save rules"
+  },
+  "multipart": {
+    "title": "Unfinished large uploads",
+    "text": "Parts of interrupted uploads take up (billed) space until they’re canceled.",
+    "none": "Nothing unfinished.",
+    "cancel": "Cancel upload",
+    "cancelAll": "Cancel all",
+    "canceled": {
+      "one": "Canceled {count} upload",
+      "other": "Canceled {count} uploads"
+    },
+    "failed": {
+      "one": "{count} couldn’t be canceled",
+      "other": "{count} couldn’t be canceled"
+    }
+  },
+  "keys": {
+    "title": "Application keys",
+    "subtitle": "Keys for apps and scripts. A secret is shown only once, right after it’s created.",
+    "new": "New key",
+    "thisApp": "Used by this app",
+    "allCapabilities": "All capabilities",
+    "allBuckets": "All buckets",
+    "expires": "Expires {date}",
+    "never": "Never expires",
+    "emptyTitle": "No keys",
+    "delete": "Delete key",
+    "deleteTitle": "Delete key “{name}”?",
+    "deleteText": "Anything using this key stops working immediately.",
+    "deleted": "Key deleted",
+    "name": "Key name",
+    "nameRules": "Letters, digits and dashes.",
+    "bucket": "Bucket",
+    "prefix": "File name prefix",
+    "prefixNeedsBucket": "Choose a bucket first",
+    "days": "Valid for (days)",
+    "capabilities": "Capabilities",
+    "presetRead": "Read only",
+    "presetReadWrite": "Read & write",
+    "presetWrite": "Write only",
+    "presetAll": "Everything",
+    "create": "Create key",
+    "createdTitle": "Key created",
+    "createdNote": "Copy the secret now. It will never be shown again."
+  },
+  "errors": {
+    "network": "Can’t reach the server. Check your connection.",
+    "sessionExpired": "Your session has expired.",
+    "requestFailed": "Request failed ({status})",
+    "wrongPassword": "Wrong password",
+    "tooManyAttempts": "Too many attempts. Try again in {seconds} s.",
+    "invalidBucketName": "Invalid bucket name",
+    "bucketNameRules": "Bucket names are 6–50 characters: letters, digits and dashes, not starting with “b2-”.",
+    "keyNameRules": "Key names use only letters, digits and dashes.",
+    "pickCapability": "Pick at least one capability.",
+    "ownKey": "This app runs on that key, so it can’t be deleted here.",
+    "nativeApiRequired": "This needs the B2 native API (no S3_ENDPOINT override).",
+    "jobNotFound": "The operation was lost (the server may have restarted).",
+    "folderIntoItself": "A folder can’t be moved into itself.",
+    "deleteRoot": "Refusing to delete an empty key or the bucket root.",
+    "invalidSize": "Invalid file size",
+    "uploadFailed": "Upload failed ({status})",
+    "uploadCors": "Network or CORS error. Allow uploads in the bucket’s CORS settings.",
+    "etagMissing": "The storage didn’t expose the ETag header. Allow uploads in the bucket’s CORS settings.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD is not set.",
+      "secret": "SESSION_SECRET must be at least 32 characters.",
+      "b2": "B2_KEY_ID and B2_APP_KEY are not set."
+    }
+  }
+}

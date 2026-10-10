@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Peruuta",
+    "close": "Sulje",
+    "copied": "Kopioitu",
+    "copy": "Kopioi",
+    "create": "Luo",
+    "delete": "Poista",
+    "discard": "Hylkää",
+    "done": "Valmis",
+    "language": "Kieli",
+    "loading": "Ladataan…",
+    "more": "Lisää toimintoja",
+    "ok": "OK",
+    "refresh": "Päivitä",
+    "retry": "Yritä uudelleen",
+    "saved": "Tallennettu",
+    "typeToConfirm": "Vahvista kirjoittamalla {text}"
+  },
+  "login": {
+    "pageTitle": "Kirjaudu sisään · {app}",
+    "title": "Kirjaudu sisään",
+    "subtitle": "hallitaksesi tallennustilaasi sovelluksella {app}",
+    "password": "Salasana",
+    "showPassword": "Näytä salasana",
+    "hidePassword": "Piilota salasana",
+    "submit": "Kirjaudu sisään",
+    "note": "Tallennustilan avaimesi eivät koskaan poistu palvelimelta."
+  },
+  "setup": {
+    "title": "Tallennustilaan ei saada yhteyttä",
+    "noBuckets": "Tämä avain ei näe yhtään bucketia.",
+    "hint": "Tarkista ympäristömuuttujat ja käynnistä palvelin uudelleen."
+  },
+  "nav": {
+    "label": "Päänavigointi",
+    "menu": "Avaa navigointi",
+    "new": "Uusi",
+    "buckets": "Bucketit",
+    "refreshBuckets": "Päivitä bucketit",
+    "files": "Tiedostot",
+    "usage": "Käyttö",
+    "settings": "Asetukset",
+    "allBuckets": "Kaikki bucketit",
+    "bucketsShort": "Bucketit",
+    "keys": "Sovellusavaimet",
+    "keysShort": "Avaimet",
+    "appearance": "Ulkoasu",
+    "signOut": "Kirjaudu ulos"
+  },
+  "appearance": {
+    "title": "Ulkoasu",
+    "theme": "Teema",
+    "light": "Vaalea",
+    "dark": "Tumma",
+    "system": "Järjestelmä",
+    "color": "Väri",
+    "customColor": "Mukautettu väri",
+    "pickColor": "Valitse väri",
+    "seeds": {
+      "teal": "Sinivihreä",
+      "blue": "Sininen",
+      "indigo": "Indigo",
+      "green": "Vihreä",
+      "amber": "Meripihka",
+      "rose": "Ruusu",
+      "purple": "Violetti",
+      "gray": "Harmaa"
+    },
+    "style": "Tyyli",
+    "styleHint": "Kuinka voimakkaasti valittu väri sävyttää käyttöliittymää.",
+    "tonal": "Sävytetty",
+    "vibrant": "Eloisa",
+    "fidelity": "Uskollinen",
+    "contrast": "Kontrasti",
+    "standard": "Normaali",
+    "medium": "Keskitaso",
+    "high": "Korkea",
+    "density": "Tiheys",
+    "default": "Oletus",
+    "compact": "Tiivis",
+    "deviceNote": "Nämä asetukset tallennetaan vain tälle laitteelle."
+  },
+  "files": {
+    "title": "Tiedostot",
+    "path": "Kansion polku",
+    "view": "Näkymä",
+    "listView": "Luettelonäkymä",
+    "gridView": "Ruudukkonäkymä",
+    "searchBucket": "Hae kohteesta {bucket}",
+    "searchFolder": "Hae tästä kansiosta",
+    "clearSearch": "Tyhjennä haku",
+    "resultsFor": "Tulokset haulle ”{query}”",
+    "matches": {
+      "one": "{count} osuma",
+      "other": "{count} osumaa"
+    },
+    "limited": "rajoitettu",
+    "searchLimited": "Haku pysähtyy 500 tuloksen tai 50 000 käydyn tiedoston jälkeen. Rajaa hakua avaamalla alikansio.",
+    "folderCount": {
+      "one": "{count} kansio",
+      "other": "{count} kansiota"
+    },
+    "fileCount": {
+      "one": "{count} tiedosto",
+      "other": "{count} tiedostoa"
+    },
+    "folders": "Kansiot",
+    "files": "Tiedostot",
+    "name": "Nimi",
+    "size": "Koko",
+    "modified": "Muokattu",
+    "ascending": "Nouseva",
+    "descending": "Laskeva",
+    "selectAll": "Valitse kaikki",
+    "selectNone": "Poista valinnat",
+    "selectItem": "Valitse {name}",
+    "selected": {
+      "one": "{count} valittu",
+      "other": "{count} valittu"
+    },
+    "clearSelection": "Tyhjennä valinta",
+    "upload": "Lataa palvelimelle",
+    "uploadFiles": "Lataa tiedostoja",
+    "uploadFolder": "Lataa kansio",
+    "newFolder": "Uusi kansio",
+    "open": "Avaa",
+    "preview": "Esikatselu",
+    "copyUrl": "Kopioi julkinen URL",
+    "copyUrls": "Kopioi URL-osoitteet",
+    "copyPath": "Kopioi polku",
+    "shareLink": "Jaa linkki…",
+    "download": "Lataa",
+    "downloadN": {
+      "one": "Lataa {count} kohde",
+      "other": "Lataa {count} kohdetta"
+    },
+    "rename": "Nimeä uudelleen",
+    "moveOrCopy": "Siirrä tai kopioi",
+    "details": "Tiedot ja versiot",
+    "deleteN": {
+      "one": "Poista {count} kohde",
+      "other": "Poista {count} kohdetta"
+    },
+    "deleteOne": "Poistetaanko ”{name}”?",
+    "deleteMany": {
+      "one": "Poistetaanko {count} kohde?",
+      "other": "Poistetaanko {count} kohdetta?"
+    },
+    "deleteFoldersNote": "Kansiot poistetaan kaikkine sisältöineen.",
+    "deleteNote": "Kaikki versiot poistetaan, jotta tila todella vapautuu. Tätä ei voi kumota.",
+    "onlyHide": "Vain piilota (säilytä aiemmat versiot)",
+    "deleted": {
+      "one": "{count} objektiversio poistettu",
+      "other": "{count} objektiversiota poistettu"
+    },
+    "errorsOccurred": {
+      "one": "{count} virhe: {first}",
+      "other": "{count} virhettä: {first}"
+    },
+    "foldersSkipped": "Kansiot ohitetaan. Valitse ladattavat tiedostot.",
+    "noPublicUrls": "Ei julkisia URL-osoitteita: tämä bucket on yksityinen, eikä CDN:ää ole määritetty.",
+    "urlCopied": "URL kopioitu",
+    "urlsCopied": {
+      "one": "{count} URL kopioitu",
+      "other": "{count} URL-osoitetta kopioitu"
+    },
+    "pathCopied": "Polku kopioitu",
+    "emptyTitle": "Tämä kansio on tyhjä",
+    "emptyText": "Pudota tiedostoja tähän tai käytä latauspainiketta.",
+    "noMatches": "Haulla ”{query}” ei löytynyt mitään",
+    "noMatchesHint": "Haku kohdistuu nykyisen kansion tiedostonimiin.",
+    "loadMore": "Lataa lisää",
+    "dropToUpload": "Lataa pudottamalla"
+  },
+  "uploads": {
+    "title": "Lataukset",
+    "uploading": {
+      "one": "Ladataan {count} kohde",
+      "other": "Ladataan {count} kohdetta"
+    },
+    "failed": {
+      "one": "{count} lataus epäonnistui",
+      "other": "{count} latausta epäonnistui"
+    },
+    "complete": {
+      "one": "{count} lataus valmis",
+      "other": "{count} latausta valmis"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/s",
+    "queued": "Odottaa…",
+    "canceled": "Peruttu",
+    "cancelAll": "Peruuta kaikki",
+    "retry": "Yritä uudelleen",
+    "expand": "Laajenna",
+    "collapse": "Tiivistä"
+  },
+  "preview": {
+    "position": "{n} / {total}",
+    "openNewTab": "Avaa uudessa välilehdessä",
+    "previous": "Edellinen tiedosto",
+    "next": "Seuraava tiedosto",
+    "noPreview": "Tälle tiedostotyypille ei ole esikatselua",
+    "noPreviewHint": "Lataa se tai avaa sen tiedot.",
+    "truncated": "(näytetään ensimmäiset 256 kt)"
+  },
+  "newFolder": {
+    "name": "Kansion nimi",
+    "placeholder": "kuvat tai sisäkkäinen/polku",
+    "hint": "Tallennustilassa ei ole oikeita kansioita: tämä luo tyhjän ”{name}/”-merkinnän."
+  },
+  "rename": {
+    "fileTitle": "Nimeä tiedosto uudelleen",
+    "folderTitle": "Nimeä kansio uudelleen",
+    "fileNote": "Tiedosto kopioidaan uudelle nimelle, minkä jälkeen vanha poistetaan versiohistorioineen.",
+    "folderNote": "Kaikki sisältö kopioidaan uuteen polkuun, minkä jälkeen vanhat objektit poistetaan versiohistorioineen.",
+    "newName": "Uusi nimi",
+    "done": "Nimetty uudelleen: {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "Siirrä {count} kohde",
+      "other": "Siirrä {count} kohdetta"
+    },
+    "copyTitle": {
+      "one": "Kopioi {count} kohde",
+      "other": "Kopioi {count} kohdetta"
+    },
+    "mode": "Siirrä tai kopioi",
+    "move": "Siirrä",
+    "copy": "Kopioi",
+    "destination": "Kohdekansio",
+    "root": "(bucketin juuri)",
+    "noSubfolders": "Täällä ei ole alikansioita. Luo uusi kirjoittamalla polku yllä olevaan kenttään.",
+    "moveNote": "Siirtäminen poistaa alkuperäiset versiohistorioineen.",
+    "moveHere": "Siirrä tähän",
+    "copyHere": "Kopioi tähän",
+    "moved": {
+      "one": "{count} objekti siirretty",
+      "other": "{count} objektia siirretty"
+    },
+    "copied": {
+      "one": "{count} objekti kopioitu",
+      "other": "{count} objektia kopioitu"
+    },
+    "overwriteTitle": {
+      "one": "Korvataanko {count} olemassa oleva tiedosto?",
+      "other": "Korvataanko {count} olemassa olevaa tiedostoa?"
+    },
+    "overwriteText": "Nämä ovat jo kohteessa. Niiden nykyisestä sisällöstä tulee vanha versio.",
+    "andMore": {
+      "one": "…ja {count} muu",
+      "other": "…ja {count} muuta"
+    },
+    "overwrite": "Korvaa"
+  },
+  "share": {
+    "title": "Jaa tiedosto",
+    "publicUrl": "Julkinen URL",
+    "publicNote": "Tarjoillaan CDN:n tai julkisen bucketin kautta. Toimii niin kauan kuin tiedosto on olemassa.",
+    "privateNote": "Tämä bucket on yksityinen, eikä sille ole määritetty CDN-URL:ää, joten pysyvää linkkiä ei ole. Luo sen sijaan allekirjoitettu linkki.",
+    "signedLink": "Allekirjoitettu linkki",
+    "signedNote": "Kuka tahansa linkin saanut voi ladata tiedoston, kunnes linkki vanhenee.",
+    "expiresIn": "Vanhenee",
+    "hour": "1 tunnin kuluttua",
+    "day": "24 tunnin kuluttua",
+    "week": "7 päivän kuluttua",
+    "generate": "Luo linkki",
+    "expires": "Vanhenee {date}"
+  },
+  "info": {
+    "title": "Tiedot",
+    "path": "Polku",
+    "type": "Sisältötyyppi",
+    "bytes": {
+      "one": "{count} tavu",
+      "other": "{count} tavua"
+    },
+    "copyKey": "Kopioi avain",
+    "versions": "Versiot",
+    "oldBytes": "{size} vanhoissa versioissa",
+    "noVersions": "Versiohistoria ei ole käytettävissä tälle päätepisteelle.",
+    "current": "Nykyinen",
+    "hidden": "Piilotettu",
+    "deleteMarker": "poistomerkintä",
+    "downloadVersion": "Lataa tämä versio",
+    "restore": "Palauta",
+    "restoreTitle": "Palautetaanko tämä versio?",
+    "restoreText": "Se kopioidaan nykyisen tiedoston päälle uutena versiona.",
+    "restored": "Versio palautettu",
+    "deleteVersion": "Poista versio",
+    "deleteVersionTitle": "Poistetaanko tämä versio pysyvästi?",
+    "versionDeleted": "Versio poistettu"
+  },
+  "types": {
+    "image": "Kuvat",
+    "video": "Video",
+    "audio": "Ääni",
+    "document": "Asiakirjat",
+    "archive": "Arkistot",
+    "code": "Koodi ja data",
+    "font": "Fontit",
+    "other": "Muut"
+  },
+  "stats": {
+    "title": "Käyttö",
+    "wholeBucket": "Koko bucket",
+    "rescan": "Skannaa uudelleen",
+    "scanning": "Skannataan kaikkia objekteja…",
+    "scanned": {
+      "one": "{count} versio skannattu",
+      "other": "{count} versiota skannattu"
+    },
+    "scanSlow": "Suurissa bucketeissa tämä voi kestää muutaman minuutin.",
+    "scannedAt": "Skannattu {when}",
+    "cached": "välimuistissa",
+    "costNote": "Uudelleenskannaus listaa jokaisen objektiversion (noin yksi class C -kutsu 1 000 versiota kohden).",
+    "truncated": "Skannaus pysähtyi 2 000 000 versioon. Luvut ovat osittaisia.",
+    "totalBilled": "Laskutettu yhteensä",
+    "currentPlusOld": "Nykyiset tiedostot + vanhat versiot",
+    "hiddenFiles": {
+      "one": "sisältää {count} piilotetun tiedoston",
+      "other": "sisältää {count} piilotettua tiedostoa"
+    },
+    "stored": "Nykyiset tiedostot",
+    "oldVersions": "Vanhat versiot",
+    "versionsBilled": {
+      "one": "{count} versio, laskutetaan tallennustilana",
+      "other": "{count} versiota, laskutetaan tallennustilana"
+    },
+    "notAvailable": "Ei saatavilla",
+    "averageFile": "Keskimääräinen tiedosto",
+    "topLevel": {
+      "one": "{count} ylimmän tason kohde",
+      "other": "{count} ylimmän tason kohdetta"
+    },
+    "breakdown": "Mihin tila kuluu",
+    "oldWarning": "Vanhat versiot ja piilotetut tiedostot vievät {size}.",
+    "addRule": "Säilytä vain viimeisin versio",
+    "byFolder": "Kansioittain",
+    "byFolderSub": "Nykyiset tiedostot, ylin taso",
+    "byFolderSubPrefix": "Nykyiset tiedostot, tämän kansion ylin taso",
+    "more": {
+      "one": "+ {count} muu",
+      "other": "+ {count} muuta"
+    },
+    "byType": "Tiedostotyypeittäin",
+    "byTypeSub": "Ryhmitelty tiedostopäätteen mukaan",
+    "largest": "Suurimmat tiedostot",
+    "recent": "Äskettäin ladatut",
+    "noFiles": "Ei tiedostoja.",
+    "rootFiles": "(tämän kansion tiedostot)"
+  },
+  "buckets": {
+    "title": "Bucketit",
+    "count": {
+      "one": "{count} bucket",
+      "other": "{count} bucketia"
+    },
+    "new": "Uusi bucket",
+    "public": "Julkinen",
+    "private": "Yksityinen",
+    "noCdn": "Ei CDN-URL:ää",
+    "emptyTitle": "Ei vielä bucketeja",
+    "emptyText": "Luo bucket, niin voit alkaa ladata tiedostoja.",
+    "s3Only": "Bucket-asetukset ja avaimet vaativat B2:n natiivin API:n. Ne ovat pois käytöstä, kun mukautettu S3-päätepiste on asetettu.",
+    "globalNames": "Bucketien nimet ovat yksilöllisiä koko palveluntarjoajan laajuudessa.",
+    "name": "Bucketin nimi",
+    "nameRules": "6–50 merkkiä: kirjaimia, numeroita ja yhdysmerkkejä.",
+    "visibility": "Näkyvyys",
+    "created": "Bucket {name} luotu"
+  },
+  "settings": {
+    "title": "Bucket-asetukset",
+    "needsNative": "Bucket-asetukset käyttävät B2:n natiivia API:a. Ota ne käyttöön poistamalla S3_ENDPOINT.",
+    "visibility": "Näkyvyys",
+    "visibilityText": "Julkiset bucketit tarjoavat tiedostot kaikille, joilla on URL. Yksityiset vaativat allekirjoitetut linkit.",
+    "publicBucket": "Julkinen bucket",
+    "publicOn": "Kuka tahansa URL:n tietävä voi ladata tiedostot.",
+    "publicOff": "Tiedostoihin pääsee vain allekirjoitetuilla linkeillä.",
+    "makePublicTitle": "Tehdäänkö tästä bucketista julkinen?",
+    "makePublicText": "Kuka tahansa voi ladata bucketin minkä tahansa tiedoston, jos tietää sen URL:n.",
+    "makePublic": "Tee julkiseksi",
+    "makePrivateTitle": "Tehdäänkö tästä bucketista yksityinen?",
+    "makePrivateText": "Julkiset URL-osoitteet ja CDN lakkaavat toimimasta, kunnes vaihdat takaisin.",
+    "makePrivate": "Tee yksityiseksi",
+    "cdnBase": "CDN:n perus-URL (CDN_URLS-muuttujasta)",
+    "friendlyUrl": "Helppolukuinen URL",
+    "cdnHint": "Aseta CDN_URLS={bucket}=https://oma-cdn, niin kopioidaan CDN-linkit.",
+    "deleteTitle": "Poista bucket",
+    "deleteText": "Vain tyhjiä bucketeja voi poistaa. Poista ensin kaikki tiedostot (ja versiot).",
+    "deleteConfirm": "Poistetaanko bucket {bucket}?",
+    "cannotUndo": "Tätä ei voi kumota.",
+    "deleted": "Bucket poistettu"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Lataukset kulkevat suoraan selaimesta tallennustilaan, joten bucketin on sallittava tämän sovelluksen osoite.",
+    "allowed": "Lataukset sallitaan osoitteesta {origin}.",
+    "notAllowed": "Latauksia osoitteesta {origin} ei vielä sallita.",
+    "allow": "Salli lataukset täältä",
+    "editJson": "Muokkaa JSONia",
+    "closeEditor": "Sulje editori",
+    "mustBeArray": "Sääntöjen on oltava JSON-taulukko.",
+    "save": "Tallenna säännöt",
+    "none": "Ei CORS-sääntöjä.",
+    "remove": "Poista sääntö"
+  },
+  "lifecycle": {
+    "title": "Elinkaarisäännöt",
+    "text": "Piilota tiedostot ja poista piilotetut tai vanhat versiot, kun valittu määrä päiviä on kulunut. Jätä kenttä tyhjäksi, jos ei koskaan.",
+    "keepLatest": "Säilytä vain viimeisin versio",
+    "none": "Ei sääntöjä: jokaisen tiedoston kaikki versiot säilytetään ikuisesti.",
+    "prefix": "Tiedostonimen etuliite",
+    "allFiles": "(kaikki tiedostot)",
+    "hideAfter": "Piilota",
+    "deleteAfter": "Poista piilotetut",
+    "days": "päivän jälkeen",
+    "never": "ei koskaan",
+    "remove": "Poista sääntö",
+    "add": "Lisää sääntö",
+    "needsNumber": "Jokaisessa säännössä on oltava vähintään yksi luku.",
+    "save": "Tallenna säännöt"
+  },
+  "multipart": {
+    "title": "Keskeneräiset suuret lataukset",
+    "text": "Keskeytyneiden latausten osat vievät (laskutettavaa) tilaa, kunnes ne perutaan.",
+    "none": "Ei keskeneräisiä.",
+    "cancel": "Peruuta lataus",
+    "cancelAll": "Peruuta kaikki",
+    "canceled": {
+      "one": "{count} lataus peruttu",
+      "other": "{count} latausta peruttu"
+    },
+    "failed": {
+      "one": "{count} lataus jäi peruuttamatta",
+      "other": "{count} latausta jäi peruuttamatta"
+    }
+  },
+  "keys": {
+    "title": "Sovellusavaimet",
+    "subtitle": "Avaimet sovelluksille ja skripteille. Salaisuus näytetään vain kerran, heti luomisen jälkeen.",
+    "new": "Uusi avain",
+    "thisApp": "Tämän sovelluksen käytössä",
+    "allCapabilities": "Kaikki oikeudet",
+    "allBuckets": "Kaikki bucketit",
+    "expires": "Vanhenee {date}",
+    "never": "Ei vanhene",
+    "emptyTitle": "Ei avaimia",
+    "delete": "Poista avain",
+    "deleteTitle": "Poistetaanko avain ”{name}”?",
+    "deleteText": "Kaikki tätä avainta käyttävä lakkaa toimimasta heti.",
+    "deleted": "Avain poistettu",
+    "name": "Avaimen nimi",
+    "nameRules": "Kirjaimia, numeroita ja yhdysmerkkejä.",
+    "bucket": "Bucket",
+    "prefix": "Tiedostonimen etuliite",
+    "prefixNeedsBucket": "Valitse ensin bucket",
+    "days": "Voimassa (päivää)",
+    "capabilities": "Oikeudet",
+    "presetRead": "Vain luku",
+    "presetReadWrite": "Luku ja kirjoitus",
+    "presetWrite": "Vain kirjoitus",
+    "presetAll": "Kaikki",
+    "create": "Luo avain",
+    "createdTitle": "Avain luotu",
+    "createdNote": "Kopioi salaisuus nyt. Sitä ei näytetä enää koskaan."
+  },
+  "errors": {
+    "network": "Palvelimeen ei saada yhteyttä. Tarkista verkkoyhteys.",
+    "sessionExpired": "Istuntosi on vanhentunut.",
+    "requestFailed": "Pyyntö epäonnistui ({status})",
+    "wrongPassword": "Väärä salasana",
+    "tooManyAttempts": "Liian monta yritystä. Yritä uudelleen {seconds} s kuluttua.",
+    "invalidBucketName": "Virheellinen bucketin nimi",
+    "bucketNameRules": "Bucketin nimessä on 6–50 merkkiä: kirjaimia, numeroita ja yhdysmerkkejä, eikä se saa alkaa merkeillä ”b2-”.",
+    "keyNameRules": "Avainten nimissä saa olla vain kirjaimia, numeroita ja yhdysmerkkejä.",
+    "pickCapability": "Valitse vähintään yksi oikeus.",
+    "ownKey": "Tämä sovellus käyttää tätä avainta, joten sitä ei voi poistaa täällä.",
+    "nativeApiRequired": "Tämä vaatii B2:n natiivin API:n (ei S3_ENDPOINT-ohitusta).",
+    "jobNotFound": "Toiminto katosi (palvelin on ehkä käynnistynyt uudelleen).",
+    "folderIntoItself": "Kansiota ei voi siirtää itsensä sisään.",
+    "deleteRoot": "Tyhjää avainta tai bucketin juurta ei poisteta.",
+    "invalidSize": "Virheellinen tiedostokoko",
+    "uploadFailed": "Lataus epäonnistui ({status})",
+    "uploadCors": "Verkko- tai CORS-virhe. Salli lataukset bucketin CORS-asetuksissa.",
+    "etagMissing": "Tallennustila ei paljastanut ETag-otsaketta. Salli lataukset bucketin CORS-asetuksissa.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD-muuttujaa ei ole asetettu.",
+      "secret": "SESSION_SECRET-arvossa on oltava vähintään 32 merkkiä.",
+      "b2": "B2_KEY_ID- ja B2_APP_KEY-muuttujia ei ole asetettu."
+    }
+  }
+}

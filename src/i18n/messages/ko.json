@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "취소",
+    "close": "닫기",
+    "copied": "복사됨",
+    "copy": "복사",
+    "create": "만들기",
+    "delete": "삭제",
+    "discard": "변경 취소",
+    "done": "완료",
+    "language": "언어",
+    "loading": "로드 중…",
+    "more": "작업 더보기",
+    "ok": "확인",
+    "refresh": "새로고침",
+    "retry": "다시 시도",
+    "saved": "저장됨",
+    "typeToConfirm": "확인하려면 {text}을(를) 입력하세요"
+  },
+  "login": {
+    "pageTitle": "로그인 · {app}",
+    "title": "로그인",
+    "subtitle": "{app}에서 스토리지를 관리하려면",
+    "password": "비밀번호",
+    "showPassword": "비밀번호 표시",
+    "hidePassword": "비밀번호 숨기기",
+    "submit": "로그인",
+    "note": "스토리지 키는 서버 밖으로 나가지 않습니다."
+  },
+  "setup": {
+    "title": "스토리지에 연결할 수 없음",
+    "noBuckets": "이 키로 볼 수 있는 버킷이 없습니다.",
+    "hint": "환경 변수를 확인하고 서버를 다시 시작하세요."
+  },
+  "nav": {
+    "label": "기본 탐색",
+    "menu": "탐색 메뉴 열기",
+    "new": "새로 만들기",
+    "buckets": "버킷",
+    "refreshBuckets": "버킷 새로고침",
+    "files": "파일",
+    "usage": "사용량",
+    "settings": "설정",
+    "allBuckets": "모든 버킷",
+    "bucketsShort": "버킷",
+    "keys": "애플리케이션 키",
+    "keysShort": "키",
+    "appearance": "모양",
+    "signOut": "로그아웃"
+  },
+  "appearance": {
+    "title": "모양",
+    "theme": "테마",
+    "light": "밝게",
+    "dark": "어둡게",
+    "system": "시스템",
+    "color": "색상",
+    "customColor": "사용자 지정 색상",
+    "pickColor": "색상 선택",
+    "seeds": {
+      "teal": "청록",
+      "blue": "파랑",
+      "indigo": "인디고",
+      "green": "초록",
+      "amber": "호박색",
+      "rose": "장미색",
+      "purple": "보라",
+      "gray": "회색"
+    },
+    "style": "스타일",
+    "styleHint": "선택한 색상이 인터페이스를 물들이는 정도입니다.",
+    "tonal": "균형",
+    "vibrant": "선명",
+    "fidelity": "원색 충실",
+    "contrast": "대비",
+    "standard": "표준",
+    "medium": "중간",
+    "high": "높음",
+    "density": "밀도",
+    "default": "기본",
+    "compact": "좁게",
+    "deviceNote": "이 설정은 이 기기에만 저장됩니다."
+  },
+  "files": {
+    "title": "파일",
+    "path": "폴더 경로",
+    "view": "보기",
+    "listView": "목록 보기",
+    "gridView": "격자 보기",
+    "searchBucket": "{bucket}에서 검색",
+    "searchFolder": "이 폴더에서 검색",
+    "clearSearch": "검색어 지우기",
+    "resultsFor": "‘{query}’ 검색 결과",
+    "matches": {
+      "one": "결과 {count}개",
+      "other": "결과 {count}개"
+    },
+    "limited": "제한됨",
+    "searchLimited": "검색은 결과 500개 또는 파일 50,000개를 확인하면 중단됩니다. 하위 폴더를 열어 범위를 좁히세요.",
+    "folderCount": {
+      "one": "폴더 {count}개",
+      "other": "폴더 {count}개"
+    },
+    "fileCount": {
+      "one": "파일 {count}개",
+      "other": "파일 {count}개"
+    },
+    "folders": "폴더",
+    "files": "파일",
+    "name": "이름",
+    "size": "크기",
+    "modified": "수정한 날짜",
+    "ascending": "오름차순",
+    "descending": "내림차순",
+    "selectAll": "모두 선택",
+    "selectNone": "선택 안함",
+    "selectItem": "{name} 선택",
+    "selected": {
+      "one": "{count}개 선택됨",
+      "other": "{count}개 선택됨"
+    },
+    "clearSelection": "선택 해제",
+    "upload": "업로드",
+    "uploadFiles": "파일 업로드",
+    "uploadFolder": "폴더 업로드",
+    "newFolder": "새 폴더",
+    "open": "열기",
+    "preview": "미리보기",
+    "copyUrl": "공개 URL 복사",
+    "copyUrls": "URL 복사",
+    "copyPath": "경로 복사",
+    "shareLink": "링크 공유…",
+    "download": "다운로드",
+    "downloadN": {
+      "one": "항목 {count}개 다운로드",
+      "other": "항목 {count}개 다운로드"
+    },
+    "rename": "이름 바꾸기",
+    "moveOrCopy": "이동 또는 복사",
+    "details": "세부정보 및 버전",
+    "deleteN": {
+      "one": "항목 {count}개 삭제",
+      "other": "항목 {count}개 삭제"
+    },
+    "deleteOne": "‘{name}’을(를) 삭제하시겠습니까?",
+    "deleteMany": {
+      "one": "항목 {count}개를 삭제하시겠습니까?",
+      "other": "항목 {count}개를 삭제하시겠습니까?"
+    },
+    "deleteFoldersNote": "폴더는 안의 모든 항목과 함께 삭제됩니다.",
+    "deleteNote": "공간이 실제로 확보되도록 모든 버전이 삭제됩니다. 이 작업은 되돌릴 수 없습니다.",
+    "onlyHide": "숨기기만 하기(이전 버전 유지)",
+    "deleted": {
+      "one": "객체 버전 {count}개를 삭제했습니다",
+      "other": "객체 버전 {count}개를 삭제했습니다"
+    },
+    "errorsOccurred": {
+      "one": "오류 {count}개: {first}",
+      "other": "오류 {count}개: {first}"
+    },
+    "foldersSkipped": "폴더는 건너뜁니다. 다운로드할 파일을 선택하세요.",
+    "noPublicUrls": "공개 URL 없음: 이 버킷은 비공개이며 CDN이 구성되어 있지 않습니다.",
+    "urlCopied": "URL을 복사했습니다",
+    "urlsCopied": {
+      "one": "URL {count}개를 복사했습니다",
+      "other": "URL {count}개를 복사했습니다"
+    },
+    "pathCopied": "경로를 복사했습니다",
+    "emptyTitle": "이 폴더는 비어 있습니다",
+    "emptyText": "여기에 파일을 놓거나 업로드를 사용하세요.",
+    "noMatches": "‘{query}’와(과) 일치하는 항목이 없습니다",
+    "noMatchesHint": "현재 폴더 아래의 파일 이름을 검색합니다.",
+    "loadMore": "더 불러오기",
+    "dropToUpload": "놓아서 업로드"
+  },
+  "uploads": {
+    "title": "업로드",
+    "uploading": {
+      "one": "항목 {count}개 업로드 중",
+      "other": "항목 {count}개 업로드 중"
+    },
+    "failed": {
+      "one": "업로드 {count}개 실패",
+      "other": "업로드 {count}개 실패"
+    },
+    "complete": {
+      "one": "업로드 {count}개 완료",
+      "other": "업로드 {count}개 완료"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/s",
+    "queued": "대기 중…",
+    "canceled": "취소됨",
+    "cancelAll": "모두 취소",
+    "retry": "다시 시도",
+    "expand": "펼치기",
+    "collapse": "접기"
+  },
+  "preview": {
+    "position": "{n} / {total}",
+    "openNewTab": "새 탭에서 열기",
+    "previous": "이전 파일",
+    "next": "다음 파일",
+    "noPreview": "이 파일 형식은 미리 볼 수 없습니다",
+    "noPreviewHint": "다운로드하거나 세부정보를 여세요.",
+    "truncated": "(처음 256KB만 표시)"
+  },
+  "newFolder": {
+    "name": "폴더 이름",
+    "placeholder": "images 또는 nested/path",
+    "hint": "스토리지에는 실제 폴더가 없으므로 빈 ‘{name}/’ 마커를 만듭니다."
+  },
+  "rename": {
+    "fileTitle": "파일 이름 바꾸기",
+    "folderTitle": "폴더 이름 바꾸기",
+    "fileNote": "파일을 새 이름으로 복사한 다음 기존 파일을 버전 기록과 함께 삭제합니다.",
+    "folderNote": "안의 모든 항목을 새 경로로 복사한 다음 기존 객체를 버전 기록과 함께 삭제합니다.",
+    "newName": "새 이름",
+    "done": "{name}(으)로 이름을 바꿨습니다"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "항목 {count}개 이동",
+      "other": "항목 {count}개 이동"
+    },
+    "copyTitle": {
+      "one": "항목 {count}개 복사",
+      "other": "항목 {count}개 복사"
+    },
+    "mode": "이동 또는 복사",
+    "move": "이동",
+    "copy": "복사",
+    "destination": "대상 폴더",
+    "root": "(버킷 루트)",
+    "noSubfolders": "하위 폴더가 없습니다. 위에 새 경로를 입력하면 만들어집니다.",
+    "moveNote": "이동하면 원본이 버전 기록과 함께 삭제됩니다.",
+    "moveHere": "여기로 이동",
+    "copyHere": "여기로 복사",
+    "moved": {
+      "one": "객체 {count}개를 이동했습니다",
+      "other": "객체 {count}개를 이동했습니다"
+    },
+    "copied": {
+      "one": "객체 {count}개를 복사했습니다",
+      "other": "객체 {count}개를 복사했습니다"
+    },
+    "overwriteTitle": {
+      "one": "기존 파일 {count}개를 덮어쓰시겠습니까?",
+      "other": "기존 파일 {count}개를 덮어쓰시겠습니까?"
+    },
+    "overwriteText": "대상에 이미 있는 파일입니다. 현재 내용은 이전 버전이 됩니다.",
+    "andMore": {
+      "one": "…외 {count}개",
+      "other": "…외 {count}개"
+    },
+    "overwrite": "덮어쓰기"
+  },
+  "share": {
+    "title": "파일 공유",
+    "publicUrl": "공개 URL",
+    "publicNote": "CDN 또는 공개 버킷을 통해 제공됩니다. 파일이 있는 동안 계속 작동합니다.",
+    "privateNote": "이 버킷은 비공개이고 CDN URL이 구성되어 있지 않아 영구 링크가 없습니다. 대신 서명된 링크를 만드세요.",
+    "signedLink": "서명된 링크",
+    "signedNote": "링크가 있는 사람은 누구나 만료될 때까지 파일을 다운로드할 수 있습니다.",
+    "expiresIn": "만료 기간",
+    "hour": "1시간",
+    "day": "24시간",
+    "week": "7일",
+    "generate": "링크 만들기",
+    "expires": "{date}에 만료"
+  },
+  "info": {
+    "title": "세부정보",
+    "path": "경로",
+    "type": "콘텐츠 유형",
+    "bytes": {
+      "one": "{count}바이트",
+      "other": "{count}바이트"
+    },
+    "copyKey": "키 복사",
+    "versions": "버전",
+    "oldBytes": "이전 버전 {size}",
+    "noVersions": "이 엔드포인트에서는 버전 기록을 사용할 수 없습니다.",
+    "current": "현재",
+    "hidden": "숨김",
+    "deleteMarker": "삭제 마커",
+    "downloadVersion": "이 버전 다운로드",
+    "restore": "복원",
+    "restoreTitle": "이 버전을 복원하시겠습니까?",
+    "restoreText": "현재 파일 위에 새 버전으로 복사됩니다.",
+    "restored": "버전을 복원했습니다",
+    "deleteVersion": "버전 삭제",
+    "deleteVersionTitle": "이 버전을 영구적으로 삭제하시겠습니까?",
+    "versionDeleted": "버전을 삭제했습니다"
+  },
+  "types": {
+    "image": "이미지",
+    "video": "동영상",
+    "audio": "오디오",
+    "document": "문서",
+    "archive": "압축 파일",
+    "code": "코드 및 데이터",
+    "font": "글꼴",
+    "other": "기타"
+  },
+  "stats": {
+    "title": "사용량",
+    "wholeBucket": "전체 버킷",
+    "rescan": "다시 스캔",
+    "scanning": "모든 객체를 스캔하는 중…",
+    "scanned": {
+      "one": "버전 {count}개 스캔됨",
+      "other": "버전 {count}개 스캔됨"
+    },
+    "scanSlow": "큰 버킷은 몇 분 정도 걸릴 수 있습니다.",
+    "scannedAt": "{when} 스캔함",
+    "cached": "캐시됨",
+    "costNote": "다시 스캔하면 모든 객체 버전을 나열합니다(버전 1,000개당 class C 호출 약 1회).",
+    "truncated": "스캔이 버전 2,000,000개에서 중단되었습니다. 이 수치는 일부입니다.",
+    "totalBilled": "총 청구량",
+    "currentPlusOld": "현재 파일 + 이전 버전",
+    "hiddenFiles": {
+      "one": "숨겨진 파일 {count}개 포함",
+      "other": "숨겨진 파일 {count}개 포함"
+    },
+    "stored": "현재 파일",
+    "oldVersions": "이전 버전",
+    "versionsBilled": {
+      "one": "버전 {count}개, 스토리지로 청구됨",
+      "other": "버전 {count}개, 스토리지로 청구됨"
+    },
+    "notAvailable": "사용할 수 없음",
+    "averageFile": "평균 파일 크기",
+    "topLevel": {
+      "one": "최상위 항목 {count}개",
+      "other": "최상위 항목 {count}개"
+    },
+    "breakdown": "공간 사용 내역",
+    "oldWarning": "이전 버전과 숨겨진 파일이 {size}를 차지하고 있습니다.",
+    "addRule": "마지막 버전만 유지",
+    "byFolder": "폴더별",
+    "byFolderSub": "현재 파일, 최상위",
+    "byFolderSubPrefix": "현재 파일, 이 폴더의 최상위",
+    "more": {
+      "one": "+ {count}개 더",
+      "other": "+ {count}개 더"
+    },
+    "byType": "파일 형식별",
+    "byTypeSub": "확장자별로 그룹화",
+    "largest": "가장 큰 파일",
+    "recent": "최근 업로드",
+    "noFiles": "파일이 없습니다.",
+    "rootFiles": "(이 폴더의 파일)"
+  },
+  "buckets": {
+    "title": "버킷",
+    "count": {
+      "one": "버킷 {count}개",
+      "other": "버킷 {count}개"
+    },
+    "new": "새 버킷",
+    "public": "공개",
+    "private": "비공개",
+    "noCdn": "CDN URL 없음",
+    "emptyTitle": "아직 버킷이 없습니다",
+    "emptyText": "버킷을 만들어 파일 업로드를 시작하세요.",
+    "s3Only": "버킷 설정과 키에는 B2 네이티브 API가 필요합니다. S3 엔드포인트 재정의가 설정된 동안에는 사용할 수 없습니다.",
+    "globalNames": "버킷 이름은 제공업체 전체에서 고유해야 합니다.",
+    "name": "버킷 이름",
+    "nameRules": "6–50자: 영문자, 숫자, 하이픈",
+    "visibility": "공개 범위",
+    "created": "{name} 버킷을 만들었습니다"
+  },
+  "settings": {
+    "title": "버킷 설정",
+    "needsNative": "버킷 설정은 B2 네이티브 API를 사용합니다. 사용하려면 S3_ENDPOINT 재정의를 제거하세요.",
+    "visibility": "공개 범위",
+    "visibilityText": "공개 버킷은 URL이 있는 누구에게나 파일을 제공합니다. 비공개 버킷은 서명된 링크가 필요합니다.",
+    "publicBucket": "공개 버킷",
+    "publicOn": "URL이 있는 누구나 파일을 다운로드할 수 있습니다.",
+    "publicOff": "서명된 링크로만 파일에 접근할 수 있습니다.",
+    "makePublicTitle": "이 버킷을 공개로 전환하시겠습니까?",
+    "makePublicText": "버킷의 모든 파일을 URL을 아는 누구나 다운로드할 수 있게 됩니다.",
+    "makePublic": "공개로 전환",
+    "makePrivateTitle": "이 버킷을 비공개로 전환하시겠습니까?",
+    "makePrivateText": "다시 전환할 때까지 공개 URL과 CDN이 작동하지 않습니다.",
+    "makePrivate": "비공개로 전환",
+    "cdnBase": "CDN 기본 URL(CDN_URLS 값)",
+    "friendlyUrl": "친숙한 URL",
+    "cdnHint": "CDN 링크를 대신 복사하려면 CDN_URLS={bucket}=https://your-cdn을 설정하세요.",
+    "deleteTitle": "버킷 삭제",
+    "deleteText": "빈 버킷만 삭제할 수 있습니다. 먼저 모든 파일(및 버전)을 삭제하세요.",
+    "deleteConfirm": "{bucket} 버킷을 삭제하시겠습니까?",
+    "cannotUndo": "이 작업은 되돌릴 수 없습니다.",
+    "deleted": "버킷을 삭제했습니다"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "업로드는 브라우저에서 스토리지로 바로 전송되므로 버킷에서 이 앱의 주소를 허용해야 합니다.",
+    "allowed": "{origin}에서 업로드가 허용됩니다.",
+    "notAllowed": "{origin}에서의 업로드가 아직 허용되지 않았습니다.",
+    "allow": "여기에서 업로드 허용",
+    "editJson": "JSON 편집",
+    "closeEditor": "편집기 닫기",
+    "mustBeArray": "규칙은 JSON 배열이어야 합니다.",
+    "save": "규칙 저장",
+    "none": "CORS 규칙이 없습니다.",
+    "remove": "규칙 삭제"
+  },
+  "lifecycle": {
+    "title": "수명 주기 규칙",
+    "text": "지정한 일수가 지나면 파일을 숨기고, 숨겨진 버전이나 이전 버전을 지정한 일수 후에 삭제합니다. 필드를 비워 두면 적용하지 않습니다.",
+    "keepLatest": "마지막 버전만 유지",
+    "none": "규칙 없음: 모든 파일의 모든 버전이 영구 보관됩니다.",
+    "prefix": "파일 이름 접두사",
+    "allFiles": "(모든 파일)",
+    "hideAfter": "숨기기까지",
+    "deleteAfter": "숨긴 후 삭제까지",
+    "days": "일",
+    "never": "안함",
+    "remove": "규칙 삭제",
+    "add": "규칙 추가",
+    "needsNumber": "각 규칙에는 숫자가 하나 이상 있어야 합니다.",
+    "save": "규칙 저장"
+  },
+  "multipart": {
+    "title": "완료되지 않은 대용량 업로드",
+    "text": "중단된 업로드의 파트는 취소될 때까지 (요금이 청구되는) 공간을 차지합니다.",
+    "none": "완료되지 않은 업로드가 없습니다.",
+    "cancel": "업로드 취소",
+    "cancelAll": "모두 취소",
+    "canceled": {
+      "one": "업로드 {count}개를 취소했습니다",
+      "other": "업로드 {count}개를 취소했습니다"
+    },
+    "failed": {
+      "one": "{count}개를 취소하지 못했습니다",
+      "other": "{count}개를 취소하지 못했습니다"
+    }
+  },
+  "keys": {
+    "title": "애플리케이션 키",
+    "subtitle": "앱과 스크립트용 키입니다. 비밀 키는 만든 직후 한 번만 표시됩니다.",
+    "new": "새 키",
+    "thisApp": "이 앱에서 사용 중",
+    "allCapabilities": "모든 권한",
+    "allBuckets": "모든 버킷",
+    "expires": "{date}에 만료",
+    "never": "만료 없음",
+    "emptyTitle": "키가 없습니다",
+    "delete": "키 삭제",
+    "deleteTitle": "‘{name}’ 키를 삭제하시겠습니까?",
+    "deleteText": "이 키를 사용하는 모든 항목이 즉시 작동을 멈춥니다.",
+    "deleted": "키를 삭제했습니다",
+    "name": "키 이름",
+    "nameRules": "영문자, 숫자, 하이픈",
+    "bucket": "버킷",
+    "prefix": "파일 이름 접두사",
+    "prefixNeedsBucket": "먼저 버킷을 선택하세요",
+    "days": "유효 기간(일)",
+    "capabilities": "권한",
+    "presetRead": "읽기 전용",
+    "presetReadWrite": "읽기 및 쓰기",
+    "presetWrite": "쓰기 전용",
+    "presetAll": "모두",
+    "create": "키 만들기",
+    "createdTitle": "키를 만들었습니다",
+    "createdNote": "지금 비밀 키를 복사하세요. 다시는 표시되지 않습니다."
+  },
+  "errors": {
+    "network": "서버에 연결할 수 없습니다. 연결 상태를 확인하세요.",
+    "sessionExpired": "세션이 만료되었습니다.",
+    "requestFailed": "요청 실패({status})",
+    "wrongPassword": "비밀번호가 올바르지 않습니다",
+    "tooManyAttempts": "시도 횟수가 너무 많습니다. {seconds}초 후에 다시 시도하세요.",
+    "invalidBucketName": "잘못된 버킷 이름",
+    "bucketNameRules": "버킷 이름은 6–50자의 영문자, 숫자, 하이픈으로 구성되며 ‘b2-’로 시작할 수 없습니다.",
+    "keyNameRules": "키 이름에는 영문자, 숫자, 하이픈만 사용할 수 있습니다.",
+    "pickCapability": "권한을 하나 이상 선택하세요.",
+    "ownKey": "이 앱이 해당 키로 실행 중이므로 여기에서 삭제할 수 없습니다.",
+    "nativeApiRequired": "B2 네이티브 API가 필요합니다(S3_ENDPOINT 재정의 없음).",
+    "jobNotFound": "작업이 유실되었습니다(서버가 다시 시작되었을 수 있음).",
+    "folderIntoItself": "폴더를 자기 자신 안으로 이동할 수 없습니다.",
+    "deleteRoot": "빈 키 또는 버킷 루트는 삭제할 수 없습니다.",
+    "invalidSize": "잘못된 파일 크기",
+    "uploadFailed": "업로드 실패({status})",
+    "uploadCors": "네트워크 또는 CORS 오류입니다. 버킷의 CORS 설정에서 업로드를 허용하세요.",
+    "etagMissing": "스토리지가 ETag 헤더를 노출하지 않았습니다. 버킷의 CORS 설정에서 업로드를 허용하세요.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD가 설정되지 않았습니다.",
+      "secret": "SESSION_SECRET은 32자 이상이어야 합니다.",
+      "b2": "B2_KEY_ID와 B2_APP_KEY가 설정되지 않았습니다."
+    }
+  }
+}

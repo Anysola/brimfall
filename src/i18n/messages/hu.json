@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Mégse",
+    "close": "Bezárás",
+    "copied": "Másolva",
+    "copy": "Másolás",
+    "create": "Létrehozás",
+    "delete": "Törlés",
+    "discard": "Elvetés",
+    "done": "Kész",
+    "language": "Nyelv",
+    "loading": "Betöltés…",
+    "more": "További műveletek",
+    "ok": "OK",
+    "refresh": "Frissítés",
+    "retry": "Újra",
+    "saved": "Mentve",
+    "typeToConfirm": "A megerősítéshez írd be: {text}"
+  },
+  "login": {
+    "pageTitle": "Bejelentkezés · {app}",
+    "title": "Bejelentkezés",
+    "subtitle": "a tárhelyed kezeléséhez a(z) {app} alkalmazásban",
+    "password": "Jelszó",
+    "showPassword": "Jelszó megjelenítése",
+    "hidePassword": "Jelszó elrejtése",
+    "submit": "Bejelentkezés",
+    "note": "A tárhelykulcsaid soha nem hagyják el a szervert."
+  },
+  "setup": {
+    "title": "A tárhely nem érhető el",
+    "noBuckets": "Ez a kulcs egyetlen tárolót sem lát.",
+    "hint": "Ellenőrizd a környezeti változókat, és indítsd újra a szervert."
+  },
+  "nav": {
+    "label": "Fő navigáció",
+    "menu": "Navigáció megnyitása",
+    "new": "Új",
+    "buckets": "Tárolók",
+    "refreshBuckets": "Tárolók frissítése",
+    "files": "Fájlok",
+    "usage": "Használat",
+    "settings": "Beállítások",
+    "allBuckets": "Összes tároló",
+    "bucketsShort": "Tárolók",
+    "keys": "Alkalmazáskulcsok",
+    "keysShort": "Kulcsok",
+    "appearance": "Megjelenés",
+    "signOut": "Kijelentkezés"
+  },
+  "appearance": {
+    "title": "Megjelenés",
+    "theme": "Téma",
+    "light": "Világos",
+    "dark": "Sötét",
+    "system": "Rendszer",
+    "color": "Szín",
+    "customColor": "Egyéni szín",
+    "pickColor": "Szín választása",
+    "seeds": {
+      "teal": "Pávakék",
+      "blue": "Kék",
+      "indigo": "Indigó",
+      "green": "Zöld",
+      "amber": "Borostyán",
+      "rose": "Rózsa",
+      "purple": "Lila",
+      "gray": "Szürke"
+    },
+    "style": "Stílus",
+    "styleHint": "Mennyire színezi a választott szín a felületet.",
+    "tonal": "Kiegyensúlyozott",
+    "vibrant": "Élénk",
+    "fidelity": "Hű",
+    "contrast": "Kontraszt",
+    "standard": "Normál",
+    "medium": "Közepes",
+    "high": "Magas",
+    "density": "Sűrűség",
+    "default": "Alapértelmezett",
+    "compact": "Kompakt",
+    "deviceNote": "Ezek a beállítások csak ezen az eszközön lesznek mentve."
+  },
+  "files": {
+    "title": "Fájlok",
+    "path": "Mappa elérési útja",
+    "view": "Nézet",
+    "listView": "Listanézet",
+    "gridView": "Rácsnézet",
+    "searchBucket": "Keresés itt: {bucket}",
+    "searchFolder": "Keresés ebben a mappában",
+    "clearSearch": "Keresés törlése",
+    "resultsFor": "Találatok erre: „{query}”",
+    "matches": {
+      "one": "{count} találat",
+      "other": "{count} találat"
+    },
+    "limited": "korlátozott",
+    "searchLimited": "A keresés 500 találat vagy 50 000 átvizsgált fájl után leáll. Szűkítsd egy almappa megnyitásával.",
+    "folderCount": {
+      "one": "{count} mappa",
+      "other": "{count} mappa"
+    },
+    "fileCount": {
+      "one": "{count} fájl",
+      "other": "{count} fájl"
+    },
+    "folders": "Mappák",
+    "files": "Fájlok",
+    "name": "Név",
+    "size": "Méret",
+    "modified": "Módosítva",
+    "ascending": "Növekvő",
+    "descending": "Csökkenő",
+    "selectAll": "Összes kijelölése",
+    "selectNone": "Kijelölés megszüntetése",
+    "selectItem": "{name} kijelölése",
+    "selected": {
+      "one": "{count} kijelölve",
+      "other": "{count} kijelölve"
+    },
+    "clearSelection": "Kijelölés törlése",
+    "upload": "Feltöltés",
+    "uploadFiles": "Fájlok feltöltése",
+    "uploadFolder": "Mappa feltöltése",
+    "newFolder": "Új mappa",
+    "open": "Megnyitás",
+    "preview": "Előnézet",
+    "copyUrl": "Nyilvános URL másolása",
+    "copyUrls": "URL-ek másolása",
+    "copyPath": "Elérési út másolása",
+    "shareLink": "Link megosztása…",
+    "download": "Letöltés",
+    "downloadN": {
+      "one": "{count} elem letöltése",
+      "other": "{count} elem letöltése"
+    },
+    "rename": "Átnevezés",
+    "moveOrCopy": "Áthelyezés vagy másolás",
+    "details": "Részletek és verziók",
+    "deleteN": {
+      "one": "{count} elem törlése",
+      "other": "{count} elem törlése"
+    },
+    "deleteOne": "Törlöd: „{name}”?",
+    "deleteMany": {
+      "one": "Törölsz {count} elemet?",
+      "other": "Törölsz {count} elemet?"
+    },
+    "deleteFoldersNote": "A mappák a teljes tartalmukkal együtt törlődnek.",
+    "deleteNote": "Minden verzió törlődik, így a hely ténylegesen felszabadul. Ez nem vonható vissza.",
+    "onlyHide": "Csak elrejtés (a korábbi verziók megmaradnak)",
+    "deleted": {
+      "one": "{count} objektumverzió törölve",
+      "other": "{count} objektumverzió törölve"
+    },
+    "errorsOccurred": {
+      "one": "{count} hiba: {first}",
+      "other": "{count} hiba: {first}"
+    },
+    "foldersSkipped": "A mappák kimaradnak. Jelölj ki fájlokat a letöltéshez.",
+    "noPublicUrls": "Nincs nyilvános URL: ez a tároló privát, és nincs hozzá CDN beállítva.",
+    "urlCopied": "URL másolva",
+    "urlsCopied": {
+      "one": "{count} URL másolva",
+      "other": "{count} URL másolva"
+    },
+    "pathCopied": "Elérési út másolva",
+    "emptyTitle": "Ez a mappa üres",
+    "emptyText": "Húzz ide fájlokat, vagy használd a Feltöltés gombot.",
+    "noMatches": "Nincs találat erre: „{query}”",
+    "noMatchesHint": "A keresés az aktuális mappában lévő fájlnevekben keres.",
+    "loadMore": "Továbbiak betöltése",
+    "dropToUpload": "Engedd el a feltöltéshez"
+  },
+  "uploads": {
+    "title": "Feltöltések",
+    "uploading": {
+      "one": "{count} elem feltöltése",
+      "other": "{count} elem feltöltése"
+    },
+    "failed": {
+      "one": "{count} feltöltés sikertelen",
+      "other": "{count} feltöltés sikertelen"
+    },
+    "complete": {
+      "one": "{count} feltöltés kész",
+      "other": "{count} feltöltés kész"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/s",
+    "queued": "Várakozás…",
+    "canceled": "Megszakítva",
+    "cancelAll": "Összes megszakítása",
+    "retry": "Újra",
+    "expand": "Kibontás",
+    "collapse": "Összecsukás"
+  },
+  "preview": {
+    "position": "{n} / {total}",
+    "openNewTab": "Megnyitás új lapon",
+    "previous": "Előző fájl",
+    "next": "Következő fájl",
+    "noPreview": "Ehhez a fájltípushoz nincs előnézet",
+    "noPreviewHint": "Töltsd le, vagy nyisd meg a részleteit.",
+    "truncated": "(az első 256 KB látható)"
+  },
+  "newFolder": {
+    "name": "Mappa neve",
+    "placeholder": "images vagy nested/path",
+    "hint": "A tárhelyen nincsenek valódi mappák: ez egy üres „{name}/” jelölőt hoz létre."
+  },
+  "rename": {
+    "fileTitle": "Fájl átnevezése",
+    "folderTitle": "Mappa átnevezése",
+    "fileNote": "A fájl az új néven másolódik, majd a régi a verzióelőzményeivel együtt törlődik.",
+    "folderNote": "A teljes tartalom az új útvonalra másolódik, majd a régi objektumok a verzióelőzményeikkel együtt törlődnek.",
+    "newName": "Új név",
+    "done": "Átnevezve erre: {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "{count} elem áthelyezése",
+      "other": "{count} elem áthelyezése"
+    },
+    "copyTitle": {
+      "one": "{count} elem másolása",
+      "other": "{count} elem másolása"
+    },
+    "mode": "Áthelyezés vagy másolás",
+    "move": "Áthelyezés",
+    "copy": "Másolás",
+    "destination": "Célmappa",
+    "root": "(tároló gyökere)",
+    "noSubfolders": "Itt nincsenek almappák. A létrehozáshoz írj be fent egy új útvonalat.",
+    "moveNote": "Az áthelyezés az eredetieket a verzióelőzményeikkel együtt törli.",
+    "moveHere": "Áthelyezés ide",
+    "copyHere": "Másolás ide",
+    "moved": {
+      "one": "{count} objektum áthelyezve",
+      "other": "{count} objektum áthelyezve"
+    },
+    "copied": {
+      "one": "{count} objektum másolva",
+      "other": "{count} objektum másolva"
+    },
+    "overwriteTitle": {
+      "one": "Felülírsz {count} meglévő fájlt?",
+      "other": "Felülírsz {count} meglévő fájlt?"
+    },
+    "overwriteText": "Ezek már léteznek a célhelyen. A jelenlegi tartalmuk régi verzió lesz.",
+    "andMore": {
+      "one": "…és még {count}",
+      "other": "…és még {count}"
+    },
+    "overwrite": "Felülírás"
+  },
+  "share": {
+    "title": "Fájl megosztása",
+    "publicUrl": "Nyilvános URL",
+    "publicNote": "A CDN-eden vagy a nyilvános tárolón keresztül érhető el. Addig működik, amíg a fájl létezik.",
+    "privateNote": "Ez a tároló privát, és nincs hozzá CDN URL beállítva, ezért nincs állandó link. Hozz létre helyette aláírt linket.",
+    "signedLink": "Aláírt link",
+    "signedNote": "A link birtokában bárki letöltheti a fájlt a lejáratig.",
+    "expiresIn": "Lejárat",
+    "hour": "1 óra",
+    "day": "24 óra",
+    "week": "7 nap",
+    "generate": "Link létrehozása",
+    "expires": "Lejár: {date}"
+  },
+  "info": {
+    "title": "Részletek",
+    "path": "Elérési út",
+    "type": "Tartalomtípus",
+    "bytes": {
+      "one": "{count} bájt",
+      "other": "{count} bájt"
+    },
+    "copyKey": "Kulcs másolása",
+    "versions": "Verziók",
+    "oldBytes": "{size} a régi verziókban",
+    "noVersions": "Ennél a végpontnál nem érhetők el a verzióelőzmények.",
+    "current": "Aktuális",
+    "hidden": "Rejtett",
+    "deleteMarker": "törlési jelölő",
+    "downloadVersion": "Verzió letöltése",
+    "restore": "Visszaállítás",
+    "restoreTitle": "Visszaállítod ezt a verziót?",
+    "restoreText": "Új verzióként az aktuális fájl fölé másolódik.",
+    "restored": "Verzió visszaállítva",
+    "deleteVersion": "Verzió törlése",
+    "deleteVersionTitle": "Véglegesen törlöd ezt a verziót?",
+    "versionDeleted": "Verzió törölve"
+  },
+  "types": {
+    "image": "Képek",
+    "video": "Videó",
+    "audio": "Hang",
+    "document": "Dokumentumok",
+    "archive": "Archívumok",
+    "code": "Kód és adatok",
+    "font": "Betűtípusok",
+    "other": "Egyéb"
+  },
+  "stats": {
+    "title": "Használat",
+    "wholeBucket": "Teljes tároló",
+    "rescan": "Újravizsgálás",
+    "scanning": "Minden objektum vizsgálata…",
+    "scanned": {
+      "one": "{count} verzió átvizsgálva",
+      "other": "{count} verzió átvizsgálva"
+    },
+    "scanSlow": "Nagy tárolóknál ez néhány percig is eltarthat.",
+    "scannedAt": "Átvizsgálva: {when}",
+    "cached": "gyorsítótárból",
+    "costNote": "Az újravizsgálás minden objektumverziót listáz (kb. egy class C hívás 1000 verziónként).",
+    "truncated": "A vizsgálat 2 000 000 verziónál leállt. Ezek a számok részlegesek.",
+    "totalBilled": "Összes számlázott",
+    "currentPlusOld": "Aktuális fájlok + régi verziók",
+    "hiddenFiles": {
+      "one": "{count} rejtett fájllal együtt",
+      "other": "{count} rejtett fájllal együtt"
+    },
+    "stored": "Aktuális fájlok",
+    "oldVersions": "Régi verziók",
+    "versionsBilled": {
+      "one": "{count} verzió, tárhelyként számlázva",
+      "other": "{count} verzió, tárhelyként számlázva"
+    },
+    "notAvailable": "Nem érhető el",
+    "averageFile": "Átlagos fájl",
+    "topLevel": {
+      "one": "{count} legfelső szintű elem",
+      "other": "{count} legfelső szintű elem"
+    },
+    "breakdown": "Mi foglalja a helyet",
+    "oldWarning": "{size} helyet régi verziók és rejtett fájlok foglalnak.",
+    "addRule": "Csak a legutóbbi verzió megtartása",
+    "byFolder": "Mappák szerint",
+    "byFolderSub": "Aktuális fájlok, legfelső szint",
+    "byFolderSubPrefix": "Aktuális fájlok, a mappa legfelső szintje",
+    "more": {
+      "one": "+ még {count}",
+      "other": "+ még {count}"
+    },
+    "byType": "Fájltípus szerint",
+    "byTypeSub": "Kiterjesztés szerint csoportosítva",
+    "largest": "Legnagyobb fájlok",
+    "recent": "Nemrég feltöltöttek",
+    "noFiles": "Nincsenek fájlok.",
+    "rootFiles": "(fájlok ebben a mappában)"
+  },
+  "buckets": {
+    "title": "Tárolók",
+    "count": {
+      "one": "{count} tároló",
+      "other": "{count} tároló"
+    },
+    "new": "Új tároló",
+    "public": "Nyilvános",
+    "private": "Privát",
+    "noCdn": "Nincs CDN URL",
+    "emptyTitle": "Még nincsenek tárolók",
+    "emptyText": "Hozz létre egyet a fájlfeltöltés megkezdéséhez.",
+    "s3Only": "A tárolóbeállításokhoz és a kulcsokhoz a B2 natív API szükséges. Ki vannak kapcsolva, amíg S3-végpont-felülbírálás van beállítva.",
+    "globalNames": "A tárolók nevei a teljes szolgáltatónál egyediek.",
+    "name": "Tároló neve",
+    "nameRules": "6–50 karakter: betűk, számjegyek és kötőjelek.",
+    "visibility": "Láthatóság",
+    "created": "A(z) {name} tároló létrehozva"
+  },
+  "settings": {
+    "title": "Tárolóbeállítások",
+    "needsNative": "A tárolóbeállítások a B2 natív API-t használják. A bekapcsolásukhoz távolítsd el az S3_ENDPOINT felülbírálást.",
+    "visibility": "Láthatóság",
+    "visibilityText": "A nyilvános tárolók bárkinek kiszolgálják a fájlokat, akinek megvan az URL. A privátokhoz aláírt linkek kellenek.",
+    "publicBucket": "Nyilvános tároló",
+    "publicOn": "Az URL birtokában bárki letöltheti a fájlokat.",
+    "publicOff": "A fájlok csak aláírt linkeken keresztül érhetők el.",
+    "makePublicTitle": "Nyilvánossá teszed ezt a tárolót?",
+    "makePublicText": "A tároló minden fájlját letöltheti bárki, aki ismeri az URL-jét.",
+    "makePublic": "Nyilvánossá tétel",
+    "makePrivateTitle": "Priváttá teszed ezt a tárolót?",
+    "makePrivateText": "A nyilvános URL-ek és a CDN-ed nem működnek, amíg vissza nem állítod.",
+    "makePrivate": "Priváttá tétel",
+    "cdnBase": "CDN alap-URL (a CDN_URLS alapján)",
+    "friendlyUrl": "Barátságos URL",
+    "cdnHint": "Állítsd be: CDN_URLS={bucket}=https://your-cdn, hogy helyette CDN-linkeket másolj.",
+    "deleteTitle": "Tároló törlése",
+    "deleteText": "Csak üres tároló törölhető. Előbb törölj minden fájlt (és verziót).",
+    "deleteConfirm": "Törlöd a(z) {bucket} tárolót?",
+    "cannotUndo": "Ez nem vonható vissza.",
+    "deleted": "Tároló törölve"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "A feltöltések közvetlenül a böngésződből jutnak a tárhelyre, ezért a tárolónak engedélyeznie kell ennek az alkalmazásnak a címét.",
+    "allowed": "A feltöltés engedélyezett innen: {origin}.",
+    "notAllowed": "A feltöltés innen még nem engedélyezett: {origin}.",
+    "allow": "Feltöltés engedélyezése innen",
+    "editJson": "JSON szerkesztése",
+    "closeEditor": "Szerkesztő bezárása",
+    "mustBeArray": "A szabályoknak JSON-tömbnek kell lenniük.",
+    "save": "Szabályok mentése",
+    "none": "Nincsenek CORS-szabályok.",
+    "remove": "Szabály eltávolítása"
+  },
+  "lifecycle": {
+    "title": "Életciklus-szabályok",
+    "text": "Fájlok elrejtése adott számú nap után, valamint rejtett vagy régi verziók törlése adott számú nap után. Hagyd üresen a mezőt, ha soha.",
+    "keepLatest": "Csak a legutóbbi verzió megtartása",
+    "none": "Nincsenek szabályok: minden fájl minden verziója örökre megmarad.",
+    "prefix": "Fájlnév-előtag",
+    "allFiles": "(összes fájl)",
+    "hideAfter": "Elrejtés ennyi után",
+    "deleteAfter": "Rejtettek törlése ennyi után",
+    "days": "nap",
+    "never": "soha",
+    "remove": "Szabály eltávolítása",
+    "add": "Szabály hozzáadása",
+    "needsNumber": "Minden szabályhoz legalább egy szám kell.",
+    "save": "Szabályok mentése"
+  },
+  "multipart": {
+    "title": "Befejezetlen nagy feltöltések",
+    "text": "A megszakadt feltöltések részei (számlázott) helyet foglalnak, amíg meg nem szakítod őket.",
+    "none": "Nincs befejezetlen feltöltés.",
+    "cancel": "Feltöltés megszakítása",
+    "cancelAll": "Összes megszakítása",
+    "canceled": {
+      "one": "{count} feltöltés megszakítva",
+      "other": "{count} feltöltés megszakítva"
+    },
+    "failed": {
+      "one": "{count} nem szakítható meg",
+      "other": "{count} nem szakítható meg"
+    }
+  },
+  "keys": {
+    "title": "Alkalmazáskulcsok",
+    "subtitle": "Kulcsok alkalmazásokhoz és szkriptekhez. A titkos kulcs csak egyszer, közvetlenül a létrehozás után jelenik meg.",
+    "new": "Új kulcs",
+    "thisApp": "Ez az alkalmazás használja",
+    "allCapabilities": "Minden jogosultság",
+    "allBuckets": "Összes tároló",
+    "expires": "Lejár: {date}",
+    "never": "Nem jár le",
+    "emptyTitle": "Nincsenek kulcsok",
+    "delete": "Kulcs törlése",
+    "deleteTitle": "Törlöd a(z) „{name}” kulcsot?",
+    "deleteText": "Minden, ami ezt a kulcsot használja, azonnal leáll.",
+    "deleted": "Kulcs törölve",
+    "name": "Kulcs neve",
+    "nameRules": "Betűk, számjegyek és kötőjelek.",
+    "bucket": "Tároló",
+    "prefix": "Fájlnév-előtag",
+    "prefixNeedsBucket": "Előbb válassz tárolót",
+    "days": "Érvényesség (nap)",
+    "capabilities": "Jogosultságok",
+    "presetRead": "Csak olvasás",
+    "presetReadWrite": "Olvasás és írás",
+    "presetWrite": "Csak írás",
+    "presetAll": "Minden",
+    "create": "Kulcs létrehozása",
+    "createdTitle": "Kulcs létrehozva",
+    "createdNote": "Másold ki most a titkos kulcsot. Többé nem jelenik meg."
+  },
+  "errors": {
+    "network": "A szerver nem érhető el. Ellenőrizd a kapcsolatot.",
+    "sessionExpired": "A munkameneted lejárt.",
+    "requestFailed": "A kérés sikertelen ({status})",
+    "wrongPassword": "Hibás jelszó",
+    "tooManyAttempts": "Túl sok próbálkozás. Próbáld újra {seconds} s múlva.",
+    "invalidBucketName": "Érvénytelen tárolónév",
+    "bucketNameRules": "A tárolónevek 6–50 karakteresek: betűk, számjegyek és kötőjelek, és nem kezdődhetnek „b2-” előtaggal.",
+    "keyNameRules": "A kulcsnevek csak betűket, számjegyeket és kötőjeleket tartalmazhatnak.",
+    "pickCapability": "Válassz legalább egy jogosultságot.",
+    "ownKey": "Ez az alkalmazás ezt a kulcsot használja, ezért itt nem törölhető.",
+    "nativeApiRequired": "Ehhez a B2 natív API szükséges (S3_ENDPOINT felülbírálás nélkül).",
+    "jobNotFound": "A művelet elveszett (lehet, hogy a szerver újraindult).",
+    "folderIntoItself": "Mappa nem helyezhető át önmagába.",
+    "deleteRoot": "Üres kulcs vagy a tároló gyökere nem törölhető.",
+    "invalidSize": "Érvénytelen fájlméret",
+    "uploadFailed": "A feltöltés sikertelen ({status})",
+    "uploadCors": "Hálózati vagy CORS-hiba. Engedélyezd a feltöltéseket a tároló CORS-beállításaiban.",
+    "etagMissing": "A tárhely nem tette elérhetővé az ETag fejlécet. Engedélyezd a feltöltéseket a tároló CORS-beállításaiban.",
+    "config": {
+      "password": "A DASHBOARD_PASSWORD nincs beállítva.",
+      "secret": "A SESSION_SECRET legalább 32 karakter hosszú kell legyen.",
+      "b2": "A B2_KEY_ID és a B2_APP_KEY nincs beállítva."
+    }
+  }
+}

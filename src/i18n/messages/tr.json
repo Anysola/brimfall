@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Vazgeç",
+    "close": "Kapat",
+    "copied": "Kopyalandı",
+    "copy": "Kopyala",
+    "create": "Oluştur",
+    "delete": "Sil",
+    "discard": "Değişiklikleri at",
+    "done": "Tamam",
+    "language": "Dil",
+    "loading": "Yükleniyor…",
+    "more": "Diğer işlemler",
+    "ok": "Tamam",
+    "refresh": "Yenile",
+    "retry": "Tekrar dene",
+    "saved": "Kaydedildi",
+    "typeToConfirm": "Onaylamak için {text} yaz"
+  },
+  "login": {
+    "pageTitle": "Giriş yap · {app}",
+    "title": "Giriş yap",
+    "subtitle": "{app} ile depolamanı yönet",
+    "password": "Parola",
+    "showPassword": "Parolayı göster",
+    "hidePassword": "Parolayı gizle",
+    "submit": "Giriş yap",
+    "note": "Depolama anahtarların sunucudan asla çıkmaz."
+  },
+  "setup": {
+    "title": "Depolamaya ulaşılamıyor",
+    "noBuckets": "Bu anahtar hiçbir bucket'ı göremiyor.",
+    "hint": "Ortam değişkenlerini kontrol edip sunucuyu yeniden başlat."
+  },
+  "nav": {
+    "label": "Ana gezinme",
+    "menu": "Gezinmeyi aç",
+    "new": "Yeni",
+    "buckets": "Bucket'lar",
+    "refreshBuckets": "Bucket'ları yenile",
+    "files": "Dosyalar",
+    "usage": "Kullanım",
+    "settings": "Ayarlar",
+    "allBuckets": "Tüm bucket'lar",
+    "bucketsShort": "Bucket'lar",
+    "keys": "Uygulama anahtarları",
+    "keysShort": "Anahtarlar",
+    "appearance": "Görünüm",
+    "signOut": "Çıkış yap"
+  },
+  "appearance": {
+    "title": "Görünüm",
+    "theme": "Tema",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem",
+    "color": "Renk",
+    "customColor": "Özel renk",
+    "pickColor": "Renk seç",
+    "seeds": {
+      "teal": "Camgöbeği",
+      "blue": "Mavi",
+      "indigo": "Çivit",
+      "green": "Yeşil",
+      "amber": "Kehribar",
+      "rose": "Gül",
+      "purple": "Mor",
+      "gray": "Gri"
+    },
+    "style": "Renk stili",
+    "styleHint": "Seçilen rengin arayüzü ne kadar güçlü renklendireceği.",
+    "tonal": "Dengeli",
+    "vibrant": "Canlı",
+    "fidelity": "Aslına uygun",
+    "contrast": "Kontrast",
+    "standard": "Standart",
+    "medium": "Orta",
+    "high": "Yüksek",
+    "density": "Yoğunluk",
+    "default": "Varsayılan",
+    "compact": "Sıkı",
+    "deviceNote": "Bu ayarlar yalnızca bu cihazda saklanır."
+  },
+  "files": {
+    "title": "Dosyalar",
+    "path": "Klasör yolu",
+    "view": "Görünüm",
+    "listView": "Liste görünümü",
+    "gridView": "Izgara görünümü",
+    "searchBucket": "{bucket} içinde ara",
+    "searchFolder": "Bu klasörde ara",
+    "clearSearch": "Aramayı temizle",
+    "resultsFor": "“{query}” için sonuçlar",
+    "matches": {
+      "one": "{count} eşleşme",
+      "other": "{count} eşleşme"
+    },
+    "limited": "sınırlı",
+    "searchLimited": "Arama 500 sonuçta veya 50.000 dosya tarandığında durur. Bir alt klasörü açarak aramayı daralt.",
+    "folderCount": {
+      "one": "{count} klasör",
+      "other": "{count} klasör"
+    },
+    "fileCount": {
+      "one": "{count} dosya",
+      "other": "{count} dosya"
+    },
+    "folders": "Klasörler",
+    "files": "Dosyalar",
+    "name": "Ad",
+    "size": "Boyut",
+    "modified": "Değiştirilme",
+    "ascending": "Artan",
+    "descending": "Azalan",
+    "selectAll": "Tümünü seç",
+    "selectNone": "Seçimi kaldır",
+    "selectItem": "{name} öğesini seç",
+    "selected": {
+      "one": "{count} seçili",
+      "other": "{count} seçili"
+    },
+    "clearSelection": "Seçimi temizle",
+    "upload": "Yükle",
+    "uploadFiles": "Dosya yükle",
+    "uploadFolder": "Klasör yükle",
+    "newFolder": "Yeni klasör",
+    "open": "Aç",
+    "preview": "Önizle",
+    "copyUrl": "Herkese açık URL'yi kopyala",
+    "copyUrls": "URL'leri kopyala",
+    "copyPath": "Yolu kopyala",
+    "shareLink": "Bağlantı paylaş…",
+    "download": "İndir",
+    "downloadN": {
+      "one": "{count} öğeyi indir",
+      "other": "{count} öğeyi indir"
+    },
+    "rename": "Yeniden adlandır",
+    "moveOrCopy": "Taşı veya kopyala",
+    "details": "Ayrıntılar ve sürümler",
+    "deleteN": {
+      "one": "{count} öğeyi sil",
+      "other": "{count} öğeyi sil"
+    },
+    "deleteOne": "“{name}” silinsin mi?",
+    "deleteMany": {
+      "one": "{count} öğe silinsin mi?",
+      "other": "{count} öğe silinsin mi?"
+    },
+    "deleteFoldersNote": "Klasörler içindeki her şeyle birlikte silinir.",
+    "deleteNote": "Alanın gerçekten boşalması için tüm sürümler kaldırılır. Bu işlem geri alınamaz.",
+    "onlyHide": "Yalnızca gizle (önceki sürümler kalsın)",
+    "deleted": {
+      "one": "{count} nesne sürümü silindi",
+      "other": "{count} nesne sürümü silindi"
+    },
+    "errorsOccurred": {
+      "one": "{count} hata: {first}",
+      "other": "{count} hata: {first}"
+    },
+    "foldersSkipped": "Klasörler atlanır. İndirmek için dosya seç.",
+    "noPublicUrls": "Herkese açık URL yok: bu bucket gizli ve yapılandırılmış bir CDN'i yok.",
+    "urlCopied": "URL kopyalandı",
+    "urlsCopied": {
+      "one": "{count} URL kopyalandı",
+      "other": "{count} URL kopyalandı"
+    },
+    "pathCopied": "Yol kopyalandı",
+    "emptyTitle": "Bu klasör boş",
+    "emptyText": "Dosyaları buraya bırak ya da Yükle'yi kullan.",
+    "noMatches": "“{query}” ile eşleşen bir şey yok",
+    "noMatchesHint": "Arama, geçerli klasörün altındaki dosya adlarına bakar.",
+    "loadMore": "Daha fazla yükle",
+    "dropToUpload": "Yüklemek için bırak"
+  },
+  "uploads": {
+    "title": "Yüklemeler",
+    "uploading": {
+      "one": "{count} öğe yükleniyor",
+      "other": "{count} öğe yükleniyor"
+    },
+    "failed": {
+      "one": "{count} yükleme başarısız oldu",
+      "other": "{count} yükleme başarısız oldu"
+    },
+    "complete": {
+      "one": "{count} yükleme tamamlandı",
+      "other": "{count} yükleme tamamlandı"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/sn",
+    "queued": "Bekliyor…",
+    "canceled": "İptal edildi",
+    "cancelAll": "Tümünü iptal et",
+    "retry": "Tekrar dene",
+    "expand": "Genişlet",
+    "collapse": "Daralt"
+  },
+  "preview": {
+    "position": "{n} / {total}",
+    "openNewTab": "Yeni sekmede aç",
+    "previous": "Önceki dosya",
+    "next": "Sonraki dosya",
+    "noPreview": "Bu dosya türü için önizleme yok",
+    "noPreviewHint": "Dosyayı indir veya ayrıntılarını aç.",
+    "truncated": "(ilk 256 KB gösteriliyor)"
+  },
+  "newFolder": {
+    "name": "Klasör adı",
+    "placeholder": "resimler veya ic/ice/yol",
+    "hint": "Depolamada gerçek klasör yoktur: bu işlem boş bir “{name}/” işaretçisi oluşturur."
+  },
+  "rename": {
+    "fileTitle": "Dosyayı yeniden adlandır",
+    "folderTitle": "Klasörü yeniden adlandır",
+    "fileNote": "Dosya yeni ada kopyalanır, ardından eskisi sürüm geçmişiyle birlikte kaldırılır.",
+    "folderNote": "İçindeki her şey yeni yola kopyalanır, ardından eski nesneler sürüm geçmişleriyle birlikte kaldırılır.",
+    "newName": "Yeni ad",
+    "done": "Yeni ad: {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "{count} öğeyi taşı",
+      "other": "{count} öğeyi taşı"
+    },
+    "copyTitle": {
+      "one": "{count} öğeyi kopyala",
+      "other": "{count} öğeyi kopyala"
+    },
+    "mode": "Taşı veya kopyala",
+    "move": "Taşı",
+    "copy": "Kopyala",
+    "destination": "Hedef klasör",
+    "root": "(bucket kökü)",
+    "noSubfolders": "Burada alt klasör yok. Oluşturmak için yukarıya yeni bir yol yaz.",
+    "moveNote": "Taşıma, orijinalleri sürüm geçmişleriyle birlikte kaldırır.",
+    "moveHere": "Buraya taşı",
+    "copyHere": "Buraya kopyala",
+    "moved": {
+      "one": "{count} nesne taşındı",
+      "other": "{count} nesne taşındı"
+    },
+    "copied": {
+      "one": "{count} nesne kopyalandı",
+      "other": "{count} nesne kopyalandı"
+    },
+    "overwriteTitle": {
+      "one": "Mevcut {count} dosyanın üzerine yazılsın mı?",
+      "other": "Mevcut {count} dosyanın üzerine yazılsın mı?"
+    },
+    "overwriteText": "Bunlar hedefte zaten var. Şu anki içerikleri eski bir sürüm olarak kalır.",
+    "andMore": {
+      "one": "…ve {count} tane daha",
+      "other": "…ve {count} tane daha"
+    },
+    "overwrite": "Üzerine yaz"
+  },
+  "share": {
+    "title": "Dosyayı paylaş",
+    "publicUrl": "Herkese açık URL",
+    "publicNote": "CDN'in veya herkese açık bucket üzerinden sunulur. Dosya var olduğu sürece çalışır.",
+    "privateNote": "Bu bucket gizli ve yapılandırılmış bir CDN URL'si yok, bu yüzden kalıcı bağlantı yok. Bunun yerine imzalı bir bağlantı oluştur.",
+    "signedLink": "İmzalı bağlantı",
+    "signedNote": "Bağlantıya sahip olan herkes, süresi dolana kadar dosyayı indirebilir.",
+    "expiresIn": "Geçerlilik süresi",
+    "hour": "1 saat",
+    "day": "24 saat",
+    "week": "7 gün",
+    "generate": "Bağlantı oluştur",
+    "expires": "Son geçerlilik: {date}"
+  },
+  "info": {
+    "title": "Ayrıntılar",
+    "path": "Yol",
+    "type": "İçerik türü",
+    "bytes": {
+      "one": "{count} bayt",
+      "other": "{count} bayt"
+    },
+    "copyKey": "Anahtarı kopyala",
+    "versions": "Sürümler",
+    "oldBytes": "Eski sürümlerde {size}",
+    "noVersions": "Bu uç noktada sürüm geçmişi kullanılamıyor.",
+    "current": "Güncel",
+    "hidden": "Gizli",
+    "deleteMarker": "silme işaretçisi",
+    "downloadVersion": "Bu sürümü indir",
+    "restore": "Geri yükle",
+    "restoreTitle": "Bu sürüm geri yüklensin mi?",
+    "restoreText": "Güncel dosyanın üzerine yeni bir sürüm olarak kopyalanır.",
+    "restored": "Sürüm geri yüklendi",
+    "deleteVersion": "Sürümü sil",
+    "deleteVersionTitle": "Bu sürüm kalıcı olarak silinsin mi?",
+    "versionDeleted": "Sürüm silindi"
+  },
+  "types": {
+    "image": "Görseller",
+    "video": "Video",
+    "audio": "Ses",
+    "document": "Belgeler",
+    "archive": "Arşivler",
+    "code": "Kod ve veri",
+    "font": "Yazı tipleri",
+    "other": "Diğer"
+  },
+  "stats": {
+    "title": "Kullanım",
+    "wholeBucket": "Tüm bucket",
+    "rescan": "Yeniden tara",
+    "scanning": "Tüm nesneler taranıyor…",
+    "scanned": {
+      "one": "{count} sürüm tarandı",
+      "other": "{count} sürüm tarandı"
+    },
+    "scanSlow": "Büyük bucket'larda bu birkaç dakika sürebilir.",
+    "scannedAt": "Tarandı: {when}",
+    "cached": "önbellekten",
+    "costNote": "Yeniden tarama tüm nesne sürümlerini listeler (yaklaşık her 1.000 sürüm için bir class C çağrısı).",
+    "truncated": "Tarama 2.000.000 sürümde durdu. Bu sayılar eksik.",
+    "totalBilled": "Faturalanan toplam",
+    "currentPlusOld": "Güncel dosyalar + eski sürümler",
+    "hiddenFiles": {
+      "one": "{count} gizli dosya dahil",
+      "other": "{count} gizli dosya dahil"
+    },
+    "stored": "Güncel dosyalar",
+    "oldVersions": "Eski sürümler",
+    "versionsBilled": {
+      "one": "{count} sürüm, depolama olarak faturalanır",
+      "other": "{count} sürüm, depolama olarak faturalanır"
+    },
+    "notAvailable": "Kullanılamıyor",
+    "averageFile": "Ortalama dosya",
+    "topLevel": {
+      "one": "En üst düzeyde {count} öğe",
+      "other": "En üst düzeyde {count} öğe"
+    },
+    "breakdown": "Alan nereye gidiyor",
+    "oldWarning": "Eski sürümler ve gizli dosyalar {size} yer kaplıyor.",
+    "addRule": "Yalnızca son sürümü tut",
+    "byFolder": "Klasöre göre",
+    "byFolderSub": "Güncel dosyalar, en üst düzey",
+    "byFolderSubPrefix": "Güncel dosyalar, bu klasörün en üst düzeyi",
+    "more": {
+      "one": "+ {count} tane daha",
+      "other": "+ {count} tane daha"
+    },
+    "byType": "Dosya türüne göre",
+    "byTypeSub": "Uzantıya göre gruplanmış",
+    "largest": "En büyük dosyalar",
+    "recent": "Son yüklenenler",
+    "noFiles": "Dosya yok.",
+    "rootFiles": "(bu klasördeki dosyalar)"
+  },
+  "buckets": {
+    "title": "Bucket'lar",
+    "count": {
+      "one": "{count} bucket",
+      "other": "{count} bucket"
+    },
+    "new": "Yeni bucket",
+    "public": "Herkese açık",
+    "private": "Gizli",
+    "noCdn": "CDN URL'si yok",
+    "emptyTitle": "Henüz bucket yok",
+    "emptyText": "Dosya yüklemeye başlamak için bir tane oluştur.",
+    "s3Only": "Bucket ayarları ve anahtarlar B2 yerel API'sini gerektirir. S3 uç noktası geçersiz kılması ayarlıyken kapalıdır.",
+    "globalNames": "Bucket adları sağlayıcının tamamında benzersizdir.",
+    "name": "Bucket adı",
+    "nameRules": "6–50 karakter: harf, rakam ve tire.",
+    "visibility": "Görünürlük",
+    "created": "Bucket oluşturuldu: {name}"
+  },
+  "settings": {
+    "title": "Bucket ayarları",
+    "needsNative": "Bucket ayarları B2 yerel API'sini kullanır. Açmak için S3_ENDPOINT geçersiz kılmasını kaldır.",
+    "visibility": "Görünürlük",
+    "visibilityText": "Herkese açık bucket'lar dosyaları URL'ye sahip herkese sunar. Gizli olanlar imzalı bağlantı gerektirir.",
+    "publicBucket": "Herkese açık bucket",
+    "publicOn": "Dosyalar URL'ye sahip herkes tarafından indirilebilir.",
+    "publicOff": "Dosyalara yalnızca imzalı bağlantılarla erişilebilir.",
+    "makePublicTitle": "Bu bucket herkese açılsın mı?",
+    "makePublicText": "Bucket'taki her dosya, URL'sini bilen herkes tarafından indirilebilir hale gelir.",
+    "makePublic": "Herkese aç",
+    "makePrivateTitle": "Bu bucket gizli yapılsın mı?",
+    "makePrivateText": "Herkese açık URL'ler ve CDN'in, tekrar açana kadar çalışmaz.",
+    "makePrivate": "Gizli yap",
+    "cdnBase": "CDN temel URL'si (CDN_URLS'ten)",
+    "friendlyUrl": "Kolay URL",
+    "cdnHint": "Bunun yerine CDN bağlantılarını kopyalamak için CDN_URLS={bucket}=https://your-cdn ayarla.",
+    "deleteTitle": "Bucket'ı sil",
+    "deleteText": "Yalnızca boş bucket'lar silinebilir. Önce tüm dosyaları (ve sürümleri) sil.",
+    "deleteConfirm": "{bucket} adlı bucket silinsin mi?",
+    "cannotUndo": "Bu işlem geri alınamaz.",
+    "deleted": "Bucket silindi"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Yüklemeler tarayıcından doğrudan depolamaya gider, bu yüzden bucket'ın bu uygulamanın adresine izin vermesi gerekir.",
+    "allowed": "Yüklemelere izin verilen adres: {origin}",
+    "notAllowed": "Bu adresten yüklemelere henüz izin verilmiyor: {origin}",
+    "allow": "Buradan yüklemelere izin ver",
+    "editJson": "JSON'u düzenle",
+    "closeEditor": "Düzenleyiciyi kapat",
+    "mustBeArray": "Kurallar bir JSON dizisi olmalı.",
+    "save": "Kuralları kaydet",
+    "none": "CORS kuralı yok.",
+    "remove": "Kuralı kaldır"
+  },
+  "lifecycle": {
+    "title": "Yaşam döngüsü kuralları",
+    "text": "Dosyaları belirli bir gün sonra gizle, gizli veya eski sürümleri belirli bir gün sonra sil. Hiç uygulanmaması için alanı boş bırak.",
+    "keepLatest": "Yalnızca son sürümü tut",
+    "none": "Kural yok: her dosyanın her sürümü sonsuza kadar saklanır.",
+    "prefix": "Dosya adı ön eki",
+    "allFiles": "(tüm dosyalar)",
+    "hideAfter": "Şu süre sonra gizle",
+    "deleteAfter": "Gizliyi şu süre sonra sil",
+    "days": "gün",
+    "never": "hiçbir zaman",
+    "remove": "Kuralı kaldır",
+    "add": "Kural ekle",
+    "needsNumber": "Her kuralda en az bir sayı olmalı.",
+    "save": "Kuralları kaydet"
+  },
+  "multipart": {
+    "title": "Tamamlanmamış büyük yüklemeler",
+    "text": "Yarıda kalan yüklemelerin parçaları, iptal edilene kadar (faturalanan) yer kaplar.",
+    "none": "Tamamlanmamış bir şey yok.",
+    "cancel": "Yüklemeyi iptal et",
+    "cancelAll": "Tümünü iptal et",
+    "canceled": {
+      "one": "{count} yükleme iptal edildi",
+      "other": "{count} yükleme iptal edildi"
+    },
+    "failed": {
+      "one": "{count} yükleme iptal edilemedi",
+      "other": "{count} yükleme iptal edilemedi"
+    }
+  },
+  "keys": {
+    "title": "Uygulama anahtarları",
+    "subtitle": "Uygulamalar ve betikler için anahtarlar. Gizli anahtar yalnızca bir kez, oluşturulduktan hemen sonra gösterilir.",
+    "new": "Yeni anahtar",
+    "thisApp": "Bu uygulamada kullanılıyor",
+    "allCapabilities": "Tüm yetenekler",
+    "allBuckets": "Tüm bucket'lar",
+    "expires": "Son geçerlilik: {date}",
+    "never": "Süresiz",
+    "emptyTitle": "Anahtar yok",
+    "delete": "Anahtarı sil",
+    "deleteTitle": "“{name}” anahtarı silinsin mi?",
+    "deleteText": "Bu anahtarı kullanan her şey hemen çalışmayı bırakır.",
+    "deleted": "Anahtar silindi",
+    "name": "Anahtar adı",
+    "nameRules": "Harf, rakam ve tire.",
+    "bucket": "Bucket",
+    "prefix": "Dosya adı ön eki",
+    "prefixNeedsBucket": "Önce bir bucket seç",
+    "days": "Geçerlilik (gün)",
+    "capabilities": "Yetenekler",
+    "presetRead": "Salt okunur",
+    "presetReadWrite": "Okuma ve yazma",
+    "presetWrite": "Salt yazma",
+    "presetAll": "Hepsi",
+    "create": "Anahtar oluştur",
+    "createdTitle": "Anahtar oluşturuldu",
+    "createdNote": "Gizli anahtarı şimdi kopyala. Bir daha asla gösterilmeyecek."
+  },
+  "errors": {
+    "network": "Sunucuya ulaşılamıyor. Bağlantını kontrol et.",
+    "sessionExpired": "Oturumunun süresi doldu.",
+    "requestFailed": "İstek başarısız oldu ({status})",
+    "wrongPassword": "Parola yanlış",
+    "tooManyAttempts": "Çok fazla deneme yapıldı. {seconds} sn sonra tekrar dene.",
+    "invalidBucketName": "Geçersiz bucket adı",
+    "bucketNameRules": "Bucket adları 6–50 karakterdir: harf, rakam ve tire içerir, “b2-” ile başlayamaz.",
+    "keyNameRules": "Anahtar adlarında yalnızca harf, rakam ve tire kullanılabilir.",
+    "pickCapability": "En az bir yetenek seç.",
+    "ownKey": "Bu uygulama o anahtarla çalışıyor, bu yüzden burada silinemez.",
+    "nativeApiRequired": "Bunun için B2 yerel API'si gerekir (S3_ENDPOINT geçersiz kılması olmadan).",
+    "jobNotFound": "İşlem kayboldu (sunucu yeniden başlamış olabilir).",
+    "folderIntoItself": "Bir klasör kendi içine taşınamaz.",
+    "deleteRoot": "Boş bir anahtar veya bucket kökü silinmeyecek.",
+    "invalidSize": "Geçersiz dosya boyutu",
+    "uploadFailed": "Yükleme başarısız oldu ({status})",
+    "uploadCors": "Ağ veya CORS hatası. Bucket'ın CORS ayarlarında yüklemelere izin ver.",
+    "etagMissing": "Depolama ETag başlığını göstermedi. Bucket'ın CORS ayarlarında yüklemelere izin ver.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD ayarlanmamış.",
+      "secret": "SESSION_SECRET en az 32 karakter olmalı.",
+      "b2": "B2_KEY_ID ve B2_APP_KEY ayarlanmamış."
+    }
+  }
+}

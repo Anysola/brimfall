@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Batal",
+    "close": "Tutup",
+    "copied": "Disalin",
+    "copy": "Salin",
+    "create": "Buat",
+    "delete": "Hapus",
+    "discard": "Buang",
+    "done": "Selesai",
+    "language": "Bahasa",
+    "loading": "Memuat…",
+    "more": "Tindakan lainnya",
+    "ok": "OK",
+    "refresh": "Muat ulang",
+    "retry": "Coba lagi",
+    "saved": "Disimpan",
+    "typeToConfirm": "Ketik {text} untuk mengonfirmasi"
+  },
+  "login": {
+    "pageTitle": "Masuk · {app}",
+    "title": "Masuk",
+    "subtitle": "untuk mengelola penyimpanan Anda dengan {app}",
+    "password": "Sandi",
+    "showPassword": "Tampilkan sandi",
+    "hidePassword": "Sembunyikan sandi",
+    "submit": "Masuk",
+    "note": "Kunci penyimpanan Anda tidak pernah keluar dari server."
+  },
+  "setup": {
+    "title": "Tidak dapat menjangkau penyimpanan Anda",
+    "noBuckets": "Kunci ini tidak dapat melihat bucket apa pun.",
+    "hint": "Periksa environment variable Anda, lalu mulai ulang server."
+  },
+  "nav": {
+    "label": "Navigasi utama",
+    "menu": "Buka navigasi",
+    "new": "Baru",
+    "buckets": "Bucket",
+    "refreshBuckets": "Muat ulang bucket",
+    "files": "File",
+    "usage": "Penggunaan",
+    "settings": "Setelan",
+    "allBuckets": "Semua bucket",
+    "bucketsShort": "Bucket",
+    "keys": "Kunci aplikasi",
+    "keysShort": "Kunci",
+    "appearance": "Tampilan",
+    "signOut": "Keluar"
+  },
+  "appearance": {
+    "title": "Tampilan",
+    "theme": "Tema",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem",
+    "color": "Warna",
+    "customColor": "Warna kustom",
+    "pickColor": "Pilih warna",
+    "seeds": {
+      "teal": "Hijau toska",
+      "blue": "Biru",
+      "indigo": "Nila",
+      "green": "Hijau",
+      "amber": "Kuning amber",
+      "rose": "Merah mawar",
+      "purple": "Ungu",
+      "gray": "Abu-abu"
+    },
+    "style": "Gaya",
+    "styleHint": "Seberapa kuat warna yang dipilih mewarnai antarmuka.",
+    "tonal": "Seimbang",
+    "vibrant": "Cerah",
+    "fidelity": "Akurat",
+    "contrast": "Kontras",
+    "standard": "Standar",
+    "medium": "Sedang",
+    "high": "Tinggi",
+    "density": "Kepadatan",
+    "default": "Default",
+    "compact": "Ringkas",
+    "deviceNote": "Setelan ini hanya disimpan di perangkat ini."
+  },
+  "files": {
+    "title": "File",
+    "path": "Jalur folder",
+    "view": "Tampilan",
+    "listView": "Tampilan daftar",
+    "gridView": "Tampilan petak",
+    "searchBucket": "Telusuri di {bucket}",
+    "searchFolder": "Telusuri di folder ini",
+    "clearSearch": "Hapus penelusuran",
+    "resultsFor": "Hasil untuk “{query}”",
+    "matches": {
+      "one": "{count} hasil",
+      "other": "{count} hasil"
+    },
+    "limited": "terbatas",
+    "searchLimited": "Penelusuran berhenti setelah 500 hasil atau 50.000 file dipindai. Persempit dengan membuka subfolder.",
+    "folderCount": {
+      "one": "{count} folder",
+      "other": "{count} folder"
+    },
+    "fileCount": {
+      "one": "{count} file",
+      "other": "{count} file"
+    },
+    "folders": "Folder",
+    "files": "File",
+    "name": "Nama",
+    "size": "Ukuran",
+    "modified": "Diubah",
+    "ascending": "Naik",
+    "descending": "Turun",
+    "selectAll": "Pilih semua",
+    "selectNone": "Batalkan semua pilihan",
+    "selectItem": "Pilih {name}",
+    "selected": {
+      "one": "{count} dipilih",
+      "other": "{count} dipilih"
+    },
+    "clearSelection": "Hapus pilihan",
+    "upload": "Unggah",
+    "uploadFiles": "Unggah file",
+    "uploadFolder": "Unggah folder",
+    "newFolder": "Folder baru",
+    "open": "Buka",
+    "preview": "Pratinjau",
+    "copyUrl": "Salin URL publik",
+    "copyUrls": "Salin URL",
+    "copyPath": "Salin jalur",
+    "shareLink": "Bagikan link…",
+    "download": "Download",
+    "downloadN": {
+      "one": "Download {count} item",
+      "other": "Download {count} item"
+    },
+    "rename": "Ganti nama",
+    "moveOrCopy": "Pindahkan atau salin",
+    "details": "Detail & versi",
+    "deleteN": {
+      "one": "Hapus {count} item",
+      "other": "Hapus {count} item"
+    },
+    "deleteOne": "Hapus “{name}”?",
+    "deleteMany": {
+      "one": "Hapus {count} item?",
+      "other": "Hapus {count} item?"
+    },
+    "deleteFoldersNote": "Folder dihapus beserta seluruh isinya.",
+    "deleteNote": "Setiap versi dihapus agar ruang benar-benar kosong. Tindakan ini tidak dapat diurungkan.",
+    "onlyHide": "Sembunyikan saja (simpan versi sebelumnya)",
+    "deleted": {
+      "one": "{count} versi objek dihapus",
+      "other": "{count} versi objek dihapus"
+    },
+    "errorsOccurred": {
+      "one": "{count} error: {first}",
+      "other": "{count} error: {first}"
+    },
+    "foldersSkipped": "Folder dilewati. Pilih file untuk didownload.",
+    "noPublicUrls": "Tidak ada URL publik: bucket ini pribadi dan tidak memiliki CDN.",
+    "urlCopied": "URL disalin",
+    "urlsCopied": {
+      "one": "{count} URL disalin",
+      "other": "{count} URL disalin"
+    },
+    "pathCopied": "Jalur disalin",
+    "emptyTitle": "Folder ini kosong",
+    "emptyText": "Lepaskan file di sini, atau gunakan Unggah.",
+    "noMatches": "Tidak ada yang cocok dengan “{query}”",
+    "noMatchesHint": "Penelusuran mencari nama file di dalam folder saat ini.",
+    "loadMore": "Muat lebih banyak",
+    "dropToUpload": "Lepaskan untuk mengunggah"
+  },
+  "uploads": {
+    "title": "Unggahan",
+    "uploading": {
+      "one": "Mengunggah {count} item",
+      "other": "Mengunggah {count} item"
+    },
+    "failed": {
+      "one": "{count} unggahan gagal",
+      "other": "{count} unggahan gagal"
+    },
+    "complete": {
+      "one": "{count} unggahan selesai",
+      "other": "{count} unggahan selesai"
+    },
+    "progress": "{loaded} dari {total}",
+    "speed": "{speed}/dtk",
+    "queued": "Menunggu…",
+    "canceled": "Dibatalkan",
+    "cancelAll": "Batalkan semua",
+    "retry": "Coba lagi",
+    "expand": "Luaskan",
+    "collapse": "Ciutkan"
+  },
+  "preview": {
+    "position": "{n} dari {total}",
+    "openNewTab": "Buka di tab baru",
+    "previous": "File sebelumnya",
+    "next": "File berikutnya",
+    "noPreview": "Tidak ada pratinjau untuk jenis file ini",
+    "noPreviewHint": "Download file ini atau buka detailnya.",
+    "truncated": "(menampilkan 256 KB pertama)"
+  },
+  "newFolder": {
+    "name": "Nama folder",
+    "placeholder": "images atau nested/path",
+    "hint": "Penyimpanan tidak memiliki folder sungguhan: ini membuat penanda “{name}/” yang kosong."
+  },
+  "rename": {
+    "fileTitle": "Ganti nama file",
+    "folderTitle": "Ganti nama folder",
+    "fileNote": "File disalin ke nama baru, lalu file lama dihapus beserta riwayat versinya.",
+    "folderNote": "Seluruh isinya disalin ke jalur baru, lalu objek lama dihapus beserta riwayat versinya.",
+    "newName": "Nama baru",
+    "done": "Nama diganti menjadi {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "Pindahkan {count} item",
+      "other": "Pindahkan {count} item"
+    },
+    "copyTitle": {
+      "one": "Salin {count} item",
+      "other": "Salin {count} item"
+    },
+    "mode": "Pindahkan atau salin",
+    "move": "Pindahkan",
+    "copy": "Salin",
+    "destination": "Folder tujuan",
+    "root": "(root bucket)",
+    "noSubfolders": "Tidak ada subfolder di sini. Ketik jalur baru di atas untuk membuatnya.",
+    "moveNote": "Memindahkan akan menghapus file asli beserta riwayat versinya.",
+    "moveHere": "Pindahkan ke sini",
+    "copyHere": "Salin ke sini",
+    "moved": {
+      "one": "{count} objek dipindahkan",
+      "other": "{count} objek dipindahkan"
+    },
+    "copied": {
+      "one": "{count} objek disalin",
+      "other": "{count} objek disalin"
+    },
+    "overwriteTitle": {
+      "one": "Timpa {count} file yang ada?",
+      "other": "Timpa {count} file yang ada?"
+    },
+    "overwriteText": "File ini sudah ada di tujuan. Isinya saat ini akan menjadi versi lama.",
+    "andMore": {
+      "one": "…dan {count} lainnya",
+      "other": "…dan {count} lainnya"
+    },
+    "overwrite": "Timpa"
+  },
+  "share": {
+    "title": "Bagikan file",
+    "publicUrl": "URL publik",
+    "publicNote": "Disajikan melalui CDN atau bucket publik Anda. Berfungsi selama file masih ada.",
+    "privateNote": "Bucket ini pribadi dan tidak memiliki URL CDN, jadi tidak ada link permanen. Buat link bertanda tangan sebagai gantinya.",
+    "signedLink": "Link bertanda tangan",
+    "signedNote": "Siapa pun yang memiliki link dapat mendownload file hingga link kedaluwarsa.",
+    "expiresIn": "Kedaluwarsa dalam",
+    "hour": "1 jam",
+    "day": "24 jam",
+    "week": "7 hari",
+    "generate": "Buat link",
+    "expires": "Kedaluwarsa {date}"
+  },
+  "info": {
+    "title": "Detail",
+    "path": "Jalur",
+    "type": "Jenis konten",
+    "bytes": {
+      "one": "{count} byte",
+      "other": "{count} byte"
+    },
+    "copyKey": "Salin kunci",
+    "versions": "Versi",
+    "oldBytes": "{size} di versi lama",
+    "noVersions": "Riwayat versi tidak tersedia untuk endpoint ini.",
+    "current": "Saat ini",
+    "hidden": "Tersembunyi",
+    "deleteMarker": "penanda hapus",
+    "downloadVersion": "Download versi ini",
+    "restore": "Pulihkan",
+    "restoreTitle": "Pulihkan versi ini?",
+    "restoreText": "Versi ini disalin menimpa file saat ini sebagai versi baru.",
+    "restored": "Versi dipulihkan",
+    "deleteVersion": "Hapus versi",
+    "deleteVersionTitle": "Hapus versi ini selamanya?",
+    "versionDeleted": "Versi dihapus"
+  },
+  "types": {
+    "image": "Gambar",
+    "video": "Video",
+    "audio": "Audio",
+    "document": "Dokumen",
+    "archive": "Arsip",
+    "code": "Kode & data",
+    "font": "Font",
+    "other": "Lainnya"
+  },
+  "stats": {
+    "title": "Penggunaan",
+    "wholeBucket": "Seluruh bucket",
+    "rescan": "Pindai ulang",
+    "scanning": "Memindai setiap objek…",
+    "scanned": {
+      "one": "{count} versi dipindai",
+      "other": "{count} versi dipindai"
+    },
+    "scanSlow": "Bucket besar bisa memerlukan beberapa menit.",
+    "scannedAt": "Dipindai {when}",
+    "cached": "dari cache",
+    "costNote": "Pemindaian ulang mencantumkan setiap versi objek (sekitar satu panggilan class C per 1.000 versi).",
+    "truncated": "Pemindaian berhenti di 2.000.000 versi. Angka ini belum lengkap.",
+    "totalBilled": "Total ditagih",
+    "currentPlusOld": "File saat ini + versi lama",
+    "hiddenFiles": {
+      "one": "termasuk {count} file tersembunyi",
+      "other": "termasuk {count} file tersembunyi"
+    },
+    "stored": "File saat ini",
+    "oldVersions": "Versi lama",
+    "versionsBilled": {
+      "one": "{count} versi, ditagih sebagai penyimpanan",
+      "other": "{count} versi, ditagih sebagai penyimpanan"
+    },
+    "notAvailable": "Tidak tersedia",
+    "averageFile": "Rata-rata file",
+    "topLevel": {
+      "one": "{count} entri tingkat atas",
+      "other": "{count} entri tingkat atas"
+    },
+    "breakdown": "Ke mana ruang terpakai",
+    "oldWarning": "{size} dipakai oleh versi lama dan file tersembunyi.",
+    "addRule": "Simpan hanya versi terakhir",
+    "byFolder": "Menurut folder",
+    "byFolderSub": "File saat ini, tingkat atas",
+    "byFolderSubPrefix": "File saat ini, tingkat atas folder ini",
+    "more": {
+      "one": "+ {count} lainnya",
+      "other": "+ {count} lainnya"
+    },
+    "byType": "Menurut jenis file",
+    "byTypeSub": "Dikelompokkan menurut ekstensi",
+    "largest": "File terbesar",
+    "recent": "Baru diunggah",
+    "noFiles": "Tidak ada file.",
+    "rootFiles": "(file di folder ini)"
+  },
+  "buckets": {
+    "title": "Bucket",
+    "count": {
+      "one": "{count} bucket",
+      "other": "{count} bucket"
+    },
+    "new": "Bucket baru",
+    "public": "Publik",
+    "private": "Pribadi",
+    "noCdn": "Tidak ada URL CDN",
+    "emptyTitle": "Belum ada bucket",
+    "emptyText": "Buat bucket untuk mulai mengunggah file.",
+    "s3Only": "Setelan bucket dan kunci memerlukan API native B2. Fitur ini nonaktif selama override endpoint S3 diatur.",
+    "globalNames": "Nama bucket unik di seluruh penyedia.",
+    "name": "Nama bucket",
+    "nameRules": "6–50 karakter: huruf, angka, dan tanda hubung.",
+    "visibility": "Visibilitas",
+    "created": "Bucket {name} dibuat"
+  },
+  "settings": {
+    "title": "Setelan bucket",
+    "needsNative": "Setelan bucket menggunakan API native B2. Hapus override S3_ENDPOINT untuk mengaktifkannya.",
+    "visibility": "Visibilitas",
+    "visibilityText": "Bucket publik menyajikan file kepada siapa pun yang memiliki URL-nya. Bucket pribadi memerlukan link bertanda tangan.",
+    "publicBucket": "Bucket publik",
+    "publicOn": "File dapat didownload oleh siapa pun yang memiliki URL-nya.",
+    "publicOff": "File hanya dapat diakses melalui link bertanda tangan.",
+    "makePublicTitle": "Jadikan bucket ini publik?",
+    "makePublicText": "Setiap file di bucket dapat didownload oleh siapa pun yang mengetahui URL-nya.",
+    "makePublic": "Jadikan publik",
+    "makePrivateTitle": "Jadikan bucket ini pribadi?",
+    "makePrivateText": "URL publik dan CDN Anda berhenti berfungsi hingga Anda mengubahnya kembali.",
+    "makePrivate": "Jadikan pribadi",
+    "cdnBase": "URL dasar CDN (dari CDN_URLS)",
+    "friendlyUrl": "URL ramah",
+    "cdnHint": "Atur CDN_URLS={bucket}=https://your-cdn untuk menyalin link CDN sebagai gantinya.",
+    "deleteTitle": "Hapus bucket",
+    "deleteText": "Hanya bucket kosong yang dapat dihapus. Hapus setiap file (dan versinya) terlebih dahulu.",
+    "deleteConfirm": "Hapus bucket {bucket}?",
+    "cannotUndo": "Tindakan ini tidak dapat diurungkan.",
+    "deleted": "Bucket dihapus"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Unggahan langsung dikirim dari browser Anda ke penyimpanan, jadi bucket harus mengizinkan alamat aplikasi ini.",
+    "allowed": "Unggahan diizinkan dari {origin}.",
+    "notAllowed": "Unggahan dari {origin} belum diizinkan.",
+    "allow": "Izinkan unggahan dari sini",
+    "editJson": "Edit JSON",
+    "closeEditor": "Tutup editor",
+    "mustBeArray": "Aturan harus berupa array JSON.",
+    "save": "Simpan aturan",
+    "none": "Tidak ada aturan CORS.",
+    "remove": "Hapus aturan"
+  },
+  "lifecycle": {
+    "title": "Aturan siklus hidup",
+    "text": "Sembunyikan file setelah beberapa hari, dan hapus versi tersembunyi atau lama setelah beberapa hari. Biarkan kolom kosong untuk tidak pernah.",
+    "keepLatest": "Simpan hanya versi terakhir",
+    "none": "Tidak ada aturan: setiap versi dari setiap file disimpan selamanya.",
+    "prefix": "Awalan nama file",
+    "allFiles": "(semua file)",
+    "hideAfter": "Sembunyikan setelah",
+    "deleteAfter": "Hapus yang tersembunyi setelah",
+    "days": "hari",
+    "never": "tidak pernah",
+    "remove": "Hapus aturan",
+    "add": "Tambah aturan",
+    "needsNumber": "Setiap aturan memerlukan setidaknya satu angka.",
+    "save": "Simpan aturan"
+  },
+  "multipart": {
+    "title": "Unggahan besar yang belum selesai",
+    "text": "Bagian dari unggahan yang terputus memakai ruang (yang ditagih) sampai dibatalkan.",
+    "none": "Tidak ada yang belum selesai.",
+    "cancel": "Batalkan unggahan",
+    "cancelAll": "Batalkan semua",
+    "canceled": {
+      "one": "{count} unggahan dibatalkan",
+      "other": "{count} unggahan dibatalkan"
+    },
+    "failed": {
+      "one": "{count} tidak dapat dibatalkan",
+      "other": "{count} tidak dapat dibatalkan"
+    }
+  },
+  "keys": {
+    "title": "Kunci aplikasi",
+    "subtitle": "Kunci untuk aplikasi dan skrip. Rahasia hanya ditampilkan sekali, tepat setelah dibuat.",
+    "new": "Kunci baru",
+    "thisApp": "Digunakan oleh aplikasi ini",
+    "allCapabilities": "Semua kapabilitas",
+    "allBuckets": "Semua bucket",
+    "expires": "Kedaluwarsa {date}",
+    "never": "Tidak pernah kedaluwarsa",
+    "emptyTitle": "Tidak ada kunci",
+    "delete": "Hapus kunci",
+    "deleteTitle": "Hapus kunci “{name}”?",
+    "deleteText": "Apa pun yang menggunakan kunci ini akan langsung berhenti berfungsi.",
+    "deleted": "Kunci dihapus",
+    "name": "Nama kunci",
+    "nameRules": "Huruf, angka, dan tanda hubung.",
+    "bucket": "Bucket",
+    "prefix": "Awalan nama file",
+    "prefixNeedsBucket": "Pilih bucket terlebih dahulu",
+    "days": "Berlaku selama (hari)",
+    "capabilities": "Kapabilitas",
+    "presetRead": "Hanya baca",
+    "presetReadWrite": "Baca & tulis",
+    "presetWrite": "Hanya tulis",
+    "presetAll": "Semuanya",
+    "create": "Buat kunci",
+    "createdTitle": "Kunci dibuat",
+    "createdNote": "Salin rahasianya sekarang. Rahasia ini tidak akan ditampilkan lagi."
+  },
+  "errors": {
+    "network": "Tidak dapat menjangkau server. Periksa koneksi Anda.",
+    "sessionExpired": "Sesi Anda telah berakhir.",
+    "requestFailed": "Permintaan gagal ({status})",
+    "wrongPassword": "Sandi salah",
+    "tooManyAttempts": "Terlalu banyak percobaan. Coba lagi dalam {seconds} dtk.",
+    "invalidBucketName": "Nama bucket tidak valid",
+    "bucketNameRules": "Nama bucket terdiri dari 6–50 karakter: huruf, angka, dan tanda hubung, dan tidak diawali “b2-”.",
+    "keyNameRules": "Nama kunci hanya boleh berisi huruf, angka, dan tanda hubung.",
+    "pickCapability": "Pilih setidaknya satu kapabilitas.",
+    "ownKey": "Aplikasi ini berjalan dengan kunci tersebut, jadi kunci itu tidak dapat dihapus di sini.",
+    "nativeApiRequired": "Fitur ini memerlukan API native B2 (tanpa override S3_ENDPOINT).",
+    "jobNotFound": "Operasi hilang (server mungkin telah dimulai ulang).",
+    "folderIntoItself": "Folder tidak dapat dipindahkan ke dalam dirinya sendiri.",
+    "deleteRoot": "Menolak menghapus kunci kosong atau root bucket.",
+    "invalidSize": "Ukuran file tidak valid",
+    "uploadFailed": "Unggahan gagal ({status})",
+    "uploadCors": "Error jaringan atau CORS. Izinkan unggahan di setelan CORS bucket.",
+    "etagMissing": "Penyimpanan tidak menyertakan header ETag. Izinkan unggahan di setelan CORS bucket.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD belum diatur.",
+      "secret": "SESSION_SECRET minimal harus 32 karakter.",
+      "b2": "B2_KEY_ID dan B2_APP_KEY belum diatur."
+    }
+  }
+}

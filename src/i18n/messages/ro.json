@@ -1,0 +1,523 @@
+{
+  "common": {
+    "cancel": "Anulează",
+    "close": "Închide",
+    "copied": "Copiat",
+    "copy": "Copiază",
+    "create": "Creează",
+    "delete": "Șterge",
+    "discard": "Renunță",
+    "done": "Gata",
+    "language": "Limbă",
+    "loading": "Se încarcă…",
+    "more": "Mai multe acțiuni",
+    "ok": "OK",
+    "refresh": "Reîmprospătează",
+    "retry": "Reîncearcă",
+    "saved": "Salvat",
+    "typeToConfirm": "Scrie {text} pentru a confirma"
+  },
+  "login": {
+    "pageTitle": "Conectează-te · {app}",
+    "title": "Conectează-te",
+    "subtitle": "pentru a-ți gestiona spațiul de stocare cu {app}",
+    "password": "Parolă",
+    "showPassword": "Afișează parola",
+    "hidePassword": "Ascunde parola",
+    "submit": "Conectează-te",
+    "note": "Cheile de stocare nu părăsesc niciodată serverul."
+  },
+  "setup": {
+    "title": "Spațiul de stocare nu poate fi accesat",
+    "noBuckets": "Această cheie nu vede niciun bucket.",
+    "hint": "Verifică variabilele de mediu și repornește serverul."
+  },
+  "nav": {
+    "label": "Navigare principală",
+    "menu": "Deschide navigarea",
+    "new": "Nou",
+    "buckets": "Bucketuri",
+    "refreshBuckets": "Reîmprospătează bucketurile",
+    "files": "Fișiere",
+    "usage": "Utilizare",
+    "settings": "Setări",
+    "allBuckets": "Toate bucketurile",
+    "bucketsShort": "Bucketuri",
+    "keys": "Chei de aplicație",
+    "keysShort": "Chei",
+    "appearance": "Aspect",
+    "signOut": "Deconectează-te"
+  },
+  "appearance": {
+    "title": "Aspect",
+    "theme": "Temă",
+    "light": "Luminoasă",
+    "dark": "Întunecată",
+    "system": "Sistem",
+    "color": "Culoare",
+    "customColor": "Culoare personalizată",
+    "pickColor": "Alege o culoare",
+    "seeds": {
+      "teal": "Turcoaz",
+      "blue": "Albastru",
+      "indigo": "Indigo",
+      "green": "Verde",
+      "amber": "Chihlimbar",
+      "rose": "Roz",
+      "purple": "Mov",
+      "gray": "Gri"
+    },
+    "style": "Stil de culoare",
+    "styleHint": "Cât de puternic colorează interfața culoarea aleasă.",
+    "tonal": "Echilibrat",
+    "vibrant": "Viu",
+    "fidelity": "Fidel",
+    "contrast": "Contrast",
+    "standard": "Standard",
+    "medium": "Mediu",
+    "high": "Ridicat",
+    "density": "Densitate",
+    "default": "Implicită",
+    "compact": "Compactă",
+    "deviceNote": "Aceste setări sunt salvate doar pe acest dispozitiv."
+  },
+  "files": {
+    "title": "Fișiere",
+    "path": "Calea dosarului",
+    "view": "Vizualizare",
+    "listView": "Vizualizare listă",
+    "gridView": "Vizualizare grilă",
+    "searchBucket": "Caută în {bucket}",
+    "searchFolder": "Caută în acest dosar",
+    "clearSearch": "Șterge căutarea",
+    "resultsFor": "Rezultate pentru „{query}”",
+    "matches": {
+      "one": "{count} rezultat",
+      "few": "{count} rezultate",
+      "other": "{count} de rezultate"
+    },
+    "limited": "limitat",
+    "searchLimited": "Căutarea se oprește după 500 de rezultate sau 50.000 de fișiere scanate. Restrânge-o deschizând un subdosar.",
+    "folderCount": {
+      "one": "{count} dosar",
+      "few": "{count} dosare",
+      "other": "{count} de dosare"
+    },
+    "fileCount": {
+      "one": "{count} fișier",
+      "few": "{count} fișiere",
+      "other": "{count} de fișiere"
+    },
+    "folders": "Dosare",
+    "files": "Fișiere",
+    "name": "Nume",
+    "size": "Dimensiune",
+    "modified": "Modificat",
+    "ascending": "Crescător",
+    "descending": "Descrescător",
+    "selectAll": "Selectează tot",
+    "selectNone": "Deselectează tot",
+    "selectItem": "Selectează {name}",
+    "selected": {
+      "one": "{count} selectat",
+      "few": "{count} selectate",
+      "other": "{count} de selectate"
+    },
+    "clearSelection": "Anulează selecția",
+    "upload": "Încarcă",
+    "uploadFiles": "Încarcă fișiere",
+    "uploadFolder": "Încarcă un dosar",
+    "newFolder": "Dosar nou",
+    "open": "Deschide",
+    "preview": "Previzualizează",
+    "copyUrl": "Copiază URL-ul public",
+    "copyUrls": "Copiază URL-urile",
+    "copyPath": "Copiază calea",
+    "shareLink": "Distribuie linkul…",
+    "download": "Descarcă",
+    "downloadN": {
+      "one": "Descarcă {count} element",
+      "few": "Descarcă {count} elemente",
+      "other": "Descarcă {count} de elemente"
+    },
+    "rename": "Redenumește",
+    "moveOrCopy": "Mută sau copiază",
+    "details": "Detalii și versiuni",
+    "deleteN": {
+      "one": "Șterge {count} element",
+      "few": "Șterge {count} elemente",
+      "other": "Șterge {count} de elemente"
+    },
+    "deleteOne": "Ștergi „{name}”?",
+    "deleteMany": {
+      "one": "Ștergi {count} element?",
+      "few": "Ștergi {count} elemente?",
+      "other": "Ștergi {count} de elemente?"
+    },
+    "deleteFoldersNote": "Dosarele sunt șterse împreună cu tot conținutul lor.",
+    "deleteNote": "Toate versiunile sunt eliminate, ca spațiul să fie eliberat cu adevărat. Acțiunea nu poate fi anulată.",
+    "onlyHide": "Doar ascunde (păstrează versiunile anterioare)",
+    "deleted": {
+      "one": "{count} versiune de obiect ștearsă",
+      "few": "{count} versiuni de obiecte șterse",
+      "other": "{count} de versiuni de obiecte șterse"
+    },
+    "errorsOccurred": {
+      "one": "{count} eroare: {first}",
+      "few": "{count} erori: {first}",
+      "other": "{count} de erori: {first}"
+    },
+    "foldersSkipped": "Dosarele sunt omise. Selectează fișiere pentru descărcare.",
+    "noPublicUrls": "Nu există URL-uri publice: acest bucket este privat și nu are CDN configurat.",
+    "urlCopied": "URL copiat",
+    "urlsCopied": {
+      "one": "{count} URL copiat",
+      "few": "{count} URL-uri copiate",
+      "other": "{count} de URL-uri copiate"
+    },
+    "pathCopied": "Cale copiată",
+    "emptyTitle": "Acest dosar este gol",
+    "emptyText": "Plasează fișiere aici sau folosește Încarcă.",
+    "noMatches": "Nimic nu corespunde cu „{query}”",
+    "noMatchesHint": "Căutarea verifică numele fișierelor din dosarul curent.",
+    "loadMore": "Încarcă mai multe",
+    "dropToUpload": "Plasează pentru a încărca"
+  },
+  "uploads": {
+    "title": "Încărcări",
+    "uploading": {
+      "one": "Se încarcă {count} element",
+      "few": "Se încarcă {count} elemente",
+      "other": "Se încarcă {count} de elemente"
+    },
+    "failed": {
+      "one": "{count} încărcare nereușită",
+      "few": "{count} încărcări nereușite",
+      "other": "{count} de încărcări nereușite"
+    },
+    "complete": {
+      "one": "{count} încărcare finalizată",
+      "few": "{count} încărcări finalizate",
+      "other": "{count} de încărcări finalizate"
+    },
+    "progress": "{loaded} din {total}",
+    "speed": "{speed}/s",
+    "queued": "Se așteaptă…",
+    "canceled": "Anulat",
+    "cancelAll": "Anulează tot",
+    "retry": "Reîncearcă",
+    "expand": "Extinde",
+    "collapse": "Restrânge"
+  },
+  "preview": {
+    "position": "{n} din {total}",
+    "openNewTab": "Deschide într-o filă nouă",
+    "previous": "Fișierul anterior",
+    "next": "Fișierul următor",
+    "noPreview": "Nu există previzualizare pentru acest tip de fișier",
+    "noPreviewHint": "Descarcă-l sau deschide-i detaliile.",
+    "truncated": "(se afișează primii 256 KB)"
+  },
+  "newFolder": {
+    "name": "Numele dosarului",
+    "placeholder": "imagini sau cale/imbricata",
+    "hint": "Stocarea nu are dosare reale: se creează un marcaj gol „{name}/”."
+  },
+  "rename": {
+    "fileTitle": "Redenumește fișierul",
+    "folderTitle": "Redenumește dosarul",
+    "fileNote": "Fișierul este copiat sub noul nume, apoi cel vechi este eliminat împreună cu istoricul versiunilor.",
+    "folderNote": "Tot conținutul este copiat la noua cale, apoi obiectele vechi sunt eliminate împreună cu istoricul versiunilor.",
+    "newName": "Nume nou",
+    "done": "Redenumit în {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "Mută {count} element",
+      "few": "Mută {count} elemente",
+      "other": "Mută {count} de elemente"
+    },
+    "copyTitle": {
+      "one": "Copiază {count} element",
+      "few": "Copiază {count} elemente",
+      "other": "Copiază {count} de elemente"
+    },
+    "mode": "Mută sau copiază",
+    "move": "Mută",
+    "copy": "Copiază",
+    "destination": "Dosar de destinație",
+    "root": "(rădăcina bucketului)",
+    "noSubfolders": "Nu există subdosare aici. Scrie o cale nouă mai sus pentru a o crea.",
+    "moveNote": "Mutarea elimină originalele împreună cu istoricul versiunilor.",
+    "moveHere": "Mută aici",
+    "copyHere": "Copiază aici",
+    "moved": {
+      "one": "{count} obiect mutat",
+      "few": "{count} obiecte mutate",
+      "other": "{count} de obiecte mutate"
+    },
+    "copied": {
+      "one": "{count} obiect copiat",
+      "few": "{count} obiecte copiate",
+      "other": "{count} de obiecte copiate"
+    },
+    "overwriteTitle": {
+      "one": "Suprascrii {count} fișier existent?",
+      "few": "Suprascrii {count} fișiere existente?",
+      "other": "Suprascrii {count} de fișiere existente?"
+    },
+    "overwriteText": "Acestea există deja la destinație. Conținutul lor actual devine o versiune veche.",
+    "andMore": {
+      "one": "…și încă {count}",
+      "few": "…și încă {count}",
+      "other": "…și încă {count}"
+    },
+    "overwrite": "Suprascrie"
+  },
+  "share": {
+    "title": "Distribuie fișierul",
+    "publicUrl": "URL public",
+    "publicNote": "Servit prin CDN-ul tău sau prin bucketul public. Funcționează cât timp fișierul există.",
+    "privateNote": "Acest bucket este privat și nu are un URL CDN configurat, deci nu există un link permanent. Creează în schimb un link semnat.",
+    "signedLink": "Link semnat",
+    "signedNote": "Oricine are linkul poate descărca fișierul până la expirare.",
+    "expiresIn": "Expiră în",
+    "hour": "1 oră",
+    "day": "24 de ore",
+    "week": "7 zile",
+    "generate": "Creează linkul",
+    "expires": "Expiră pe {date}"
+  },
+  "info": {
+    "title": "Detalii",
+    "path": "Cale",
+    "type": "Tip de conținut",
+    "bytes": {
+      "one": "{count} octet",
+      "few": "{count} octeți",
+      "other": "{count} de octeți"
+    },
+    "copyKey": "Copiază cheia",
+    "versions": "Versiuni",
+    "oldBytes": "{size} în versiuni vechi",
+    "noVersions": "Istoricul versiunilor nu este disponibil pentru acest endpoint.",
+    "current": "Curentă",
+    "hidden": "Ascunsă",
+    "deleteMarker": "marcaj de ștergere",
+    "downloadVersion": "Descarcă această versiune",
+    "restore": "Restabilește",
+    "restoreTitle": "Restabilești această versiune?",
+    "restoreText": "Este copiată peste fișierul curent ca versiune nouă.",
+    "restored": "Versiune restabilită",
+    "deleteVersion": "Șterge versiunea",
+    "deleteVersionTitle": "Ștergi definitiv această versiune?",
+    "versionDeleted": "Versiune ștearsă"
+  },
+  "types": {
+    "image": "Imagini",
+    "video": "Video",
+    "audio": "Audio",
+    "document": "Documente",
+    "archive": "Arhive",
+    "code": "Cod și date",
+    "font": "Fonturi",
+    "other": "Altele"
+  },
+  "stats": {
+    "title": "Utilizare",
+    "wholeBucket": "Tot bucketul",
+    "rescan": "Scanează din nou",
+    "scanning": "Se scanează toate obiectele…",
+    "scanned": {
+      "one": "{count} versiune scanată",
+      "few": "{count} versiuni scanate",
+      "other": "{count} de versiuni scanate"
+    },
+    "scanSlow": "Bucketurile mari pot dura câteva minute.",
+    "scannedAt": "Scanat {when}",
+    "cached": "din cache",
+    "costNote": "O scanare nouă listează toate versiunile obiectelor (aproximativ un apel class C la 1.000 de versiuni).",
+    "truncated": "Scanarea s-a oprit la 2.000.000 de versiuni. Aceste cifre sunt parțiale.",
+    "totalBilled": "Total facturat",
+    "currentPlusOld": "Fișiere curente + versiuni vechi",
+    "hiddenFiles": {
+      "one": "include {count} fișier ascuns",
+      "few": "include {count} fișiere ascunse",
+      "other": "include {count} de fișiere ascunse"
+    },
+    "stored": "Fișiere curente",
+    "oldVersions": "Versiuni vechi",
+    "versionsBilled": {
+      "one": "{count} versiune, facturată ca stocare",
+      "few": "{count} versiuni, facturate ca stocare",
+      "other": "{count} de versiuni, facturate ca stocare"
+    },
+    "notAvailable": "Indisponibil",
+    "averageFile": "Fișier mediu",
+    "topLevel": {
+      "one": "{count} intrare de nivel superior",
+      "few": "{count} intrări de nivel superior",
+      "other": "{count} de intrări de nivel superior"
+    },
+    "breakdown": "Unde se duce spațiul",
+    "oldWarning": "{size} sunt ocupați de versiuni vechi și fișiere ascunse.",
+    "addRule": "Păstrează doar ultima versiune",
+    "byFolder": "După dosar",
+    "byFolderSub": "Fișiere curente, nivel superior",
+    "byFolderSubPrefix": "Fișiere curente, nivelul superior al acestui dosar",
+    "more": {
+      "one": "+ încă {count}",
+      "few": "+ încă {count}",
+      "other": "+ încă {count}"
+    },
+    "byType": "După tipul fișierului",
+    "byTypeSub": "Grupate după extensie",
+    "largest": "Cele mai mari fișiere",
+    "recent": "Încărcate recent",
+    "noFiles": "Niciun fișier.",
+    "rootFiles": "(fișiere din acest dosar)"
+  },
+  "buckets": {
+    "title": "Bucketuri",
+    "count": {
+      "one": "{count} bucket",
+      "few": "{count} bucketuri",
+      "other": "{count} de bucketuri"
+    },
+    "new": "Bucket nou",
+    "public": "Public",
+    "private": "Privat",
+    "noCdn": "Fără URL CDN",
+    "emptyTitle": "Încă nu există bucketuri",
+    "emptyText": "Creează unul pentru a începe să încarci fișiere.",
+    "s3Only": "Setările bucketurilor și cheile necesită API-ul nativ B2. Sunt dezactivate cât timp este setat un endpoint S3 alternativ.",
+    "globalNames": "Numele bucketurilor sunt unice la nivelul întregului furnizor.",
+    "name": "Numele bucketului",
+    "nameRules": "6–50 de caractere: litere, cifre și cratime.",
+    "visibility": "Vizibilitate",
+    "created": "Bucketul {name} a fost creat"
+  },
+  "settings": {
+    "title": "Setările bucketului",
+    "needsNative": "Setările bucketului folosesc API-ul nativ B2. Elimină suprascrierea S3_ENDPOINT pentru a le activa.",
+    "visibility": "Vizibilitate",
+    "visibilityText": "Bucketurile publice servesc fișierele oricui are URL-ul. Cele private necesită linkuri semnate.",
+    "publicBucket": "Bucket public",
+    "publicOn": "Fișierele pot fi descărcate de oricine are URL-ul.",
+    "publicOff": "Fișierele sunt accesibile doar prin linkuri semnate.",
+    "makePublicTitle": "Faci acest bucket public?",
+    "makePublicText": "Orice fișier din bucket poate fi descărcat de oricine îi cunoaște URL-ul.",
+    "makePublic": "Fă-l public",
+    "makePrivateTitle": "Faci acest bucket privat?",
+    "makePrivateText": "URL-urile publice și CDN-ul tău nu vor mai funcționa până când revii la public.",
+    "makePrivate": "Fă-l privat",
+    "cdnBase": "URL de bază CDN (din CDN_URLS)",
+    "friendlyUrl": "URL prietenos",
+    "cdnHint": "Setează CDN_URLS={bucket}=https://your-cdn pentru a copia în schimb linkuri CDN.",
+    "deleteTitle": "Șterge bucketul",
+    "deleteText": "Doar bucketurile goale pot fi șterse. Șterge mai întâi toate fișierele (și versiunile).",
+    "deleteConfirm": "Ștergi bucketul {bucket}?",
+    "cannotUndo": "Acțiunea nu poate fi anulată.",
+    "deleted": "Bucket șters"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Încărcările merg direct din browser în stocare, așa că bucketul trebuie să permită adresa acestei aplicații.",
+    "allowed": "Încărcările sunt permise de la {origin}.",
+    "notAllowed": "Încărcările de la {origin} nu sunt încă permise.",
+    "allow": "Permite încărcările de aici",
+    "editJson": "Editează JSON",
+    "closeEditor": "Închide editorul",
+    "mustBeArray": "Regulile trebuie să fie o matrice JSON.",
+    "save": "Salvează regulile",
+    "none": "Nicio regulă CORS.",
+    "remove": "Elimină regula"
+  },
+  "lifecycle": {
+    "title": "Reguli de ciclu de viață",
+    "text": "Ascunde fișierele după un număr de zile și șterge versiunile ascunse sau vechi după un număr de zile. Lasă un câmp gol pentru niciodată.",
+    "keepLatest": "Păstrează doar ultima versiune",
+    "none": "Nicio regulă: fiecare versiune a fiecărui fișier este păstrată pentru totdeauna.",
+    "prefix": "Prefixul numelui de fișier",
+    "allFiles": "(toate fișierele)",
+    "hideAfter": "Ascunde după",
+    "deleteAfter": "Șterge ascunsele după",
+    "days": "zile",
+    "never": "niciodată",
+    "remove": "Elimină regula",
+    "add": "Adaugă o regulă",
+    "needsNumber": "Fiecare regulă are nevoie de cel puțin un număr.",
+    "save": "Salvează regulile"
+  },
+  "multipart": {
+    "title": "Încărcări mari nefinalizate",
+    "text": "Părțile încărcărilor întrerupte ocupă spațiu (facturat) până când sunt anulate.",
+    "none": "Nimic nefinalizat.",
+    "cancel": "Anulează încărcarea",
+    "cancelAll": "Anulează tot",
+    "canceled": {
+      "one": "{count} încărcare anulată",
+      "few": "{count} încărcări anulate",
+      "other": "{count} de încărcări anulate"
+    },
+    "failed": {
+      "one": "{count} încărcare nu a putut fi anulată",
+      "few": "{count} încărcări nu au putut fi anulate",
+      "other": "{count} de încărcări nu au putut fi anulate"
+    }
+  },
+  "keys": {
+    "title": "Chei de aplicație",
+    "subtitle": "Chei pentru aplicații și scripturi. Secretul este afișat o singură dată, imediat după creare.",
+    "new": "Cheie nouă",
+    "thisApp": "Folosită de această aplicație",
+    "allCapabilities": "Toate permisiunile",
+    "allBuckets": "Toate bucketurile",
+    "expires": "Expiră pe {date}",
+    "never": "Nu expiră niciodată",
+    "emptyTitle": "Nicio cheie",
+    "delete": "Șterge cheia",
+    "deleteTitle": "Ștergi cheia „{name}”?",
+    "deleteText": "Tot ce folosește această cheie nu va mai funcționa imediat.",
+    "deleted": "Cheie ștearsă",
+    "name": "Numele cheii",
+    "nameRules": "Litere, cifre și cratime.",
+    "bucket": "Bucket",
+    "prefix": "Prefixul numelui de fișier",
+    "prefixNeedsBucket": "Alege mai întâi un bucket",
+    "days": "Valabilă (zile)",
+    "capabilities": "Permisiuni",
+    "presetRead": "Doar citire",
+    "presetReadWrite": "Citire și scriere",
+    "presetWrite": "Doar scriere",
+    "presetAll": "Toate",
+    "create": "Creează cheia",
+    "createdTitle": "Cheie creată",
+    "createdNote": "Copiază secretul acum. Nu va mai fi afișat niciodată."
+  },
+  "errors": {
+    "network": "Serverul nu poate fi accesat. Verifică-ți conexiunea.",
+    "sessionExpired": "Sesiunea ta a expirat.",
+    "requestFailed": "Solicitarea a eșuat ({status})",
+    "wrongPassword": "Parolă greșită",
+    "tooManyAttempts": "Prea multe încercări. Încearcă din nou peste {seconds} s.",
+    "invalidBucketName": "Nume de bucket nevalid",
+    "bucketNameRules": "Numele bucketurilor au 6–50 de caractere: litere, cifre și cratime și nu încep cu „b2-”.",
+    "keyNameRules": "Numele cheilor pot conține doar litere, cifre și cratime.",
+    "pickCapability": "Alege cel puțin o permisiune.",
+    "ownKey": "Această aplicație rulează cu acea cheie, deci nu poate fi ștearsă aici.",
+    "nativeApiRequired": "Este necesar API-ul nativ B2 (fără suprascrierea S3_ENDPOINT).",
+    "jobNotFound": "Operațiunea s-a pierdut (este posibil ca serverul să fi repornit).",
+    "folderIntoItself": "Un dosar nu poate fi mutat în el însuși.",
+    "deleteRoot": "Ștergerea unei chei goale sau a rădăcinii bucketului este refuzată.",
+    "invalidSize": "Dimensiune de fișier nevalidă",
+    "uploadFailed": "Încărcarea a eșuat ({status})",
+    "uploadCors": "Eroare de rețea sau CORS. Permite încărcările în setările CORS ale bucketului.",
+    "etagMissing": "Stocarea nu a expus antetul ETag. Permite încărcările în setările CORS ale bucketului.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD nu este setat.",
+      "secret": "SESSION_SECRET trebuie să aibă cel puțin 32 de caractere.",
+      "b2": "B2_KEY_ID și B2_APP_KEY nu sunt setate."
+    }
+  }
+}

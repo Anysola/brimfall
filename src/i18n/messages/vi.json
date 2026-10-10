@@ -1,0 +1,467 @@
+{
+  "common": {
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "copied": "Đã sao chép",
+    "copy": "Sao chép",
+    "create": "Tạo",
+    "delete": "Xóa",
+    "discard": "Bỏ",
+    "done": "Xong",
+    "language": "Ngôn ngữ",
+    "loading": "Đang tải…",
+    "more": "Thao tác khác",
+    "ok": "OK",
+    "refresh": "Làm mới",
+    "retry": "Thử lại",
+    "saved": "Đã lưu",
+    "typeToConfirm": "Nhập {text} để xác nhận"
+  },
+  "login": {
+    "pageTitle": "Đăng nhập · {app}",
+    "title": "Đăng nhập",
+    "subtitle": "để quản lý bộ nhớ của bạn bằng {app}",
+    "password": "Mật khẩu",
+    "showPassword": "Hiện mật khẩu",
+    "hidePassword": "Ẩn mật khẩu",
+    "submit": "Đăng nhập",
+    "note": "Khóa lưu trữ của bạn không bao giờ rời khỏi máy chủ."
+  },
+  "setup": {
+    "title": "Không thể kết nối với bộ nhớ",
+    "noBuckets": "Khóa này không thấy bucket nào.",
+    "hint": "Hãy kiểm tra các biến môi trường và khởi động lại máy chủ."
+  },
+  "nav": {
+    "label": "Điều hướng chính",
+    "menu": "Mở điều hướng",
+    "new": "Mới",
+    "buckets": "Bucket",
+    "refreshBuckets": "Làm mới bucket",
+    "files": "Tệp",
+    "usage": "Mức sử dụng",
+    "settings": "Cài đặt",
+    "allBuckets": "Tất cả bucket",
+    "bucketsShort": "Bucket",
+    "keys": "Khóa ứng dụng",
+    "keysShort": "Khóa",
+    "appearance": "Giao diện",
+    "signOut": "Đăng xuất"
+  },
+  "appearance": {
+    "title": "Giao diện",
+    "theme": "Chủ đề",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống",
+    "color": "Màu",
+    "customColor": "Màu tùy chỉnh",
+    "pickColor": "Chọn màu",
+    "seeds": {
+      "teal": "Xanh mòng két",
+      "blue": "Xanh dương",
+      "indigo": "Chàm",
+      "green": "Xanh lá",
+      "amber": "Hổ phách",
+      "rose": "Hồng",
+      "purple": "Tím",
+      "gray": "Xám"
+    },
+    "style": "Kiểu",
+    "styleHint": "Mức độ màu đã chọn phủ lên giao diện.",
+    "tonal": "Cân bằng",
+    "vibrant": "Sống động",
+    "fidelity": "Trung thực",
+    "contrast": "Độ tương phản",
+    "standard": "Tiêu chuẩn",
+    "medium": "Trung bình",
+    "high": "Cao",
+    "density": "Mật độ",
+    "default": "Mặc định",
+    "compact": "Thu gọn",
+    "deviceNote": "Các cài đặt này chỉ được lưu trên thiết bị này."
+  },
+  "files": {
+    "title": "Tệp",
+    "path": "Đường dẫn thư mục",
+    "view": "Chế độ xem",
+    "listView": "Dạng danh sách",
+    "gridView": "Dạng lưới",
+    "searchBucket": "Tìm trong {bucket}",
+    "searchFolder": "Tìm trong thư mục này",
+    "clearSearch": "Xóa tìm kiếm",
+    "resultsFor": "Kết quả cho “{query}”",
+    "matches": {
+      "other": "{count} kết quả"
+    },
+    "limited": "có giới hạn",
+    "searchLimited": "Tìm kiếm dừng sau 500 kết quả hoặc 50.000 tệp đã quét. Hãy mở một thư mục con để thu hẹp phạm vi.",
+    "folderCount": {
+      "other": "{count} thư mục"
+    },
+    "fileCount": {
+      "other": "{count} tệp"
+    },
+    "folders": "Thư mục",
+    "files": "Tệp",
+    "name": "Tên",
+    "size": "Kích thước",
+    "modified": "Đã sửa đổi",
+    "ascending": "Tăng dần",
+    "descending": "Giảm dần",
+    "selectAll": "Chọn tất cả",
+    "selectNone": "Bỏ chọn tất cả",
+    "selectItem": "Chọn {name}",
+    "selected": {
+      "other": "Đã chọn {count}"
+    },
+    "clearSelection": "Bỏ chọn",
+    "upload": "Tải lên",
+    "uploadFiles": "Tải tệp lên",
+    "uploadFolder": "Tải thư mục lên",
+    "newFolder": "Thư mục mới",
+    "open": "Mở",
+    "preview": "Xem trước",
+    "copyUrl": "Sao chép URL công khai",
+    "copyUrls": "Sao chép URL",
+    "copyPath": "Sao chép đường dẫn",
+    "shareLink": "Chia sẻ đường liên kết…",
+    "download": "Tải xuống",
+    "downloadN": {
+      "other": "Tải xuống {count} mục"
+    },
+    "rename": "Đổi tên",
+    "moveOrCopy": "Di chuyển hoặc sao chép",
+    "details": "Chi tiết và phiên bản",
+    "deleteN": {
+      "other": "Xóa {count} mục"
+    },
+    "deleteOne": "Xóa “{name}”?",
+    "deleteMany": {
+      "other": "Xóa {count} mục?"
+    },
+    "deleteFoldersNote": "Thư mục sẽ bị xóa cùng toàn bộ nội dung bên trong.",
+    "deleteNote": "Mọi phiên bản đều bị xóa để thực sự giải phóng dung lượng. Không thể hoàn tác thao tác này.",
+    "onlyHide": "Chỉ ẩn (giữ các phiên bản trước)",
+    "deleted": {
+      "other": "Đã xóa {count} phiên bản đối tượng"
+    },
+    "errorsOccurred": {
+      "other": "{count} lỗi: {first}"
+    },
+    "foldersSkipped": "Đã bỏ qua thư mục. Hãy chọn tệp để tải xuống.",
+    "noPublicUrls": "Không có URL công khai: bucket này ở chế độ riêng tư và chưa cấu hình CDN.",
+    "urlCopied": "Đã sao chép URL",
+    "urlsCopied": {
+      "other": "Đã sao chép {count} URL"
+    },
+    "pathCopied": "Đã sao chép đường dẫn",
+    "emptyTitle": "Thư mục này trống",
+    "emptyText": "Thả tệp vào đây hoặc dùng nút Tải lên.",
+    "noMatches": "Không có kết quả nào cho “{query}”",
+    "noMatchesHint": "Tìm kiếm theo tên tệp trong thư mục hiện tại.",
+    "loadMore": "Tải thêm",
+    "dropToUpload": "Thả để tải lên"
+  },
+  "uploads": {
+    "title": "Tải lên",
+    "uploading": {
+      "other": "Đang tải lên {count} mục"
+    },
+    "failed": {
+      "other": "{count} lượt tải lên không thành công"
+    },
+    "complete": {
+      "other": "Đã tải lên xong {count} mục"
+    },
+    "progress": "{loaded} / {total}",
+    "speed": "{speed}/giây",
+    "queued": "Đang chờ…",
+    "canceled": "Đã hủy",
+    "cancelAll": "Hủy tất cả",
+    "retry": "Thử lại",
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn"
+  },
+  "preview": {
+    "position": "{n} / {total}",
+    "openNewTab": "Mở trong thẻ mới",
+    "previous": "Tệp trước",
+    "next": "Tệp tiếp theo",
+    "noPreview": "Không có bản xem trước cho loại tệp này",
+    "noPreviewHint": "Hãy tải tệp xuống hoặc mở phần chi tiết.",
+    "truncated": "(đang hiển thị 256 KB đầu tiên)"
+  },
+  "newFolder": {
+    "name": "Tên thư mục",
+    "placeholder": "images hoặc nested/path",
+    "hint": "Bộ nhớ không có thư mục thật: thao tác này tạo một điểm đánh dấu “{name}/” trống."
+  },
+  "rename": {
+    "fileTitle": "Đổi tên tệp",
+    "folderTitle": "Đổi tên thư mục",
+    "fileNote": "Tệp được sao chép sang tên mới, sau đó tệp cũ bị xóa cùng lịch sử phiên bản.",
+    "folderNote": "Mọi nội dung bên trong được sao chép sang đường dẫn mới, sau đó các đối tượng cũ bị xóa cùng lịch sử phiên bản.",
+    "newName": "Tên mới",
+    "done": "Đã đổi tên thành {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "other": "Di chuyển {count} mục"
+    },
+    "copyTitle": {
+      "other": "Sao chép {count} mục"
+    },
+    "mode": "Di chuyển hoặc sao chép",
+    "move": "Di chuyển",
+    "copy": "Sao chép",
+    "destination": "Thư mục đích",
+    "root": "(thư mục gốc của bucket)",
+    "noSubfolders": "Không có thư mục con. Nhập đường dẫn mới ở trên để tạo.",
+    "moveNote": "Khi di chuyển, bản gốc sẽ bị xóa cùng lịch sử phiên bản.",
+    "moveHere": "Di chuyển đến đây",
+    "copyHere": "Sao chép vào đây",
+    "moved": {
+      "other": "Đã di chuyển {count} đối tượng"
+    },
+    "copied": {
+      "other": "Đã sao chép {count} đối tượng"
+    },
+    "overwriteTitle": {
+      "other": "Ghi đè {count} tệp hiện có?"
+    },
+    "overwriteText": "Các tệp này đã có ở thư mục đích. Nội dung hiện tại của chúng sẽ trở thành phiên bản cũ.",
+    "andMore": {
+      "other": "…và {count} mục khác"
+    },
+    "overwrite": "Ghi đè"
+  },
+  "share": {
+    "title": "Chia sẻ tệp",
+    "publicUrl": "URL công khai",
+    "publicNote": "Được phân phối qua CDN hoặc bucket công khai của bạn. Hoạt động chừng nào tệp còn tồn tại.",
+    "privateNote": "Bucket này ở chế độ riêng tư và chưa cấu hình URL CDN nên không có đường liên kết cố định. Hãy tạo đường liên kết có chữ ký.",
+    "signedLink": "Đường liên kết có chữ ký",
+    "signedNote": "Bất kỳ ai có đường liên kết đều có thể tải tệp xuống cho đến khi hết hạn.",
+    "expiresIn": "Hết hạn sau",
+    "hour": "1 giờ",
+    "day": "24 giờ",
+    "week": "7 ngày",
+    "generate": "Tạo đường liên kết",
+    "expires": "Hết hạn {date}"
+  },
+  "info": {
+    "title": "Chi tiết",
+    "path": "Đường dẫn",
+    "type": "Loại nội dung",
+    "bytes": {
+      "other": "{count} byte"
+    },
+    "copyKey": "Sao chép khóa đối tượng",
+    "versions": "Phiên bản",
+    "oldBytes": "{size} trong các phiên bản cũ",
+    "noVersions": "Lịch sử phiên bản không khả dụng cho điểm cuối này.",
+    "current": "Hiện tại",
+    "hidden": "Đã ẩn",
+    "deleteMarker": "điểm đánh dấu xóa",
+    "downloadVersion": "Tải xuống phiên bản này",
+    "restore": "Khôi phục",
+    "restoreTitle": "Khôi phục phiên bản này?",
+    "restoreText": "Phiên bản này sẽ được sao chép đè lên tệp hiện tại dưới dạng một phiên bản mới.",
+    "restored": "Đã khôi phục phiên bản",
+    "deleteVersion": "Xóa phiên bản",
+    "deleteVersionTitle": "Xóa vĩnh viễn phiên bản này?",
+    "versionDeleted": "Đã xóa phiên bản"
+  },
+  "types": {
+    "image": "Hình ảnh",
+    "video": "Video",
+    "audio": "Âm thanh",
+    "document": "Tài liệu",
+    "archive": "Tệp nén",
+    "code": "Mã và dữ liệu",
+    "font": "Phông chữ",
+    "other": "Khác"
+  },
+  "stats": {
+    "title": "Mức sử dụng",
+    "wholeBucket": "Toàn bộ bucket",
+    "rescan": "Quét lại",
+    "scanning": "Đang quét mọi đối tượng…",
+    "scanned": {
+      "other": "Đã quét {count} phiên bản"
+    },
+    "scanSlow": "Bucket lớn có thể mất vài phút.",
+    "scannedAt": "Đã quét {when}",
+    "cached": "đã lưu bộ nhớ đệm",
+    "costNote": "Mỗi lần quét lại sẽ liệt kê mọi phiên bản đối tượng (khoảng một lệnh gọi class C cho mỗi 1.000 phiên bản).",
+    "truncated": "Quá trình quét đã dừng ở 2.000.000 phiên bản. Các số liệu này chưa đầy đủ.",
+    "totalBilled": "Tổng dung lượng tính phí",
+    "currentPlusOld": "Tệp hiện tại + phiên bản cũ",
+    "hiddenFiles": {
+      "other": "gồm {count} tệp đã ẩn"
+    },
+    "stored": "Tệp hiện tại",
+    "oldVersions": "Phiên bản cũ",
+    "versionsBilled": {
+      "other": "{count} phiên bản, tính phí như dung lượng lưu trữ"
+    },
+    "notAvailable": "Không khả dụng",
+    "averageFile": "Tệp trung bình",
+    "topLevel": {
+      "other": "{count} mục cấp cao nhất"
+    },
+    "breakdown": "Dung lượng được dùng vào đâu",
+    "oldWarning": "{size} đang bị chiếm bởi phiên bản cũ và tệp đã ẩn.",
+    "addRule": "Chỉ giữ phiên bản mới nhất",
+    "byFolder": "Theo thư mục",
+    "byFolderSub": "Tệp hiện tại, cấp cao nhất",
+    "byFolderSubPrefix": "Tệp hiện tại, cấp cao nhất của thư mục này",
+    "more": {
+      "other": "+ {count} mục khác"
+    },
+    "byType": "Theo loại tệp",
+    "byTypeSub": "Nhóm theo phần mở rộng",
+    "largest": "Tệp lớn nhất",
+    "recent": "Tải lên gần đây",
+    "noFiles": "Không có tệp nào.",
+    "rootFiles": "(tệp trong thư mục này)"
+  },
+  "buckets": {
+    "title": "Bucket",
+    "count": {
+      "other": "{count} bucket"
+    },
+    "new": "Bucket mới",
+    "public": "Công khai",
+    "private": "Riêng tư",
+    "noCdn": "Chưa có URL CDN",
+    "emptyTitle": "Chưa có bucket nào",
+    "emptyText": "Hãy tạo một bucket để bắt đầu tải tệp lên.",
+    "s3Only": "Cài đặt bucket và khóa cần API gốc của B2. Các tính năng này bị tắt khi đang ghi đè điểm cuối S3.",
+    "globalNames": "Tên bucket là duy nhất trên toàn bộ nhà cung cấp.",
+    "name": "Tên bucket",
+    "nameRules": "6–50 ký tự: chữ cái, chữ số và dấu gạch ngang.",
+    "visibility": "Chế độ hiển thị",
+    "created": "Đã tạo bucket {name}"
+  },
+  "settings": {
+    "title": "Cài đặt bucket",
+    "needsNative": "Cài đặt bucket dùng API gốc của B2. Hãy bỏ giá trị ghi đè S3_ENDPOINT để bật.",
+    "visibility": "Chế độ hiển thị",
+    "visibilityText": "Bucket công khai phân phối tệp cho bất kỳ ai có URL. Bucket riêng tư cần đường liên kết có chữ ký.",
+    "publicBucket": "Bucket công khai",
+    "publicOn": "Bất kỳ ai có URL đều có thể tải tệp xuống.",
+    "publicOff": "Chỉ có thể truy cập tệp qua đường liên kết có chữ ký.",
+    "makePublicTitle": "Đặt bucket này thành công khai?",
+    "makePublicText": "Bất kỳ ai biết URL đều có thể tải xuống mọi tệp trong bucket.",
+    "makePublic": "Đặt thành công khai",
+    "makePrivateTitle": "Đặt bucket này thành riêng tư?",
+    "makePrivateText": "URL công khai và CDN của bạn sẽ ngừng hoạt động cho đến khi bạn chuyển lại.",
+    "makePrivate": "Đặt thành riêng tư",
+    "cdnBase": "URL gốc của CDN (từ CDN_URLS)",
+    "friendlyUrl": "URL thân thiện",
+    "cdnHint": "Đặt CDN_URLS={bucket}=https://your-cdn để sao chép đường liên kết CDN thay thế.",
+    "deleteTitle": "Xóa bucket",
+    "deleteText": "Chỉ có thể xóa bucket trống. Hãy xóa mọi tệp (và phiên bản) trước.",
+    "deleteConfirm": "Xóa bucket {bucket}?",
+    "cannotUndo": "Không thể hoàn tác thao tác này.",
+    "deleted": "Đã xóa bucket"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Tệp được tải thẳng từ trình duyệt lên bộ nhớ, nên bucket phải cho phép địa chỉ của ứng dụng này.",
+    "allowed": "Đã cho phép tải lên từ {origin}.",
+    "notAllowed": "Chưa cho phép tải lên từ {origin}.",
+    "allow": "Cho phép tải lên từ đây",
+    "editJson": "Chỉnh sửa JSON",
+    "closeEditor": "Đóng trình chỉnh sửa",
+    "mustBeArray": "Các quy tắc phải là một mảng JSON.",
+    "save": "Lưu quy tắc",
+    "none": "Không có quy tắc CORS nào.",
+    "remove": "Xóa quy tắc"
+  },
+  "lifecycle": {
+    "title": "Quy tắc vòng đời",
+    "text": "Ẩn tệp sau một số ngày và xóa các phiên bản đã ẩn hoặc cũ sau một số ngày. Để trống nếu không bao giờ.",
+    "keepLatest": "Chỉ giữ phiên bản mới nhất",
+    "none": "Không có quy tắc: mọi phiên bản của mọi tệp đều được giữ vĩnh viễn.",
+    "prefix": "Tiền tố tên tệp",
+    "allFiles": "(tất cả tệp)",
+    "hideAfter": "Ẩn sau",
+    "deleteAfter": "Xóa tệp đã ẩn sau",
+    "days": "ngày",
+    "never": "không bao giờ",
+    "remove": "Xóa quy tắc",
+    "add": "Thêm quy tắc",
+    "needsNumber": "Mỗi quy tắc cần ít nhất một con số.",
+    "save": "Lưu quy tắc"
+  },
+  "multipart": {
+    "title": "Tệp lớn tải lên chưa xong",
+    "text": "Các phần của lượt tải lên bị gián đoạn vẫn chiếm dung lượng (tính phí) cho đến khi bị hủy.",
+    "none": "Không có gì chưa xong.",
+    "cancel": "Hủy tải lên",
+    "cancelAll": "Hủy tất cả",
+    "canceled": {
+      "other": "Đã hủy {count} lượt tải lên"
+    },
+    "failed": {
+      "other": "Không thể hủy {count} lượt"
+    }
+  },
+  "keys": {
+    "title": "Khóa ứng dụng",
+    "subtitle": "Khóa dành cho ứng dụng và tập lệnh. Mã bí mật chỉ hiển thị một lần, ngay sau khi tạo.",
+    "new": "Khóa mới",
+    "thisApp": "Ứng dụng này đang dùng",
+    "allCapabilities": "Mọi quyền",
+    "allBuckets": "Tất cả bucket",
+    "expires": "Hết hạn {date}",
+    "never": "Không bao giờ hết hạn",
+    "emptyTitle": "Không có khóa nào",
+    "delete": "Xóa khóa",
+    "deleteTitle": "Xóa khóa “{name}”?",
+    "deleteText": "Mọi thứ đang dùng khóa này sẽ ngừng hoạt động ngay lập tức.",
+    "deleted": "Đã xóa khóa",
+    "name": "Tên khóa",
+    "nameRules": "Chữ cái, chữ số và dấu gạch ngang.",
+    "bucket": "Bucket",
+    "prefix": "Tiền tố tên tệp",
+    "prefixNeedsBucket": "Hãy chọn bucket trước",
+    "days": "Hiệu lực (ngày)",
+    "capabilities": "Quyền",
+    "presetRead": "Chỉ đọc",
+    "presetReadWrite": "Đọc và ghi",
+    "presetWrite": "Chỉ ghi",
+    "presetAll": "Tất cả",
+    "create": "Tạo khóa",
+    "createdTitle": "Đã tạo khóa",
+    "createdNote": "Hãy sao chép mã bí mật ngay bây giờ. Mã này sẽ không bao giờ hiển thị lại."
+  },
+  "errors": {
+    "network": "Không thể kết nối với máy chủ. Hãy kiểm tra kết nối của bạn.",
+    "sessionExpired": "Phiên của bạn đã hết hạn.",
+    "requestFailed": "Yêu cầu không thành công ({status})",
+    "wrongPassword": "Sai mật khẩu",
+    "tooManyAttempts": "Quá nhiều lần thử. Hãy thử lại sau {seconds} giây.",
+    "invalidBucketName": "Tên bucket không hợp lệ",
+    "bucketNameRules": "Tên bucket dài 6–50 ký tự: chữ cái, chữ số và dấu gạch ngang, không được bắt đầu bằng “b2-”.",
+    "keyNameRules": "Tên khóa chỉ được chứa chữ cái, chữ số và dấu gạch ngang.",
+    "pickCapability": "Hãy chọn ít nhất một quyền.",
+    "ownKey": "Ứng dụng này đang chạy bằng khóa đó nên không thể xóa ở đây.",
+    "nativeApiRequired": "Thao tác này cần API gốc của B2 (không ghi đè S3_ENDPOINT).",
+    "jobNotFound": "Thao tác đã bị mất (có thể máy chủ đã khởi động lại).",
+    "folderIntoItself": "Không thể di chuyển thư mục vào chính nó.",
+    "deleteRoot": "Từ chối xóa khóa đối tượng trống hoặc thư mục gốc của bucket.",
+    "invalidSize": "Kích thước tệp không hợp lệ",
+    "uploadFailed": "Tải lên không thành công ({status})",
+    "uploadCors": "Lỗi mạng hoặc CORS. Hãy cho phép tải lên trong cài đặt CORS của bucket.",
+    "etagMissing": "Bộ nhớ không cung cấp tiêu đề ETag. Hãy cho phép tải lên trong cài đặt CORS của bucket.",
+    "config": {
+      "password": "Chưa đặt DASHBOARD_PASSWORD.",
+      "secret": "SESSION_SECRET phải có ít nhất 32 ký tự.",
+      "b2": "Chưa đặt B2_KEY_ID và B2_APP_KEY."
+    }
+  }
+}

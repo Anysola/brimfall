@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Avbryt",
+    "close": "Stäng",
+    "copied": "Kopierat",
+    "copy": "Kopiera",
+    "create": "Skapa",
+    "delete": "Radera",
+    "discard": "Släng",
+    "done": "Klar",
+    "language": "Språk",
+    "loading": "Läser in…",
+    "more": "Fler åtgärder",
+    "ok": "OK",
+    "refresh": "Uppdatera",
+    "retry": "Försök igen",
+    "saved": "Sparat",
+    "typeToConfirm": "Skriv {text} för att bekräfta"
+  },
+  "login": {
+    "pageTitle": "Logga in · {app}",
+    "title": "Logga in",
+    "subtitle": "för att hantera din lagring med {app}",
+    "password": "Lösenord",
+    "showPassword": "Visa lösenord",
+    "hidePassword": "Dölj lösenord",
+    "submit": "Logga in",
+    "note": "Dina lagringsnycklar lämnar aldrig servern."
+  },
+  "setup": {
+    "title": "Det går inte att nå din lagring",
+    "noBuckets": "Den här nyckeln ser inga bucketar.",
+    "hint": "Kontrollera miljövariablerna och starta om servern."
+  },
+  "nav": {
+    "label": "Huvudnavigering",
+    "menu": "Öppna navigering",
+    "new": "Ny",
+    "buckets": "Bucketar",
+    "refreshBuckets": "Uppdatera bucketar",
+    "files": "Filer",
+    "usage": "Användning",
+    "settings": "Inställningar",
+    "allBuckets": "Alla bucketar",
+    "bucketsShort": "Bucketar",
+    "keys": "Programnycklar",
+    "keysShort": "Nycklar",
+    "appearance": "Utseende",
+    "signOut": "Logga ut"
+  },
+  "appearance": {
+    "title": "Utseende",
+    "theme": "Tema",
+    "light": "Ljust",
+    "dark": "Mörkt",
+    "system": "System",
+    "color": "Färg",
+    "customColor": "Anpassad färg",
+    "pickColor": "Välj en färg",
+    "seeds": {
+      "teal": "Blågrön",
+      "blue": "Blå",
+      "indigo": "Indigo",
+      "green": "Grön",
+      "amber": "Bärnsten",
+      "rose": "Rosa",
+      "purple": "Lila",
+      "gray": "Grå"
+    },
+    "style": "Färgstil",
+    "styleHint": "Hur starkt den valda färgen färgar gränssnittet.",
+    "tonal": "Balanserad",
+    "vibrant": "Livfull",
+    "fidelity": "Trogen",
+    "contrast": "Kontrast",
+    "standard": "Standard",
+    "medium": "Medel",
+    "high": "Hög",
+    "density": "Täthet",
+    "default": "Standard",
+    "compact": "Kompakt",
+    "deviceNote": "De här inställningarna sparas bara på den här enheten."
+  },
+  "files": {
+    "title": "Filer",
+    "path": "Mappsökväg",
+    "view": "Visning",
+    "listView": "Listvy",
+    "gridView": "Rutnätsvy",
+    "searchBucket": "Sök i {bucket}",
+    "searchFolder": "Sök i den här mappen",
+    "clearSearch": "Rensa sökning",
+    "resultsFor": "Resultat för ”{query}”",
+    "matches": {
+      "one": "{count} träff",
+      "other": "{count} träffar"
+    },
+    "limited": "begränsat",
+    "searchLimited": "Sökningen stoppas efter 500 resultat eller 50 000 genomsökta filer. Begränsa den genom att öppna en undermapp.",
+    "folderCount": {
+      "one": "{count} mapp",
+      "other": "{count} mappar"
+    },
+    "fileCount": {
+      "one": "{count} fil",
+      "other": "{count} filer"
+    },
+    "folders": "Mappar",
+    "files": "Filer",
+    "name": "Namn",
+    "size": "Storlek",
+    "modified": "Ändrad",
+    "ascending": "Stigande",
+    "descending": "Fallande",
+    "selectAll": "Markera alla",
+    "selectNone": "Avmarkera alla",
+    "selectItem": "Markera {name}",
+    "selected": {
+      "one": "{count} markerad",
+      "other": "{count} markerade"
+    },
+    "clearSelection": "Rensa markering",
+    "upload": "Ladda upp",
+    "uploadFiles": "Ladda upp filer",
+    "uploadFolder": "Ladda upp mapp",
+    "newFolder": "Ny mapp",
+    "open": "Öppna",
+    "preview": "Förhandsgranska",
+    "copyUrl": "Kopiera offentlig URL",
+    "copyUrls": "Kopiera URL:er",
+    "copyPath": "Kopiera sökväg",
+    "shareLink": "Dela länk…",
+    "download": "Ladda ned",
+    "downloadN": {
+      "one": "Ladda ned {count} objekt",
+      "other": "Ladda ned {count} objekt"
+    },
+    "rename": "Byt namn",
+    "moveOrCopy": "Flytta eller kopiera",
+    "details": "Information och versioner",
+    "deleteN": {
+      "one": "Radera {count} objekt",
+      "other": "Radera {count} objekt"
+    },
+    "deleteOne": "Radera ”{name}”?",
+    "deleteMany": {
+      "one": "Radera {count} objekt?",
+      "other": "Radera {count} objekt?"
+    },
+    "deleteFoldersNote": "Mappar raderas med allt innehåll.",
+    "deleteNote": "Alla versioner tas bort så att utrymmet verkligen frigörs. Det går inte att ångra.",
+    "onlyHide": "Dölj bara (behåll tidigare versioner)",
+    "deleted": {
+      "one": "{count} objektversion raderades",
+      "other": "{count} objektversioner raderades"
+    },
+    "errorsOccurred": {
+      "one": "{count} fel: {first}",
+      "other": "{count} fel: {first}"
+    },
+    "foldersSkipped": "Mappar hoppas över. Markera filer att ladda ned.",
+    "noPublicUrls": "Inga offentliga URL:er: den här bucketen är privat och har inget CDN konfigurerat.",
+    "urlCopied": "URL kopierad",
+    "urlsCopied": {
+      "one": "{count} URL kopierades",
+      "other": "{count} URL:er kopierades"
+    },
+    "pathCopied": "Sökväg kopierad",
+    "emptyTitle": "Mappen är tom",
+    "emptyText": "Släpp filer här eller använd Ladda upp.",
+    "noMatches": "Inget matchar ”{query}”",
+    "noMatchesHint": "Sökningen tittar på filnamn under den aktuella mappen.",
+    "loadMore": "Läs in fler",
+    "dropToUpload": "Släpp för att ladda upp"
+  },
+  "uploads": {
+    "title": "Uppladdningar",
+    "uploading": {
+      "one": "Laddar upp {count} objekt",
+      "other": "Laddar upp {count} objekt"
+    },
+    "failed": {
+      "one": "{count} uppladdning misslyckades",
+      "other": "{count} uppladdningar misslyckades"
+    },
+    "complete": {
+      "one": "{count} uppladdning klar",
+      "other": "{count} uppladdningar klara"
+    },
+    "progress": "{loaded} av {total}",
+    "speed": "{speed}/s",
+    "queued": "Väntar…",
+    "canceled": "Avbruten",
+    "cancelAll": "Avbryt alla",
+    "retry": "Försök igen",
+    "expand": "Expandera",
+    "collapse": "Komprimera"
+  },
+  "preview": {
+    "position": "{n} av {total}",
+    "openNewTab": "Öppna i ny flik",
+    "previous": "Föregående fil",
+    "next": "Nästa fil",
+    "noPreview": "Ingen förhandsgranskning för den här filtypen",
+    "noPreviewHint": "Ladda ned den eller öppna dess information.",
+    "truncated": "(visar de första 256 kB)"
+  },
+  "newFolder": {
+    "name": "Mappnamn",
+    "placeholder": "bilder eller nästlad/sökväg",
+    "hint": "Lagringen har inga riktiga mappar: det här skapar en tom markör ”{name}/”."
+  },
+  "rename": {
+    "fileTitle": "Byt namn på fil",
+    "folderTitle": "Byt namn på mapp",
+    "fileNote": "Filen kopieras till det nya namnet, sedan tas den gamla bort med sin versionshistorik.",
+    "folderNote": "Allt innehåll kopieras till den nya sökvägen, sedan tas de gamla objekten bort med sin versionshistorik.",
+    "newName": "Nytt namn",
+    "done": "Nytt namn: {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "Flytta {count} objekt",
+      "other": "Flytta {count} objekt"
+    },
+    "copyTitle": {
+      "one": "Kopiera {count} objekt",
+      "other": "Kopiera {count} objekt"
+    },
+    "mode": "Flytta eller kopiera",
+    "move": "Flytta",
+    "copy": "Kopiera",
+    "destination": "Målmapp",
+    "root": "(bucketens rot)",
+    "noSubfolders": "Inga undermappar här. Skriv en ny sökväg ovan för att skapa den.",
+    "moveNote": "Flytt tar bort originalen med deras versionshistorik.",
+    "moveHere": "Flytta hit",
+    "copyHere": "Kopiera hit",
+    "moved": {
+      "one": "{count} objekt flyttades",
+      "other": "{count} objekt flyttades"
+    },
+    "copied": {
+      "one": "{count} objekt kopierades",
+      "other": "{count} objekt kopierades"
+    },
+    "overwriteTitle": {
+      "one": "Skriv över {count} befintlig fil?",
+      "other": "Skriv över {count} befintliga filer?"
+    },
+    "overwriteText": "De finns redan i målet. Deras nuvarande innehåll blir en gammal version.",
+    "andMore": {
+      "one": "…och {count} till",
+      "other": "…och {count} till"
+    },
+    "overwrite": "Skriv över"
+  },
+  "share": {
+    "title": "Dela fil",
+    "publicUrl": "Offentlig URL",
+    "publicNote": "Levereras via ditt CDN eller en offentlig bucket. Fungerar så länge filen finns.",
+    "privateNote": "Den här bucketen är privat och har ingen CDN-URL konfigurerad, så det finns ingen permanent länk. Skapa en signerad länk i stället.",
+    "signedLink": "Signerad länk",
+    "signedNote": "Alla med länken kan ladda ned filen tills den upphör att gälla.",
+    "expiresIn": "Upphör om",
+    "hour": "1 timme",
+    "day": "24 timmar",
+    "week": "7 dagar",
+    "generate": "Skapa länk",
+    "expires": "Upphör {date}"
+  },
+  "info": {
+    "title": "Information",
+    "path": "Sökväg",
+    "type": "Innehållstyp",
+    "bytes": {
+      "one": "{count} byte",
+      "other": "{count} byte"
+    },
+    "copyKey": "Kopiera nyckel",
+    "versions": "Versioner",
+    "oldBytes": "{size} i gamla versioner",
+    "noVersions": "Versionshistorik är inte tillgänglig för den här slutpunkten.",
+    "current": "Aktuell",
+    "hidden": "Dold",
+    "deleteMarker": "raderingsmarkör",
+    "downloadVersion": "Ladda ned den här versionen",
+    "restore": "Återställ",
+    "restoreTitle": "Återställa den här versionen?",
+    "restoreText": "Den kopieras över den aktuella filen som en ny version.",
+    "restored": "Versionen har återställts",
+    "deleteVersion": "Radera version",
+    "deleteVersionTitle": "Radera den här versionen permanent?",
+    "versionDeleted": "Versionen har raderats"
+  },
+  "types": {
+    "image": "Bilder",
+    "video": "Video",
+    "audio": "Ljud",
+    "document": "Dokument",
+    "archive": "Arkiv",
+    "code": "Kod och data",
+    "font": "Teckensnitt",
+    "other": "Övrigt"
+  },
+  "stats": {
+    "title": "Användning",
+    "wholeBucket": "Hela bucketen",
+    "rescan": "Skanna igen",
+    "scanning": "Skannar alla objekt…",
+    "scanned": {
+      "one": "{count} version skannad",
+      "other": "{count} versioner skannade"
+    },
+    "scanSlow": "Stora bucketar kan ta några minuter.",
+    "scannedAt": "Skannad {when}",
+    "cached": "cachad",
+    "costNote": "En ny skanning listar alla objektversioner (ungefär ett class C-anrop per 1 000 versioner).",
+    "truncated": "Skanningen stoppades vid 2 000 000 versioner. Siffrorna är ofullständiga.",
+    "totalBilled": "Totalt fakturerat",
+    "currentPlusOld": "Aktuella filer + gamla versioner",
+    "hiddenFiles": {
+      "one": "inklusive {count} dold fil",
+      "other": "inklusive {count} dolda filer"
+    },
+    "stored": "Aktuella filer",
+    "oldVersions": "Gamla versioner",
+    "versionsBilled": {
+      "one": "{count} version, faktureras som lagring",
+      "other": "{count} versioner, faktureras som lagring"
+    },
+    "notAvailable": "Inte tillgängligt",
+    "averageFile": "Genomsnittlig fil",
+    "topLevel": {
+      "one": "{count} post på toppnivå",
+      "other": "{count} poster på toppnivå"
+    },
+    "breakdown": "Vad utrymmet används till",
+    "oldWarning": "{size} upptas av gamla versioner och dolda filer.",
+    "addRule": "Behåll bara den senaste versionen",
+    "byFolder": "Per mapp",
+    "byFolderSub": "Aktuella filer, toppnivå",
+    "byFolderSubPrefix": "Aktuella filer, den här mappens toppnivå",
+    "more": {
+      "one": "+ {count} till",
+      "other": "+ {count} till"
+    },
+    "byType": "Per filtyp",
+    "byTypeSub": "Grupperat efter filändelse",
+    "largest": "Största filerna",
+    "recent": "Nyligen uppladdade",
+    "noFiles": "Inga filer.",
+    "rootFiles": "(filer i den här mappen)"
+  },
+  "buckets": {
+    "title": "Bucketar",
+    "count": {
+      "one": "{count} bucket",
+      "other": "{count} bucketar"
+    },
+    "new": "Ny bucket",
+    "public": "Offentlig",
+    "private": "Privat",
+    "noCdn": "Ingen CDN-URL",
+    "emptyTitle": "Inga bucketar än",
+    "emptyText": "Skapa en för att börja ladda upp filer.",
+    "s3Only": "Bucketinställningar och nycklar kräver B2:s inbyggda API. De är avstängda medan en åsidosatt S3-slutpunkt är inställd.",
+    "globalNames": "Bucketnamn är unika hos hela leverantören.",
+    "name": "Bucketnamn",
+    "nameRules": "6–50 tecken: bokstäver, siffror och bindestreck.",
+    "visibility": "Synlighet",
+    "created": "Bucketen {name} har skapats"
+  },
+  "settings": {
+    "title": "Bucketinställningar",
+    "needsNative": "Bucketinställningar använder B2:s inbyggda API. Ta bort åsidosättningen S3_ENDPOINT för att aktivera dem.",
+    "visibility": "Synlighet",
+    "visibilityText": "Offentliga bucketar visar filer för alla som har URL:en. Privata kräver signerade länkar.",
+    "publicBucket": "Offentlig bucket",
+    "publicOn": "Filerna kan laddas ned av alla som har URL:en.",
+    "publicOff": "Filerna kan bara nås via signerade länkar.",
+    "makePublicTitle": "Göra bucketen offentlig?",
+    "makePublicText": "Alla filer i bucketen kan laddas ned av alla som känner till deras URL.",
+    "makePublic": "Gör offentlig",
+    "makePrivateTitle": "Göra bucketen privat?",
+    "makePrivateText": "Offentliga URL:er och ditt CDN slutar fungera tills du byter tillbaka.",
+    "makePrivate": "Gör privat",
+    "cdnBase": "CDN-bas-URL (från CDN_URLS)",
+    "friendlyUrl": "Användarvänlig URL",
+    "cdnHint": "Ange CDN_URLS={bucket}=https://your-cdn för att kopiera CDN-länkar i stället.",
+    "deleteTitle": "Radera bucket",
+    "deleteText": "Bara tomma bucketar kan raderas. Radera alla filer (och versioner) först.",
+    "deleteConfirm": "Radera bucketen {bucket}?",
+    "cannotUndo": "Det går inte att ångra.",
+    "deleted": "Bucketen har raderats"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Uppladdningar går direkt från webbläsaren till lagringen, så bucketen måste tillåta den här appens adress.",
+    "allowed": "Uppladdningar tillåts från {origin}.",
+    "notAllowed": "Uppladdningar från {origin} tillåts inte än.",
+    "allow": "Tillåt uppladdningar härifrån",
+    "editJson": "Redigera JSON",
+    "closeEditor": "Stäng redigeraren",
+    "mustBeArray": "Reglerna måste vara en JSON-array.",
+    "save": "Spara regler",
+    "none": "Inga CORS-regler.",
+    "remove": "Ta bort regel"
+  },
+  "lifecycle": {
+    "title": "Livscykelregler",
+    "text": "Dölj filer efter ett antal dagar och radera dolda eller gamla versioner efter ett antal dagar. Lämna ett fält tomt för aldrig.",
+    "keepLatest": "Behåll bara den senaste versionen",
+    "none": "Inga regler: alla versioner av alla filer behålls för alltid.",
+    "prefix": "Prefix för filnamn",
+    "allFiles": "(alla filer)",
+    "hideAfter": "Dölj efter",
+    "deleteAfter": "Radera dolda efter",
+    "days": "dagar",
+    "never": "aldrig",
+    "remove": "Ta bort regel",
+    "add": "Lägg till regel",
+    "needsNumber": "Varje regel behöver minst ett tal.",
+    "save": "Spara regler"
+  },
+  "multipart": {
+    "title": "Ofullständiga stora uppladdningar",
+    "text": "Delar av avbrutna uppladdningar tar (fakturerat) utrymme tills de avbryts.",
+    "none": "Inget ofullständigt.",
+    "cancel": "Avbryt uppladdning",
+    "cancelAll": "Avbryt alla",
+    "canceled": {
+      "one": "{count} uppladdning avbröts",
+      "other": "{count} uppladdningar avbröts"
+    },
+    "failed": {
+      "one": "{count} kunde inte avbrytas",
+      "other": "{count} kunde inte avbrytas"
+    }
+  },
+  "keys": {
+    "title": "Programnycklar",
+    "subtitle": "Nycklar för appar och skript. En hemlighet visas bara en gång, direkt när den har skapats.",
+    "new": "Ny nyckel",
+    "thisApp": "Används av den här appen",
+    "allCapabilities": "Alla behörigheter",
+    "allBuckets": "Alla bucketar",
+    "expires": "Upphör {date}",
+    "never": "Upphör aldrig",
+    "emptyTitle": "Inga nycklar",
+    "delete": "Radera nyckel",
+    "deleteTitle": "Radera nyckeln ”{name}”?",
+    "deleteText": "Allt som använder den här nyckeln slutar fungera direkt.",
+    "deleted": "Nyckeln har raderats",
+    "name": "Nyckelnamn",
+    "nameRules": "Bokstäver, siffror och bindestreck.",
+    "bucket": "Bucket",
+    "prefix": "Prefix för filnamn",
+    "prefixNeedsBucket": "Välj en bucket först",
+    "days": "Giltig i (dagar)",
+    "capabilities": "Behörigheter",
+    "presetRead": "Endast läsning",
+    "presetReadWrite": "Läsa och skriva",
+    "presetWrite": "Endast skrivning",
+    "presetAll": "Allt",
+    "create": "Skapa nyckel",
+    "createdTitle": "Nyckeln har skapats",
+    "createdNote": "Kopiera hemligheten nu. Den visas aldrig igen."
+  },
+  "errors": {
+    "network": "Det går inte att nå servern. Kontrollera anslutningen.",
+    "sessionExpired": "Din session har gått ut.",
+    "requestFailed": "Begäran misslyckades ({status})",
+    "wrongPassword": "Fel lösenord",
+    "tooManyAttempts": "För många försök. Försök igen om {seconds} s.",
+    "invalidBucketName": "Ogiltigt bucketnamn",
+    "bucketNameRules": "Bucketnamn har 6–50 tecken: bokstäver, siffror och bindestreck, och får inte börja med ”b2-”.",
+    "keyNameRules": "Nyckelnamn får bara innehålla bokstäver, siffror och bindestreck.",
+    "pickCapability": "Välj minst en behörighet.",
+    "ownKey": "Den här appen körs med den nyckeln, så den kan inte raderas här.",
+    "nativeApiRequired": "Det här kräver B2:s inbyggda API (ingen åsidosättning av S3_ENDPOINT).",
+    "jobNotFound": "Åtgärden förlorades (servern kan ha startats om).",
+    "folderIntoItself": "En mapp kan inte flyttas in i sig själv.",
+    "deleteRoot": "Vägrar att radera en tom nyckel eller bucketens rot.",
+    "invalidSize": "Ogiltig filstorlek",
+    "uploadFailed": "Uppladdningen misslyckades ({status})",
+    "uploadCors": "Nätverks- eller CORS-fel. Tillåt uppladdningar i bucketens CORS-inställningar.",
+    "etagMissing": "Lagringen exponerade inte ETag-huvudet. Tillåt uppladdningar i bucketens CORS-inställningar.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD har inte angetts.",
+      "secret": "SESSION_SECRET måste vara minst 32 tecken.",
+      "b2": "B2_KEY_ID och B2_APP_KEY har inte angetts."
+    }
+  }
+}

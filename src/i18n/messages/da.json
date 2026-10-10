@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Annuller",
+    "close": "Luk",
+    "copied": "Kopieret",
+    "copy": "Kopiér",
+    "create": "Opret",
+    "delete": "Slet",
+    "discard": "Kassér",
+    "done": "Færdig",
+    "language": "Sprog",
+    "loading": "Indlæser…",
+    "more": "Flere handlinger",
+    "ok": "OK",
+    "refresh": "Opdater",
+    "retry": "Prøv igen",
+    "saved": "Gemt",
+    "typeToConfirm": "Skriv {text} for at bekræfte"
+  },
+  "login": {
+    "pageTitle": "Log ind · {app}",
+    "title": "Log ind",
+    "subtitle": "for at administrere dit lager med {app}",
+    "password": "Adgangskode",
+    "showPassword": "Vis adgangskode",
+    "hidePassword": "Skjul adgangskode",
+    "submit": "Log ind",
+    "note": "Dine lagernøgler forlader aldrig serveren."
+  },
+  "setup": {
+    "title": "Kan ikke få forbindelse til dit lager",
+    "noBuckets": "Denne nøgle kan ikke se nogen buckets.",
+    "hint": "Tjek dine miljøvariabler, og genstart serveren."
+  },
+  "nav": {
+    "label": "Hovednavigation",
+    "menu": "Åbn navigation",
+    "new": "Ny",
+    "buckets": "Buckets",
+    "refreshBuckets": "Opdater buckets",
+    "files": "Filer",
+    "usage": "Forbrug",
+    "settings": "Indstillinger",
+    "allBuckets": "Alle buckets",
+    "bucketsShort": "Buckets",
+    "keys": "Programnøgler",
+    "keysShort": "Nøgler",
+    "appearance": "Udseende",
+    "signOut": "Log ud"
+  },
+  "appearance": {
+    "title": "Udseende",
+    "theme": "Tema",
+    "light": "Lyst",
+    "dark": "Mørkt",
+    "system": "System",
+    "color": "Farve",
+    "customColor": "Brugerdefineret farve",
+    "pickColor": "Vælg en farve",
+    "seeds": {
+      "teal": "Blågrøn",
+      "blue": "Blå",
+      "indigo": "Indigo",
+      "green": "Grøn",
+      "amber": "Rav",
+      "rose": "Rosa",
+      "purple": "Lilla",
+      "gray": "Grå"
+    },
+    "style": "Stil",
+    "styleHint": "Hvor kraftigt den valgte farve farver brugerfladen.",
+    "tonal": "Afbalanceret",
+    "vibrant": "Livlig",
+    "fidelity": "Tro mod farven",
+    "contrast": "Kontrast",
+    "standard": "Standard",
+    "medium": "Mellem",
+    "high": "Høj",
+    "density": "Tæthed",
+    "default": "Standard",
+    "compact": "Kompakt",
+    "deviceNote": "Disse indstillinger gemmes kun på denne enhed."
+  },
+  "files": {
+    "title": "Filer",
+    "path": "Mappesti",
+    "view": "Visning",
+    "listView": "Listevisning",
+    "gridView": "Gittervisning",
+    "searchBucket": "Søg i {bucket}",
+    "searchFolder": "Søg i denne mappe",
+    "clearSearch": "Ryd søgning",
+    "resultsFor": "Resultater for »{query}«",
+    "matches": {
+      "one": "{count} resultat",
+      "other": "{count} resultater"
+    },
+    "limited": "begrænset",
+    "searchLimited": "Søgningen stopper efter 500 resultater eller 50.000 gennemsøgte filer. Indsnævr den ved at åbne en undermappe.",
+    "folderCount": {
+      "one": "{count} mappe",
+      "other": "{count} mapper"
+    },
+    "fileCount": {
+      "one": "{count} fil",
+      "other": "{count} filer"
+    },
+    "folders": "Mapper",
+    "files": "Filer",
+    "name": "Navn",
+    "size": "Størrelse",
+    "modified": "Ændret",
+    "ascending": "Stigende",
+    "descending": "Faldende",
+    "selectAll": "Vælg alle",
+    "selectNone": "Fravælg alle",
+    "selectItem": "Vælg {name}",
+    "selected": {
+      "one": "{count} valgt",
+      "other": "{count} valgt"
+    },
+    "clearSelection": "Ryd valg",
+    "upload": "Upload",
+    "uploadFiles": "Upload filer",
+    "uploadFolder": "Upload mappe",
+    "newFolder": "Ny mappe",
+    "open": "Åbn",
+    "preview": "Forhåndsvisning",
+    "copyUrl": "Kopiér offentlig URL",
+    "copyUrls": "Kopiér URL'er",
+    "copyPath": "Kopiér sti",
+    "shareLink": "Del link…",
+    "download": "Download",
+    "downloadN": {
+      "one": "Download {count} element",
+      "other": "Download {count} elementer"
+    },
+    "rename": "Omdøb",
+    "moveOrCopy": "Flyt eller kopiér",
+    "details": "Detaljer og versioner",
+    "deleteN": {
+      "one": "Slet {count} element",
+      "other": "Slet {count} elementer"
+    },
+    "deleteOne": "Vil du slette »{name}«?",
+    "deleteMany": {
+      "one": "Vil du slette {count} element?",
+      "other": "Vil du slette {count} elementer?"
+    },
+    "deleteFoldersNote": "Mapper slettes med alt indhold.",
+    "deleteNote": "Alle versioner fjernes, så pladsen virkelig frigives. Dette kan ikke fortrydes.",
+    "onlyHide": "Skjul kun (behold tidligere versioner)",
+    "deleted": {
+      "one": "{count} objektversion slettet",
+      "other": "{count} objektversioner slettet"
+    },
+    "errorsOccurred": {
+      "one": "{count} fejl: {first}",
+      "other": "{count} fejl: {first}"
+    },
+    "foldersSkipped": "Mapper springes over. Vælg filer, der skal downloades.",
+    "noPublicUrls": "Ingen offentlige URL'er: denne bucket er privat og har intet CDN konfigureret.",
+    "urlCopied": "URL kopieret",
+    "urlsCopied": {
+      "one": "{count} URL kopieret",
+      "other": "{count} URL'er kopieret"
+    },
+    "pathCopied": "Sti kopieret",
+    "emptyTitle": "Denne mappe er tom",
+    "emptyText": "Slip filer her, eller brug Upload.",
+    "noMatches": "Intet matcher »{query}«",
+    "noMatchesHint": "Søgningen ser på filnavne i den aktuelle mappe.",
+    "loadMore": "Indlæs flere",
+    "dropToUpload": "Slip for at uploade"
+  },
+  "uploads": {
+    "title": "Uploads",
+    "uploading": {
+      "one": "Uploader {count} element",
+      "other": "Uploader {count} elementer"
+    },
+    "failed": {
+      "one": "{count} upload mislykkedes",
+      "other": "{count} uploads mislykkedes"
+    },
+    "complete": {
+      "one": "{count} upload fuldført",
+      "other": "{count} uploads fuldført"
+    },
+    "progress": "{loaded} af {total}",
+    "speed": "{speed}/s",
+    "queued": "Venter…",
+    "canceled": "Annulleret",
+    "cancelAll": "Annuller alle",
+    "retry": "Prøv igen",
+    "expand": "Udvid",
+    "collapse": "Skjul"
+  },
+  "preview": {
+    "position": "{n} af {total}",
+    "openNewTab": "Åbn i ny fane",
+    "previous": "Forrige fil",
+    "next": "Næste fil",
+    "noPreview": "Ingen forhåndsvisning for denne filtype",
+    "noPreviewHint": "Download den, eller åbn dens detaljer.",
+    "truncated": "(viser de første 256 KB)"
+  },
+  "newFolder": {
+    "name": "Mappenavn",
+    "placeholder": "billeder eller indlejret/sti",
+    "hint": "Lageret har ingen rigtige mapper: dette opretter en tom »{name}/«-markør."
+  },
+  "rename": {
+    "fileTitle": "Omdøb fil",
+    "folderTitle": "Omdøb mappe",
+    "fileNote": "Filen kopieres til det nye navn, og derefter fjernes den gamle med dens versionshistorik.",
+    "folderNote": "Alt indhold kopieres til den nye sti, og derefter fjernes de gamle objekter med deres versionshistorik.",
+    "newName": "Nyt navn",
+    "done": "Omdøbt til {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "Flyt {count} element",
+      "other": "Flyt {count} elementer"
+    },
+    "copyTitle": {
+      "one": "Kopiér {count} element",
+      "other": "Kopiér {count} elementer"
+    },
+    "mode": "Flyt eller kopiér",
+    "move": "Flyt",
+    "copy": "Kopiér",
+    "destination": "Destinationsmappe",
+    "root": "(bucketens rod)",
+    "noSubfolders": "Ingen undermapper her. Skriv en ny sti ovenfor for at oprette den.",
+    "moveNote": "Når du flytter, fjernes originalerne med deres versionshistorik.",
+    "moveHere": "Flyt hertil",
+    "copyHere": "Kopiér hertil",
+    "moved": {
+      "one": "{count} objekt flyttet",
+      "other": "{count} objekter flyttet"
+    },
+    "copied": {
+      "one": "{count} objekt kopieret",
+      "other": "{count} objekter kopieret"
+    },
+    "overwriteTitle": {
+      "one": "Vil du overskrive {count} eksisterende fil?",
+      "other": "Vil du overskrive {count} eksisterende filer?"
+    },
+    "overwriteText": "Disse findes allerede i destinationen. Deres nuværende indhold bliver en gammel version.",
+    "andMore": {
+      "one": "…og {count} mere",
+      "other": "…og {count} mere"
+    },
+    "overwrite": "Overskriv"
+  },
+  "share": {
+    "title": "Del fil",
+    "publicUrl": "Offentlig URL",
+    "publicNote": "Leveres via dit CDN eller en offentlig bucket. Virker, så længe filen findes.",
+    "privateNote": "Denne bucket er privat og har ingen CDN-URL konfigureret, så der er intet permanent link. Opret et signeret link i stedet.",
+    "signedLink": "Signeret link",
+    "signedNote": "Alle med linket kan downloade filen, indtil det udløber.",
+    "expiresIn": "Udløber om",
+    "hour": "1 time",
+    "day": "24 timer",
+    "week": "7 dage",
+    "generate": "Opret link",
+    "expires": "Udløber {date}"
+  },
+  "info": {
+    "title": "Detaljer",
+    "path": "Sti",
+    "type": "Indholdstype",
+    "bytes": {
+      "one": "{count} byte",
+      "other": "{count} bytes"
+    },
+    "copyKey": "Kopiér nøgle",
+    "versions": "Versioner",
+    "oldBytes": "{size} i gamle versioner",
+    "noVersions": "Versionshistorik er ikke tilgængelig for dette endpoint.",
+    "current": "Aktuel",
+    "hidden": "Skjult",
+    "deleteMarker": "sletningsmarkør",
+    "downloadVersion": "Download denne version",
+    "restore": "Gendan",
+    "restoreTitle": "Vil du gendanne denne version?",
+    "restoreText": "Den kopieres over den aktuelle fil som en ny version.",
+    "restored": "Version gendannet",
+    "deleteVersion": "Slet version",
+    "deleteVersionTitle": "Vil du slette denne version permanent?",
+    "versionDeleted": "Version slettet"
+  },
+  "types": {
+    "image": "Billeder",
+    "video": "Video",
+    "audio": "Lyd",
+    "document": "Dokumenter",
+    "archive": "Arkiver",
+    "code": "Kode og data",
+    "font": "Skrifttyper",
+    "other": "Andet"
+  },
+  "stats": {
+    "title": "Forbrug",
+    "wholeBucket": "Hele bucketen",
+    "rescan": "Scan igen",
+    "scanning": "Scanner alle objekter…",
+    "scanned": {
+      "one": "{count} version scannet",
+      "other": "{count} versioner scannet"
+    },
+    "scanSlow": "Store buckets kan tage et par minutter.",
+    "scannedAt": "Scannet {when}",
+    "cached": "cachelagret",
+    "costNote": "En ny scanning gennemgår alle objektversioner (ca. ét class C-kald pr. 1.000 versioner).",
+    "truncated": "Scanningen stoppede ved 2.000.000 versioner. Tallene er ufuldstændige.",
+    "totalBilled": "Faktureret i alt",
+    "currentPlusOld": "Aktuelle filer + gamle versioner",
+    "hiddenFiles": {
+      "one": "inkl. {count} skjult fil",
+      "other": "inkl. {count} skjulte filer"
+    },
+    "stored": "Aktuelle filer",
+    "oldVersions": "Gamle versioner",
+    "versionsBilled": {
+      "one": "{count} version, faktureret som lager",
+      "other": "{count} versioner, faktureret som lager"
+    },
+    "notAvailable": "Ikke tilgængelig",
+    "averageFile": "Gennemsnitlig fil",
+    "topLevel": {
+      "one": "{count} element på øverste niveau",
+      "other": "{count} elementer på øverste niveau"
+    },
+    "breakdown": "Hvor pladsen bruges",
+    "oldWarning": "{size} optages af gamle versioner og skjulte filer.",
+    "addRule": "Behold kun den seneste version",
+    "byFolder": "Efter mappe",
+    "byFolderSub": "Aktuelle filer, øverste niveau",
+    "byFolderSubPrefix": "Aktuelle filer, øverste niveau i denne mappe",
+    "more": {
+      "one": "+ {count} mere",
+      "other": "+ {count} mere"
+    },
+    "byType": "Efter filtype",
+    "byTypeSub": "Grupperet efter filtypenavn",
+    "largest": "Største filer",
+    "recent": "Senest uploadet",
+    "noFiles": "Ingen filer.",
+    "rootFiles": "(filer i denne mappe)"
+  },
+  "buckets": {
+    "title": "Buckets",
+    "count": {
+      "one": "{count} bucket",
+      "other": "{count} buckets"
+    },
+    "new": "Ny bucket",
+    "public": "Offentlig",
+    "private": "Privat",
+    "noCdn": "Ingen CDN-URL",
+    "emptyTitle": "Ingen buckets endnu",
+    "emptyText": "Opret en for at begynde at uploade filer.",
+    "s3Only": "Bucketindstillinger og nøgler kræver B2's native API. De er slået fra, mens et S3-endpoint er tilsidesat.",
+    "globalNames": "Bucketnavne er unikke hos hele udbyderen.",
+    "name": "Bucketnavn",
+    "nameRules": "6–50 tegn: bogstaver, cifre og bindestreger.",
+    "visibility": "Synlighed",
+    "created": "Bucket {name} oprettet"
+  },
+  "settings": {
+    "title": "Bucketindstillinger",
+    "needsNative": "Bucketindstillinger bruger B2's native API. Fjern tilsidesættelsen af S3_ENDPOINT for at slå dem til.",
+    "visibility": "Synlighed",
+    "visibilityText": "Offentlige buckets leverer filer til alle, der har URL'en. Private kræver signerede links.",
+    "publicBucket": "Offentlig bucket",
+    "publicOn": "Filer kan downloades af alle med URL'en.",
+    "publicOff": "Filer kan kun nås via signerede links.",
+    "makePublicTitle": "Vil du gøre denne bucket offentlig?",
+    "makePublicText": "Alle filer i bucketen kan downloades af alle, der kender deres URL.",
+    "makePublic": "Gør offentlig",
+    "makePrivateTitle": "Vil du gøre denne bucket privat?",
+    "makePrivateText": "Offentlige URL'er og dit CDN holder op med at virke, indtil du skifter tilbage.",
+    "makePrivate": "Gør privat",
+    "cdnBase": "CDN-basis-URL (fra CDN_URLS)",
+    "friendlyUrl": "Venlig URL",
+    "cdnHint": "Angiv CDN_URLS={bucket}=https://your-cdn for at kopiere CDN-links i stedet.",
+    "deleteTitle": "Slet bucket",
+    "deleteText": "Kun tomme buckets kan slettes. Slet alle filer (og versioner) først.",
+    "deleteConfirm": "Vil du slette bucketen {bucket}?",
+    "cannotUndo": "Dette kan ikke fortrydes.",
+    "deleted": "Bucket slettet"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Uploads går direkte fra din browser til lageret, så bucketen skal tillade denne apps adresse.",
+    "allowed": "Uploads er tilladt fra {origin}.",
+    "notAllowed": "Uploads fra {origin} er ikke tilladt endnu.",
+    "allow": "Tillad uploads herfra",
+    "editJson": "Rediger JSON",
+    "closeEditor": "Luk editor",
+    "mustBeArray": "Regler skal være et JSON-array.",
+    "save": "Gem regler",
+    "none": "Ingen CORS-regler.",
+    "remove": "Fjern regel"
+  },
+  "lifecycle": {
+    "title": "Livscyklusregler",
+    "text": "Skjul filer efter et antal dage, og slet skjulte eller gamle versioner efter et antal dage. Lad et felt være tomt for aldrig.",
+    "keepLatest": "Behold kun den seneste version",
+    "none": "Ingen regler: alle versioner af alle filer gemmes for altid.",
+    "prefix": "Præfiks for filnavn",
+    "allFiles": "(alle filer)",
+    "hideAfter": "Skjul efter",
+    "deleteAfter": "Slet skjulte efter",
+    "days": "dage",
+    "never": "aldrig",
+    "remove": "Fjern regel",
+    "add": "Tilføj regel",
+    "needsNumber": "Hver regel skal have mindst ét tal.",
+    "save": "Gem regler"
+  },
+  "multipart": {
+    "title": "Ufærdige store uploads",
+    "text": "Dele af afbrudte uploads optager (faktureret) plads, indtil de annulleres.",
+    "none": "Intet ufærdigt.",
+    "cancel": "Annuller upload",
+    "cancelAll": "Annuller alle",
+    "canceled": {
+      "one": "{count} upload annulleret",
+      "other": "{count} uploads annulleret"
+    },
+    "failed": {
+      "one": "{count} kunne ikke annulleres",
+      "other": "{count} kunne ikke annulleres"
+    }
+  },
+  "keys": {
+    "title": "Programnøgler",
+    "subtitle": "Nøgler til apps og scripts. En hemmelighed vises kun én gang, lige efter den er oprettet.",
+    "new": "Ny nøgle",
+    "thisApp": "Bruges af denne app",
+    "allCapabilities": "Alle rettigheder",
+    "allBuckets": "Alle buckets",
+    "expires": "Udløber {date}",
+    "never": "Udløber aldrig",
+    "emptyTitle": "Ingen nøgler",
+    "delete": "Slet nøgle",
+    "deleteTitle": "Vil du slette nøglen »{name}«?",
+    "deleteText": "Alt, der bruger denne nøgle, holder straks op med at virke.",
+    "deleted": "Nøgle slettet",
+    "name": "Nøglenavn",
+    "nameRules": "Bogstaver, cifre og bindestreger.",
+    "bucket": "Bucket",
+    "prefix": "Præfiks for filnavn",
+    "prefixNeedsBucket": "Vælg først en bucket",
+    "days": "Gyldig i (dage)",
+    "capabilities": "Rettigheder",
+    "presetRead": "Kun læsning",
+    "presetReadWrite": "Læsning og skrivning",
+    "presetWrite": "Kun skrivning",
+    "presetAll": "Alt",
+    "create": "Opret nøgle",
+    "createdTitle": "Nøgle oprettet",
+    "createdNote": "Kopiér hemmeligheden nu. Den vises aldrig igen."
+  },
+  "errors": {
+    "network": "Kan ikke få forbindelse til serveren. Tjek din forbindelse.",
+    "sessionExpired": "Din session er udløbet.",
+    "requestFailed": "Anmodningen mislykkedes ({status})",
+    "wrongPassword": "Forkert adgangskode",
+    "tooManyAttempts": "For mange forsøg. Prøv igen om {seconds} s.",
+    "invalidBucketName": "Ugyldigt bucketnavn",
+    "bucketNameRules": "Bucketnavne er på 6–50 tegn: bogstaver, cifre og bindestreger, og må ikke starte med »b2-«.",
+    "keyNameRules": "Nøglenavne må kun indeholde bogstaver, cifre og bindestreger.",
+    "pickCapability": "Vælg mindst én rettighed.",
+    "ownKey": "Denne app kører på den nøgle, så den kan ikke slettes her.",
+    "nativeApiRequired": "Dette kræver B2's native API (ingen tilsidesættelse af S3_ENDPOINT).",
+    "jobNotFound": "Handlingen gik tabt (serveren er muligvis blevet genstartet).",
+    "folderIntoItself": "En mappe kan ikke flyttes ind i sig selv.",
+    "deleteRoot": "Afviser at slette en tom nøgle eller bucketens rod.",
+    "invalidSize": "Ugyldig filstørrelse",
+    "uploadFailed": "Upload mislykkedes ({status})",
+    "uploadCors": "Netværks- eller CORS-fejl. Tillad uploads i bucketens CORS-indstillinger.",
+    "etagMissing": "Lageret eksponerede ikke ETag-headeren. Tillad uploads i bucketens CORS-indstillinger.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD er ikke angivet.",
+      "secret": "SESSION_SECRET skal være på mindst 32 tegn.",
+      "b2": "B2_KEY_ID og B2_APP_KEY er ikke angivet."
+    }
+  }
+}

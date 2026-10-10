@@ -1,0 +1,495 @@
+{
+  "common": {
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "copied": "Gekopieerd",
+    "copy": "Kopiëren",
+    "create": "Maken",
+    "delete": "Verwijderen",
+    "discard": "Weggooien",
+    "done": "Klaar",
+    "language": "Taal",
+    "loading": "Laden…",
+    "more": "Meer acties",
+    "ok": "OK",
+    "refresh": "Vernieuwen",
+    "retry": "Opnieuw proberen",
+    "saved": "Opgeslagen",
+    "typeToConfirm": "Typ {text} om te bevestigen"
+  },
+  "login": {
+    "pageTitle": "Inloggen · {app}",
+    "title": "Inloggen",
+    "subtitle": "om je opslag te beheren met {app}",
+    "password": "Wachtwoord",
+    "showPassword": "Wachtwoord tonen",
+    "hidePassword": "Wachtwoord verbergen",
+    "submit": "Inloggen",
+    "note": "Je opslagsleutels verlaten de server nooit."
+  },
+  "setup": {
+    "title": "Kan je opslag niet bereiken",
+    "noBuckets": "Deze sleutel ziet geen buckets.",
+    "hint": "Controleer je omgevingsvariabelen en start de server opnieuw."
+  },
+  "nav": {
+    "label": "Hoofdnavigatie",
+    "menu": "Navigatie openen",
+    "new": "Nieuw",
+    "buckets": "Buckets",
+    "refreshBuckets": "Buckets vernieuwen",
+    "files": "Bestanden",
+    "usage": "Gebruik",
+    "settings": "Instellingen",
+    "allBuckets": "Alle buckets",
+    "bucketsShort": "Buckets",
+    "keys": "Applicatiesleutels",
+    "keysShort": "Sleutels",
+    "appearance": "Uiterlijk",
+    "signOut": "Uitloggen"
+  },
+  "appearance": {
+    "title": "Uiterlijk",
+    "theme": "Thema",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem",
+    "color": "Kleur",
+    "customColor": "Aangepaste kleur",
+    "pickColor": "Kies een kleur",
+    "seeds": {
+      "teal": "Blauwgroen",
+      "blue": "Blauw",
+      "indigo": "Indigo",
+      "green": "Groen",
+      "amber": "Amber",
+      "rose": "Roze",
+      "purple": "Paars",
+      "gray": "Grijs"
+    },
+    "style": "Stijl",
+    "styleHint": "Hoe sterk de gekozen kleur de interface kleurt.",
+    "tonal": "Gebalanceerd",
+    "vibrant": "Levendig",
+    "fidelity": "Getrouw",
+    "contrast": "Contrast",
+    "standard": "Standaard",
+    "medium": "Gemiddeld",
+    "high": "Hoog",
+    "density": "Dichtheid",
+    "default": "Standaard",
+    "compact": "Compact",
+    "deviceNote": "Deze instellingen worden alleen op dit apparaat opgeslagen."
+  },
+  "files": {
+    "title": "Bestanden",
+    "path": "Mappad",
+    "view": "Weergave",
+    "listView": "Lijstweergave",
+    "gridView": "Rasterweergave",
+    "searchBucket": "Zoeken in {bucket}",
+    "searchFolder": "Zoeken in deze map",
+    "clearSearch": "Zoekopdracht wissen",
+    "resultsFor": "Resultaten voor “{query}”",
+    "matches": {
+      "one": "{count} resultaat",
+      "other": "{count} resultaten"
+    },
+    "limited": "beperkt",
+    "searchLimited": "Zoeken stopt na 500 resultaten of 50.000 doorzochte bestanden. Open een submap om het te beperken.",
+    "folderCount": {
+      "one": "{count} map",
+      "other": "{count} mappen"
+    },
+    "fileCount": {
+      "one": "{count} bestand",
+      "other": "{count} bestanden"
+    },
+    "folders": "Mappen",
+    "files": "Bestanden",
+    "name": "Naam",
+    "size": "Grootte",
+    "modified": "Gewijzigd",
+    "ascending": "Oplopend",
+    "descending": "Aflopend",
+    "selectAll": "Alles selecteren",
+    "selectNone": "Niets selecteren",
+    "selectItem": "{name} selecteren",
+    "selected": {
+      "one": "{count} geselecteerd",
+      "other": "{count} geselecteerd"
+    },
+    "clearSelection": "Selectie wissen",
+    "upload": "Uploaden",
+    "uploadFiles": "Bestanden uploaden",
+    "uploadFolder": "Map uploaden",
+    "newFolder": "Nieuwe map",
+    "open": "Openen",
+    "preview": "Voorbeeld",
+    "copyUrl": "Openbare URL kopiëren",
+    "copyUrls": "URL’s kopiëren",
+    "copyPath": "Pad kopiëren",
+    "shareLink": "Link delen…",
+    "download": "Downloaden",
+    "downloadN": {
+      "one": "{count} item downloaden",
+      "other": "{count} items downloaden"
+    },
+    "rename": "Naam wijzigen",
+    "moveOrCopy": "Verplaatsen of kopiëren",
+    "details": "Details en versies",
+    "deleteN": {
+      "one": "{count} item verwijderen",
+      "other": "{count} items verwijderen"
+    },
+    "deleteOne": "“{name}” verwijderen?",
+    "deleteMany": {
+      "one": "{count} item verwijderen?",
+      "other": "{count} items verwijderen?"
+    },
+    "deleteFoldersNote": "Mappen worden verwijderd met alles wat erin staat.",
+    "deleteNote": "Alle versies worden verwijderd, zodat de ruimte echt vrijkomt. Dit kan niet ongedaan worden gemaakt.",
+    "onlyHide": "Alleen verbergen (eerdere versies behouden)",
+    "deleted": {
+      "one": "{count} objectversie verwijderd",
+      "other": "{count} objectversies verwijderd"
+    },
+    "errorsOccurred": {
+      "one": "{count} fout: {first}",
+      "other": "{count} fouten: {first}"
+    },
+    "foldersSkipped": "Mappen worden overgeslagen. Selecteer bestanden om te downloaden.",
+    "noPublicUrls": "Geen openbare URL’s: deze bucket is privé en er is geen CDN ingesteld.",
+    "urlCopied": "URL gekopieerd",
+    "urlsCopied": {
+      "one": "{count} URL gekopieerd",
+      "other": "{count} URL’s gekopieerd"
+    },
+    "pathCopied": "Pad gekopieerd",
+    "emptyTitle": "Deze map is leeg",
+    "emptyText": "Sleep bestanden hierheen of gebruik Uploaden.",
+    "noMatches": "Niets gevonden voor “{query}”",
+    "noMatchesHint": "Er wordt gezocht in bestandsnamen in de huidige map.",
+    "loadMore": "Meer laden",
+    "dropToUpload": "Loslaten om te uploaden"
+  },
+  "uploads": {
+    "title": "Uploads",
+    "uploading": {
+      "one": "{count} item uploaden",
+      "other": "{count} items uploaden"
+    },
+    "failed": {
+      "one": "{count} upload mislukt",
+      "other": "{count} uploads mislukt"
+    },
+    "complete": {
+      "one": "{count} upload voltooid",
+      "other": "{count} uploads voltooid"
+    },
+    "progress": "{loaded} van {total}",
+    "speed": "{speed}/s",
+    "queued": "Wachten…",
+    "canceled": "Geannuleerd",
+    "cancelAll": "Alles annuleren",
+    "retry": "Opnieuw proberen",
+    "expand": "Uitvouwen",
+    "collapse": "Samenvouwen"
+  },
+  "preview": {
+    "position": "{n} van {total}",
+    "openNewTab": "Openen in nieuw tabblad",
+    "previous": "Vorig bestand",
+    "next": "Volgend bestand",
+    "noPreview": "Geen voorbeeld voor dit bestandstype",
+    "noPreviewHint": "Download het of open de details.",
+    "truncated": "(de eerste 256 KB worden getoond)"
+  },
+  "newFolder": {
+    "name": "Mapnaam",
+    "placeholder": "afbeeldingen of genest/pad",
+    "hint": "Opslag kent geen echte mappen: dit maakt een lege markering “{name}/”."
+  },
+  "rename": {
+    "fileTitle": "Naam van bestand wijzigen",
+    "folderTitle": "Naam van map wijzigen",
+    "fileNote": "Het bestand wordt naar de nieuwe naam gekopieerd, daarna wordt het oude verwijderd met zijn versiegeschiedenis.",
+    "folderNote": "Alles in de map wordt naar het nieuwe pad gekopieerd, daarna worden de oude objecten verwijderd met hun versiegeschiedenis.",
+    "newName": "Nieuwe naam",
+    "done": "Naam gewijzigd in {name}"
+  },
+  "move": {
+    "moveTitle": {
+      "one": "{count} item verplaatsen",
+      "other": "{count} items verplaatsen"
+    },
+    "copyTitle": {
+      "one": "{count} item kopiëren",
+      "other": "{count} items kopiëren"
+    },
+    "mode": "Verplaatsen of kopiëren",
+    "move": "Verplaatsen",
+    "copy": "Kopiëren",
+    "destination": "Doelmap",
+    "root": "(hoofdmap van bucket)",
+    "noSubfolders": "Geen submappen hier. Typ hierboven een nieuw pad om het te maken.",
+    "moveNote": "Bij verplaatsen worden de originelen verwijderd met hun versiegeschiedenis.",
+    "moveHere": "Hierheen verplaatsen",
+    "copyHere": "Hierheen kopiëren",
+    "moved": {
+      "one": "{count} object verplaatst",
+      "other": "{count} objecten verplaatst"
+    },
+    "copied": {
+      "one": "{count} object gekopieerd",
+      "other": "{count} objecten gekopieerd"
+    },
+    "overwriteTitle": {
+      "one": "{count} bestaand bestand overschrijven?",
+      "other": "{count} bestaande bestanden overschrijven?"
+    },
+    "overwriteText": "Deze bestaan al op de bestemming. Hun huidige inhoud wordt een oude versie.",
+    "andMore": {
+      "one": "…en nog {count}",
+      "other": "…en nog {count}"
+    },
+    "overwrite": "Overschrijven"
+  },
+  "share": {
+    "title": "Bestand delen",
+    "publicUrl": "Openbare URL",
+    "publicNote": "Geleverd via je CDN of openbare bucket. Werkt zolang het bestand bestaat.",
+    "privateNote": "Deze bucket is privé en er is geen CDN-URL ingesteld, dus er is geen permanente link. Maak in plaats daarvan een ondertekende link.",
+    "signedLink": "Ondertekende link",
+    "signedNote": "Iedereen met de link kan het bestand downloaden tot de link verloopt.",
+    "expiresIn": "Verloopt over",
+    "hour": "1 uur",
+    "day": "24 uur",
+    "week": "7 dagen",
+    "generate": "Link maken",
+    "expires": "Verloopt {date}"
+  },
+  "info": {
+    "title": "Details",
+    "path": "Pad",
+    "type": "Inhoudstype",
+    "bytes": {
+      "one": "{count} byte",
+      "other": "{count} bytes"
+    },
+    "copyKey": "Sleutel kopiëren",
+    "versions": "Versies",
+    "oldBytes": "{size} in oude versies",
+    "noVersions": "Versiegeschiedenis is niet beschikbaar voor dit endpoint.",
+    "current": "Huidig",
+    "hidden": "Verborgen",
+    "deleteMarker": "verwijdermarkering",
+    "downloadVersion": "Deze versie downloaden",
+    "restore": "Herstellen",
+    "restoreTitle": "Deze versie herstellen?",
+    "restoreText": "Ze wordt als nieuwe versie over het huidige bestand gekopieerd.",
+    "restored": "Versie hersteld",
+    "deleteVersion": "Versie verwijderen",
+    "deleteVersionTitle": "Deze versie definitief verwijderen?",
+    "versionDeleted": "Versie verwijderd"
+  },
+  "types": {
+    "image": "Afbeeldingen",
+    "video": "Video",
+    "audio": "Audio",
+    "document": "Documenten",
+    "archive": "Archieven",
+    "code": "Code en data",
+    "font": "Lettertypen",
+    "other": "Overig"
+  },
+  "stats": {
+    "title": "Gebruik",
+    "wholeBucket": "Hele bucket",
+    "rescan": "Opnieuw scannen",
+    "scanning": "Alle objecten worden gescand…",
+    "scanned": {
+      "one": "{count} versie gescand",
+      "other": "{count} versies gescand"
+    },
+    "scanSlow": "Grote buckets kunnen een paar minuten duren.",
+    "scannedAt": "Gescand {when}",
+    "cached": "uit cache",
+    "costNote": "Opnieuw scannen somt alle objectversies op (ongeveer één class C-aanroep per 1.000 versies).",
+    "truncated": "De scan is gestopt bij 2.000.000 versies. Deze cijfers zijn onvolledig.",
+    "totalBilled": "Totaal gefactureerd",
+    "currentPlusOld": "Huidige bestanden + oude versies",
+    "hiddenFiles": {
+      "one": "inclusief {count} verborgen bestand",
+      "other": "inclusief {count} verborgen bestanden"
+    },
+    "stored": "Huidige bestanden",
+    "oldVersions": "Oude versies",
+    "versionsBilled": {
+      "one": "{count} versie, gefactureerd als opslag",
+      "other": "{count} versies, gefactureerd als opslag"
+    },
+    "notAvailable": "Niet beschikbaar",
+    "averageFile": "Gemiddeld bestand",
+    "topLevel": {
+      "one": "{count} item op hoofdniveau",
+      "other": "{count} items op hoofdniveau"
+    },
+    "breakdown": "Waar de ruimte heen gaat",
+    "oldWarning": "{size} wordt ingenomen door oude versies en verborgen bestanden.",
+    "addRule": "Alleen de laatste versie bewaren",
+    "byFolder": "Per map",
+    "byFolderSub": "Huidige bestanden, hoofdniveau",
+    "byFolderSubPrefix": "Huidige bestanden, hoofdniveau van deze map",
+    "more": {
+      "one": "+ nog {count}",
+      "other": "+ nog {count}"
+    },
+    "byType": "Per bestandstype",
+    "byTypeSub": "Gegroepeerd op extensie",
+    "largest": "Grootste bestanden",
+    "recent": "Recent geüpload",
+    "noFiles": "Geen bestanden.",
+    "rootFiles": "(bestanden in deze map)"
+  },
+  "buckets": {
+    "title": "Buckets",
+    "count": {
+      "one": "{count} bucket",
+      "other": "{count} buckets"
+    },
+    "new": "Nieuwe bucket",
+    "public": "Openbaar",
+    "private": "Privé",
+    "noCdn": "Geen CDN-URL",
+    "emptyTitle": "Nog geen buckets",
+    "emptyText": "Maak er een om bestanden te uploaden.",
+    "s3Only": "Bucketinstellingen en sleutels vereisen de native B2 API. Ze zijn uitgeschakeld zolang er een S3-endpoint is ingesteld.",
+    "globalNames": "Bucketnamen zijn uniek bij de hele provider.",
+    "name": "Bucketnaam",
+    "nameRules": "6–50 tekens: letters, cijfers en streepjes.",
+    "visibility": "Zichtbaarheid",
+    "created": "Bucket {name} gemaakt"
+  },
+  "settings": {
+    "title": "Bucketinstellingen",
+    "needsNative": "Bucketinstellingen gebruiken de native B2 API. Verwijder de S3_ENDPOINT-instelling om ze in te schakelen.",
+    "visibility": "Zichtbaarheid",
+    "visibilityText": "Openbare buckets leveren bestanden aan iedereen met de URL. Privébuckets vereisen ondertekende links.",
+    "publicBucket": "Openbare bucket",
+    "publicOn": "Bestanden kunnen worden gedownload door iedereen met de URL.",
+    "publicOff": "Bestanden zijn alleen bereikbaar via ondertekende links.",
+    "makePublicTitle": "Deze bucket openbaar maken?",
+    "makePublicText": "Elk bestand in de bucket wordt downloadbaar voor iedereen die de URL kent.",
+    "makePublic": "Openbaar maken",
+    "makePrivateTitle": "Deze bucket privé maken?",
+    "makePrivateText": "Openbare URL’s en je CDN werken niet meer totdat je terugschakelt.",
+    "makePrivate": "Privé maken",
+    "cdnBase": "CDN-basis-URL (uit CDN_URLS)",
+    "friendlyUrl": "Vriendelijke URL",
+    "cdnHint": "Stel CDN_URLS={bucket}=https://your-cdn in om in plaats daarvan CDN-links te kopiëren.",
+    "deleteTitle": "Bucket verwijderen",
+    "deleteText": "Alleen lege buckets kunnen worden verwijderd. Verwijder eerst alle bestanden (en versies).",
+    "deleteConfirm": "Bucket {bucket} verwijderen?",
+    "cannotUndo": "Dit kan niet ongedaan worden gemaakt.",
+    "deleted": "Bucket verwijderd"
+  },
+  "cors": {
+    "title": "CORS",
+    "text": "Uploads gaan rechtstreeks van je browser naar de opslag, dus de bucket moet het adres van deze app toestaan.",
+    "allowed": "Uploads zijn toegestaan vanaf {origin}.",
+    "notAllowed": "Uploads vanaf {origin} zijn nog niet toegestaan.",
+    "allow": "Uploads vanaf hier toestaan",
+    "editJson": "JSON bewerken",
+    "closeEditor": "Editor sluiten",
+    "mustBeArray": "Regels moeten een JSON-array zijn.",
+    "save": "Regels opslaan",
+    "none": "Geen CORS-regels.",
+    "remove": "Regel verwijderen"
+  },
+  "lifecycle": {
+    "title": "Levenscyclusregels",
+    "text": "Verberg bestanden na een aantal dagen en verwijder verborgen of oude versies na een aantal dagen. Laat een veld leeg voor nooit.",
+    "keepLatest": "Alleen de laatste versie bewaren",
+    "none": "Geen regels: elke versie van elk bestand wordt voor altijd bewaard.",
+    "prefix": "Voorvoegsel bestandsnaam",
+    "allFiles": "(alle bestanden)",
+    "hideAfter": "Verbergen na",
+    "deleteAfter": "Verborgen verwijderen na",
+    "days": "dagen",
+    "never": "nooit",
+    "remove": "Regel verwijderen",
+    "add": "Regel toevoegen",
+    "needsNumber": "Elke regel heeft minstens één getal nodig.",
+    "save": "Regels opslaan"
+  },
+  "multipart": {
+    "title": "Onvoltooide grote uploads",
+    "text": "Delen van onderbroken uploads nemen (gefactureerde) ruimte in totdat ze worden geannuleerd.",
+    "none": "Niets onvoltooid.",
+    "cancel": "Upload annuleren",
+    "cancelAll": "Alles annuleren",
+    "canceled": {
+      "one": "{count} upload geannuleerd",
+      "other": "{count} uploads geannuleerd"
+    },
+    "failed": {
+      "one": "{count} kon niet worden geannuleerd",
+      "other": "{count} konden niet worden geannuleerd"
+    }
+  },
+  "keys": {
+    "title": "Applicatiesleutels",
+    "subtitle": "Sleutels voor apps en scripts. Een geheim wordt maar één keer getoond, direct na het maken.",
+    "new": "Nieuwe sleutel",
+    "thisApp": "Gebruikt door deze app",
+    "allCapabilities": "Alle rechten",
+    "allBuckets": "Alle buckets",
+    "expires": "Verloopt {date}",
+    "never": "Verloopt nooit",
+    "emptyTitle": "Geen sleutels",
+    "delete": "Sleutel verwijderen",
+    "deleteTitle": "Sleutel “{name}” verwijderen?",
+    "deleteText": "Alles wat deze sleutel gebruikt, werkt meteen niet meer.",
+    "deleted": "Sleutel verwijderd",
+    "name": "Sleutelnaam",
+    "nameRules": "Letters, cijfers en streepjes.",
+    "bucket": "Bucket",
+    "prefix": "Voorvoegsel bestandsnaam",
+    "prefixNeedsBucket": "Kies eerst een bucket",
+    "days": "Geldig voor (dagen)",
+    "capabilities": "Rechten",
+    "presetRead": "Alleen lezen",
+    "presetReadWrite": "Lezen en schrijven",
+    "presetWrite": "Alleen schrijven",
+    "presetAll": "Alles",
+    "create": "Sleutel maken",
+    "createdTitle": "Sleutel gemaakt",
+    "createdNote": "Kopieer het geheim nu. Het wordt nooit meer getoond."
+  },
+  "errors": {
+    "network": "Kan de server niet bereiken. Controleer je verbinding.",
+    "sessionExpired": "Je sessie is verlopen.",
+    "requestFailed": "Verzoek mislukt ({status})",
+    "wrongPassword": "Onjuist wachtwoord",
+    "tooManyAttempts": "Te veel pogingen. Probeer het over {seconds} s opnieuw.",
+    "invalidBucketName": "Ongeldige bucketnaam",
+    "bucketNameRules": "Bucketnamen hebben 6–50 tekens: letters, cijfers en streepjes, en beginnen niet met “b2-”.",
+    "keyNameRules": "Sleutelnamen bevatten alleen letters, cijfers en streepjes.",
+    "pickCapability": "Kies minstens één recht.",
+    "ownKey": "Deze app draait op die sleutel, dus hij kan hier niet worden verwijderd.",
+    "nativeApiRequired": "Hiervoor is de native B2 API nodig (geen S3_ENDPOINT-instelling).",
+    "jobNotFound": "De bewerking is verloren gegaan (de server is mogelijk opnieuw gestart).",
+    "folderIntoItself": "Een map kan niet naar zichzelf worden verplaatst.",
+    "deleteRoot": "Een lege sleutel of de hoofdmap van de bucket wordt niet verwijderd.",
+    "invalidSize": "Ongeldige bestandsgrootte",
+    "uploadFailed": "Upload mislukt ({status})",
+    "uploadCors": "Netwerk- of CORS-fout. Sta uploads toe in de CORS-instellingen van de bucket.",
+    "etagMissing": "De opslag heeft de ETag-header niet vrijgegeven. Sta uploads toe in de CORS-instellingen van de bucket.",
+    "config": {
+      "password": "DASHBOARD_PASSWORD is niet ingesteld.",
+      "secret": "SESSION_SECRET moet minstens 32 tekens lang zijn.",
+      "b2": "B2_KEY_ID en B2_APP_KEY zijn niet ingesteld."
+    }
+  }
+}
