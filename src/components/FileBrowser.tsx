@@ -573,7 +573,9 @@ export function FileBrowser({ bucket }: { bucket: string }) {
           )
         ) : view === "list" ? (
           <div role="grid" aria-label={t("files.title")} aria-multiselectable="true" className="px-1 sm:px-2 md:px-4">
-            <div role="row" className="sticky top-0 z-10 mb-1 hidden h-12 items-center border-b border-line bg-panel px-2 type-title-small text-muted sm:grid [grid-template-columns:48px_minmax(0,1fr)_96px_120px] md:[grid-template-columns:48px_minmax(0,1fr)_110px_170px_120px]">
+            {/* The size column is 120px (here and in ListRow): the widest translated header
+                ("Dimensiune", "Dimensioni") plus the sort arrow. */}
+            <div role="row" className="sticky top-0 z-10 mb-1 hidden h-12 items-center border-b border-line bg-panel px-2 type-title-small text-muted sm:grid [grid-template-columns:48px_minmax(0,1fr)_120px_120px] md:[grid-template-columns:48px_minmax(0,1fr)_120px_170px_120px]">
               <span role="columnheader" className="grid place-items-center">
                 <Checkbox
                   label={t("files.selectAll")}
@@ -934,7 +936,7 @@ function ListRow({
       onDoubleClick={onOpen}
       onContextMenu={onContext}
       className={cx(
-        "group grid h-14 cursor-default select-none items-center rounded-xl px-2 transition-colors duration-150 compact:h-11 sm:h-12 [grid-template-columns:48px_minmax(0,1fr)_auto] sm:[grid-template-columns:48px_minmax(0,1fr)_96px_120px] md:[grid-template-columns:48px_minmax(0,1fr)_110px_170px_120px]",
+        "group grid h-14 cursor-default select-none items-center rounded-xl px-2 transition-colors duration-150 compact:h-11 sm:h-12 [grid-template-columns:48px_minmax(0,1fr)_auto] sm:[grid-template-columns:48px_minmax(0,1fr)_120px_120px] md:[grid-template-columns:48px_minmax(0,1fr)_120px_170px_120px]",
         selected ? "bg-select text-on-select" : "hover:bg-hover",
       )}
     >
