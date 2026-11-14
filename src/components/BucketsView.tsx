@@ -74,21 +74,23 @@ function BucketCard({ bucket: b, native }: { bucket: BucketSummary; native: bool
           <Icon name="database" fill />
         </span>
         <div className="min-w-0 flex-1">
-          {/* The name is the card's identity: it wraps instead of being cut, and the chip
-              drops below it when they don't fit on one line (long names, longer translations). */}
-          <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
-            <Link href={base} className="min-w-0 break-words type-title-large text-fg after:absolute after:inset-0 after:rounded-xl hover:underline">
-              {b.name}
-            </Link>
-            {b.type && (
-              <Chip tone={isPublic ? "accent" : "neutral"} icon={isPublic ? "public" : "lock"}>
-                {isPublic ? t("buckets.public") : b.type === "allPrivate" ? t("buckets.private") : b.type}
-              </Chip>
-            )}
-          </div>
-          {b.id && (
-            <div className="mt-0.5 truncate font-mono text-[12px] text-muted" dir="ltr">
-              {b.id}
+          {/* The name is the card's identity: it gets the whole line and wraps instead of
+              being cut. The visibility chip sits on the ID line, the same on every card. */}
+          <Link href={base} className="block break-words type-title-large text-fg after:absolute after:inset-0 after:rounded-xl hover:underline">
+            {b.name}
+          </Link>
+          {(b.type || b.id) && (
+            <div className="mt-1 flex items-center gap-2">
+              {b.type && (
+                <Chip tone={isPublic ? "accent" : "neutral"} icon={isPublic ? "public" : "lock"}>
+                  {isPublic ? t("buckets.public") : b.type === "allPrivate" ? t("buckets.private") : b.type}
+                </Chip>
+              )}
+              {b.id && (
+                <span className="min-w-0 truncate font-mono text-[12px] text-muted" dir="ltr">
+                  {b.id}
+                </span>
+              )}
             </div>
           )}
         </div>

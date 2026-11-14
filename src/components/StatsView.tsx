@@ -120,9 +120,15 @@ function FileList({ rows, bucket, mode }: { rows: Mini[]; bucket: string; mode: 
   );
 }
 
-function Tile({ label, value, sub, icon, accent }: { label: string; value: string; sub: string; icon: string; accent?: boolean }) {
+function Tile({ label, value, sub, icon, accent, wide }: { label: string; value: string; sub: string; icon: string; accent?: boolean; wide?: boolean }) {
   return (
-    <div className={cx("min-w-0 rounded-xl p-4 sm:p-5", accent ? "col-span-2 bg-accent-soft text-on-accent-soft lg:col-span-1" : "border border-line bg-panel")}>
+    <div
+      className={cx(
+        "min-w-0 rounded-xl p-4 sm:p-5",
+        (accent || wide) && "col-span-2 lg:col-span-1",
+        accent ? "bg-accent-soft text-on-accent-soft" : "border border-line bg-panel",
+      )}
+    >
       <div className={cx("flex items-center gap-2 type-label-large", accent ? "" : "text-muted")}>
         <Icon name={icon} size={20} />
         {label}
@@ -217,7 +223,8 @@ export function StatsView({ bucket }: { bucket: string }) {
                 value={stats.versionsScanned ? formatBytes(stats.oldVersions.bytes, 2) : "—"}
                 sub={stats.versionsScanned ? t("stats.versionsBilled", { count: stats.oldVersions.count }) : t("stats.notAvailable")}
               />
-              <Tile icon="straighten" label={t("stats.averageFile")} value={formatBytes(stats.current.count ? stats.current.bytes / stats.current.count : 0)} sub={t("stats.topLevel", { count: stats.byFolder.length })} />
+              {/* below lg the grid has two columns: the total and this tile span both, so no cell is left empty */}
+              <Tile wide icon="straighten" label={t("stats.averageFile")} value={formatBytes(stats.current.count ? stats.current.bytes / stats.current.count : 0)} sub={t("stats.topLevel", { count: stats.byFolder.length })} />
             </div>
 
             {stats.versionsScanned && total > 0 && (

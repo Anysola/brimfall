@@ -413,8 +413,9 @@ function NavRail({ onMenu }: { onMenu: () => void }) {
       {base && (
         <>
           <RailItem href={base} icon="folder" label={t("nav.files")} active={loc.tab === "files"} />
-          <RailItem href={`${base}/stats`} icon="bar_chart" label={t("nav.usage")} active={loc.tab === "stats"} />
-          {native && <RailItem href={`${base}/settings`} icon="tune" label={t("nav.settings")} active={loc.tab === "settings"} />}
+          {/* the rail's labels are 76px wide: "Short" keys hold a word that fits in every language */}
+          <RailItem href={`${base}/stats`} icon="bar_chart" label={t("nav.usageShort")} active={loc.tab === "stats"} />
+          {native && <RailItem href={`${base}/settings`} icon="tune" label={t("nav.settingsShort")} active={loc.tab === "settings"} />}
           <div className="my-2 h-px w-10 bg-line" />
         </>
       )}

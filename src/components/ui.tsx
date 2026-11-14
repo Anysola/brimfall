@@ -555,7 +555,9 @@ export function Segmented<T extends string | number>({
             aria-checked={on}
             onClick={() => onChange(o.value)}
             className={cx(
-              "sl flex min-w-0 flex-1 items-center justify-center gap-1.5 px-3 type-label-large transition-colors duration-200",
+              // Equal segments, except on a phone, where each takes what its label needs
+              // (longer translations such as "Originalgetreu" were cut at 390px).
+              "sl flex min-w-0 flex-1 items-center justify-center gap-1.5 px-3 type-label-large transition-colors duration-200 max-sm:flex-auto",
               i > 0 && "border-s border-faint",
               on ? "bg-select text-on-select" : "text-fg",
             )}
