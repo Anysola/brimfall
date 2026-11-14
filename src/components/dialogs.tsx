@@ -416,7 +416,9 @@ export function ShareDialog({ bucket, file: fileIn, onClose }: { bucket: string;
                 setSigned(null);
               }}
               options={EXPIRY.map((s) => ({ value: s, label: label(s) }))}
-              className="min-w-0 flex-1"
+              // A basis, not flex-1: on a phone the button wraps below instead of squeezing the labels to "1…".
+              // Segments sized by their labels (plus an equal share of the rest), so "✓ 24 hours" fits at 390px.
+              className="min-w-0 grow basis-72 [&>button]:flex-auto"
             />
             <Button variant="tonal" icon="add_link" loading={busy} onClick={gen}>
               {t("share.generate")}

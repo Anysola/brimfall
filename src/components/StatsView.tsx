@@ -59,7 +59,8 @@ function Bars({ rows, total }: { rows: { name: string; bytes: number; count: num
                 <Icon name={r.icon} size={18} fill />
               </span>
             )}
-            <span className="truncate">{r.name}</span>
+            {/* two lines before an ellipsis: "(files in this folder)" was cut on phones */}
+            <span className="line-clamp-2 break-words">{r.name}</span>
           </span>
         );
         return (

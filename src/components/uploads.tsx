@@ -368,7 +368,8 @@ function UploadRow({ item, onCancel, onRetry }: { item: UploadItem; onCancel: ()
       <FileIcon name={name} size={24} />
       <div className="min-w-0 flex-1">
         <div className="truncate type-body-medium text-fg">{name}</div>
-        <div className={cx("truncate type-body-small", item.status === "error" ? "text-danger" : "text-muted")}>
+        {/* An error wraps: its second half says what to do (e.g. allow uploads in CORS). */}
+        <div className={cx("type-body-small", item.status === "error" ? "break-words text-danger" : "truncate text-muted")}>
           {item.status === "uploading"
             ? `${Math.floor(pct)}%${speed ? ` · ${t("uploads.speed", { speed: formatBytes(speed) })}` : ""}`
             : item.status === "queued"

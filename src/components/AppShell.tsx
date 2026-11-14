@@ -455,7 +455,7 @@ export function PageHeader({
       </IconButton>
       {children ?? (
         <div className="min-w-0 flex-1 py-1">
-          <h1 className="truncate type-headline-small text-fg md:type-headline-medium">{title}</h1>
+          <h1 className="break-words type-headline-small text-fg md:type-headline-medium">{title}</h1>
           {subtitle && <div className="mt-1 type-body-medium text-muted">{subtitle}</div>}
         </div>
       )}

@@ -272,6 +272,24 @@ export function Popover({
     };
   }, [open, anchor, onClose]);
 
+  // The side and direction above are chosen before the menu's size is known, so a menu
+  // opened near the window's edge (a right click by the right edge, a long menu low
+  // on the page) can run off screen: nudge it back in. Offsets, not the bounding box,
+  // because the opening animation scales the menu.
+  useLayoutEffect(() => {
+    const el = ref.current;
+    if (!el || !pos) return;
+    const m = 8;
+    if (el.offsetLeft + el.offsetWidth > window.innerWidth - m || el.offsetLeft < m) {
+      el.style.left = `${Math.max(m, Math.min(el.offsetLeft, window.innerWidth - m - el.offsetWidth))}px`;
+      el.style.right = "auto";
+    }
+    if (el.offsetTop + el.offsetHeight > window.innerHeight - m || el.offsetTop < m) {
+      el.style.top = `${Math.max(m, Math.min(el.offsetTop, window.innerHeight - m - el.offsetHeight))}px`;
+      el.style.bottom = "auto";
+    }
+  }, [pos, mounted]);
+
   if (!mounted || !pos) return null;
   return createPortal(
     <div
@@ -411,7 +429,9 @@ export function Modal({
         tabIndex={-1}
         className={cx(
           "relative flex w-full flex-col bg-panel-2 shadow-e3 outline-none dark:bg-surface-high",
-          fullScreenOnMobile ? "h-full max-h-none rounded-none sm:h-auto sm:max-h-[85vh] sm:rounded-[28px]" : "max-h-[85vh] rounded-[28px]",
+          // h-dvh, not h-full: the grid row grows with the content, so h-full let a long dialog
+          // run past the screen with its buttons out of reach.
+          fullScreenOnMobile ? "h-dvh max-h-none rounded-none sm:h-auto sm:max-h-[85vh] sm:rounded-[28px]" : "max-h-[85vh] rounded-[28px]",
           closing ? "m3-dialog-out" : "m3-dialog-in",
         )}
         style={{ maxWidth: width, minWidth: Math.min(280, width) }}
@@ -419,7 +439,9 @@ export function Modal({
         <div className={cx("flex px-6 pb-4 pt-6", icon ? "flex-col items-center gap-4 text-center" : "items-center")}>
           {icon}
           <div className="min-w-0 flex-1">
-            <h2 id={titleId} className="type-headline-small text-fg">
+            {/* Titles can hold a file name with no spaces; "anywhere" also lets the centered
+                (icon) layout shrink to the dialog instead of growing past it. */}
+            <h2 id={titleId} className="type-headline-small text-fg wrap-anywhere">
               {title}
             </h2>
             {description && <div className="mt-2 break-words type-body-medium text-muted">{description}</div>}
@@ -631,7 +653,14 @@ export function TextField({
           }}
           aria-invalid={!!error || undefined}
           aria-describedby={error || supporting ? `${id}-s` : undefined}
-          className={cx("h-full min-w-0 flex-1 bg-transparent type-body-large text-fg outline-none", leading ? "ps-3" : "ps-4", trailing || suffix ? "pe-1" : "pe-4")}
+          className={cx(
+            "h-full min-w-0 flex-1 bg-transparent type-body-large text-fg outline-none",
+            leading ? "ps-3" : "ps-4",
+            trailing || suffix ? "pe-1" : "pe-4",
+            // The resting label sits where the placeholder is: show the placeholder only once the label has floated,
+            // otherwise a placeholder longer than the label peeks out from under it.
+            label && !floated && "placeholder:text-transparent",
+          )}
           {...rest}
         />
         {suffix && (floated || !label) && <span className="select-none pe-4 type-body-large text-muted">{suffix}</span>}

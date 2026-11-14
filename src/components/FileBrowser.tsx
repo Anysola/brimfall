@@ -176,10 +176,23 @@ export function FileBrowser({ bucket }: { bucket: string }) {
   }, [load]);
 
   // keep the current folder visible in long paths
-  useEffect(() => {
+  const crumbsToEnd = useCallback(() => {
     const el = crumbsRef.current;
     if (el) el.scrollLeft = document.documentElement.dir === "rtl" ? -el.scrollWidth : el.scrollWidth;
-  }, [prefix]);
+  }, []);
+  useEffect(crumbsToEnd, [prefix, crumbsToEnd]);
+  // ...also when the path bar changes width (the item count appears beside it once the
+  // folder has loaded) or is shown again after a selection is cleared.
+  const crumbsMounted = useCallback(
+    (el: HTMLElement | null) => {
+      crumbsRef.current = el;
+      if (!el) return;
+      const ro = new ResizeObserver(crumbsToEnd);
+      ro.observe(el);
+      return () => ro.disconnect();
+    },
+    [crumbsToEnd],
+  );
 
   const loadMore = async () => {
     if (!nextToken) return;
@@ -488,7 +501,7 @@ export function FileBrowser({ bucket }: { bucket: string }) {
           </div>
         ) : (
           <>
-            <nav ref={crumbsRef} aria-label={t("files.path")} className="no-scrollbar flex min-w-0 flex-1 items-center overflow-x-auto">
+            <nav ref={crumbsMounted} aria-label={t("files.path")} className="no-scrollbar flex min-w-0 flex-1 items-center overflow-x-auto">
               {activeSearch ? (
                 <span className="truncate ps-2 type-title-large text-fg">{t("files.resultsFor", { query: activeSearch })}</span>
               ) : (

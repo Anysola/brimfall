@@ -12,8 +12,12 @@ export function BucketsView() {
   const t = useT();
   const { buckets, native, reloadBuckets } = useShell();
   const [creating, setCreating] = useState(false);
+  // A block body: reloadBuckets returns a promise, and an effect must return nothing
+  // or a cleanup function (React calls the returned value on unmount).
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  useEffect(() => reloadBuckets(), []);
+  useEffect(() => {
+    reloadBuckets();
+  }, []);
 
   return (
     <div className="flex h-full min-h-0 flex-col">
@@ -70,21 +74,27 @@ function BucketCard({ bucket: b, native }: { bucket: BucketSummary; native: bool
           <Icon name="database" fill />
         </span>
         <div className="min-w-0 flex-1">
-          <Link href={base} className="block truncate type-title-large text-fg after:absolute after:inset-0 after:rounded-xl hover:underline">
-            {b.name}
-          </Link>
+          {/* The name is the card's identity: it wraps instead of being cut, and the chip
+              drops below it when they don't fit on one line (long names, longer translations). */}
+          <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+            <Link href={base} className="min-w-0 break-words type-title-large text-fg after:absolute after:inset-0 after:rounded-xl hover:underline">
+              {b.name}
+            </Link>
+            {b.type && (
+              <Chip tone={isPublic ? "accent" : "neutral"} icon={isPublic ? "public" : "lock"}>
+                {isPublic ? t("buckets.public") : b.type === "allPrivate" ? t("buckets.private") : b.type}
+              </Chip>
+            )}
+          </div>
           {b.id && (
             <div className="mt-0.5 truncate font-mono text-[12px] text-muted" dir="ltr">
               {b.id}
             </div>
           )}
         </div>
-        {b.type && (
-          <Chip tone={isPublic ? "accent" : "neutral"} icon={isPublic ? "public" : "lock"}>
-            {isPublic ? t("buckets.public") : b.type === "allPrivate" ? t("buckets.private") : b.type}
-          </Chip>
-        )}
       </div>
+      {/* keeps the URL and the buttons level across a row when one name wraps */}
+      <div className="flex-1" />
       <div className="mt-4 flex min-h-10 items-center gap-1 rounded-lg bg-panel-2 ps-3 dark:bg-surface-high">
         <Icon name="language" size={18} className="text-muted" />
         <span className="min-w-0 flex-1 truncate font-mono text-[12.5px] text-muted" dir="ltr">

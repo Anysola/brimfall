@@ -113,7 +113,8 @@ export function KeysView() {
                   </span>
                   <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-2">
-                      <span className="truncate type-title-medium text-fg">{k.keyName}</span>
+                      {/* the name is how keys are told apart: wrap it rather than cut it */}
+                      <span className="min-w-0 break-words type-title-medium text-fg">{k.keyName}</span>
                       {mine && <Chip tone="accent" icon="bolt">{t("keys.thisApp")}</Chip>}
                     </div>
                     <div className="mt-0.5 truncate font-mono text-[12.5px] text-muted" dir="ltr">

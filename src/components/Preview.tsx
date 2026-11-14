@@ -7,7 +7,7 @@ import { api, errorText, formatBytes } from "@/lib/client";
 import { previewKind } from "@/lib/filetypes";
 import { toast } from "@/lib/toast";
 import { FileIcon } from "./FileIcon";
-import { Button, copyText, Icon, IconButton, Spinner } from "./ui";
+import { Button, copyText, cx, Icon, IconButton, Spinner } from "./ui";
 
 export interface PreviewFile {
   key: string;
@@ -108,6 +108,10 @@ export function PreviewOverlay({
   }, [go, onClose]);
 
   const action = "!text-white/90 hover:!text-white";
+  // Text and PDF fill the whole area: on a phone the side arrows would sit on the text,
+  // so there they move to a strip below it.
+  const fills = kind === "text" || kind === "pdf";
+  const arrowsBelow = "max-sm:top-auto max-sm:bottom-4 max-sm:translate-y-0";
 
   return createPortal(
     <div role="dialog" aria-modal="true" aria-label={file.name} data-preview className="m3-scrim-in fixed inset-0 z-[60] flex flex-col bg-[#101214]/[0.97] text-white backdrop-blur-sm" data-theme="dark">
@@ -159,7 +163,10 @@ export function PreviewOverlay({
         </IconButton>
       </div>
 
-      <div className="relative flex min-h-0 flex-1 items-center justify-center px-2 pb-4 sm:px-20" onMouseDown={(e) => e.target === e.currentTarget && onClose()}>
+      <div
+        className={cx("relative flex min-h-0 flex-1 items-center justify-center px-2 pb-4 sm:px-20", fills && files.length > 1 && "max-sm:pb-20")}
+        onMouseDown={(e) => e.target === e.currentTarget && onClose()}
+      >
         {error ? (
           <div className="flex max-w-md items-start gap-3 rounded-xl bg-white/10 px-4 py-3 type-body-medium">
             <Icon name="error" size={20} />
@@ -208,7 +215,7 @@ export function PreviewOverlay({
             type="button"
             aria-label={t("preview.previous")}
             onClick={() => go(-1)}
-            className="sl absolute start-2 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-black/40 text-white sm:start-4"
+            className={cx("sl absolute start-2 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-black/40 text-white sm:start-4", fills && arrowsBelow)}
           >
             <Icon name="chevron_left" />
           </button>
@@ -218,7 +225,7 @@ export function PreviewOverlay({
             type="button"
             aria-label={t("preview.next")}
             onClick={() => go(1)}
-            className="sl absolute end-2 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-black/40 text-white sm:end-4"
+            className={cx("sl absolute end-2 top-1/2 grid h-12 w-12 -translate-y-1/2 place-items-center rounded-full bg-black/40 text-white sm:end-4", fills && arrowsBelow)}
           >
             <Icon name="chevron_right" />
           </button>
